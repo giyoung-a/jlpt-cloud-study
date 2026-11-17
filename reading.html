@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JLPT 독해 연습</title>
+<style>
+:root { font: 16px/1.6 Inter, system-ui, sans-serif; color: #192b24; background: #eef3ef; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 900px; margin: auto; padding: clamp(16px,4vw,42px); }
+h1 { margin: 0 0 12px; font-size: clamp(24px,5vw,34px); }
+nav, .row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+nav { border-bottom: 1px solid #cfddd3; padding-bottom: 10px; margin-bottom: 16px; }
+a { color: #194b37; }
+nav a { padding: 7px 12px; text-decoration: none; border-radius: 8px; }
+nav a[aria-current="page"], .primary { color: white; background: #194b37; }
+label { display: grid; gap: 4px; }
+button, input, select { font: inherit; color: inherit; border: 1px solid #a2b4a9; border-radius: 8px; background: white; padding: 7px 12px; min-height: 44px; }
+button:not(:disabled) { cursor: pointer; }
+button:disabled { opacity: .65; }
+.quiz { margin-top: 16px; padding: clamp(14px,3vw,24px); border: 1px solid #d7e2db; border-radius: 14px; background: white; }
+#passage, #translation { padding: 13px; border-radius: 8px; background: #f1f5f1; white-space: pre-line; overflow-wrap: anywhere; }
+h2 { font-size: 1.18rem; }
+#choices { display: grid; gap: 8px; margin: 12px 0; }
+#choices button { text-align: left; }
+#choices button[data-state="correct"] { background: #d9eddf; opacity: 1; }
+#choices button[data-state="wrong"] { background: #f8e2df; opacity: 1; }
+#result { font-weight: 650; }
+#feedback { margin: 16px 0; border-top: 1px solid #cfddd3; }
+</style>
+</head>
+<body>
+<main>
+<h1>JLPT 독해 연습</h1>
+<nav aria-label="학습 메뉴">
+<a href="/">일일 테스트</a><a href="/vocabulary">단어 암기</a><a href="/grammar">문법 암기</a><a href="/reading" aria-current="page">독해 연습</a><a href="/mock">모의고사</a>
+</nav>
+<div class="row">
+<label>급수<select id="level"><option>N5</option><option>N4</option><option>N3</option><option>N2</option><option>N1</option></select></label>
+<label>학습 날짜<input id="date" type="date" required></label>
+</div>
+<p id="status" role="status"></p>
+<button id="retry" type="button" hidden>다시 불러오기</button>
+<p id="result" role="status" hidden></p>
+<section id="quiz" class="quiz" aria-label="일일 독해 문제" hidden>
+  <p id="passage" lang="ja" tabindex="-1"></p>
+  <h2 id="prompt" lang="ja"></h2>
+  <div id="choices"></div>
+  <section id="feedback" aria-label="독해 해설" hidden>
+    <p id="verdict" role="status"></p>
+    <p id="translation"></p>
+    <ul id="meanings"></ul>
+    <p id="reason"></p>
+  </section>
+  <div class="row">
+    <button id="prev" type="button">이전 문항</button>
+    <button id="next" class="primary" type="button">다음 문항</button>
+  </div>
+</section>
+</main>
+<script>
+const get = id => document.getElementById(id);
+const level = get("level");
+const date = get("date");
+const status = get("status");
+const quiz = get("quiz");
+const next = get("next");
+const previous = get("prev");
+const today = new Intl.DateTimeFormat("sv-SE", {timeZone:"Asia/Seoul"}).format(new Date());
+const initial = new URLSearchParams(location.search);
+level.value = /^N[1-5]$/.test(initial.get("level")) ? initial.get("level") : "N5";
+date.value = date.max = today;
+if (initial.get("date")) date.value = initial.get("date");
+if (!date.value || date.value > today) date.value = today;
+const memory = new Map();
+let selection = 0;
+let current;
+let busy = false;
+
+async function api(path, body) {
+  const response = await fetch(path, body ? {method:"POST", headers:{"Content-Type":"application/json"},
+    body:JSON.stringify(body)} : undefined);
+  const data = await response.json();
+  if (!response.ok) throw new Error(data.error);
+  return data;
+}
+
+function savedAnswers(key) {
+  if (memory.has(key)) return memory.get(key);
+  try { return JSON.parse(localStorage.getItem(key)) ?? {}; }
+  catch { return {}; }
+}
+
+function saveAnswers(key, answers) {
+  memory.set(key, answers);
+  try { localStorage.setItem(key, JSON.stringify(answers)); }
+  catch { /* Progress remains available while the current page is open. */ }
+}
+
+async function choose() {
+  const selected = ++selection;
+  current = undefined;
+  quiz.hidden = get("retry").hidden = get("result").hidden = true;
+  if (!date.checkValidity()) {
+    status.textContent = "오늘 또는 이전 날짜를 선택해 주세요.";
+    return;
+  }
+  const filters = {level:level.value, date:date.value};
+  const params = new URLSearchParams(filters);
+  for (const tab of document.querySelectorAll("nav a")) tab.search = params.toString();
+  const key = "jlpt-reading-v1:" + filters.level + ":" + filters.date;
+  status.textContent = "독해 문제를 불러오는 중입니다.";
+  try {
+    const {questions} = await api("/api/reading?" + params);
+    if (selected !== selection) return;
+    const saved = savedAnswers(key);
+    const answers = Object.fromEntries(questions.filter(q => q.choices.includes(saved[q.id]?.choice)
+      && q.choices.includes(saved[q.id]?.answer)).map(q => [q.id, saved[q.id]]));
+    const unanswered = questions.findIndex(q => !answers[q.id]);
+    current = {filters, key, questions, answers, index: unanswered < 0 ? 0 : unanswered};
+    showQuestion();
+  } catch {
+    if (selected !== selection) return;
+    status.textContent = "독해 문제를 불러오지 못했습니다.";
+    get("retry").hidden = false;
+  }
+}
+
+function setBusy(value) {
+  busy = value;
+  date.disabled = level.disabled = value;
+  if (value) {
+    for (const control of get("choices").children) control.disabled = true;
+    next.disabled = previous.disabled = true;
+  }
+}
+
+async function grade(question, choice) {
+  if (busy || current.answers[question.id]) return;
+  setBusy(true);
+  let error;
+  try {
+    const result = await api("/api/reading/grade", {...current.filters,id:question.id,choice});
+    current.answers[question.id] = {...result, choice};
+    saveAnswers(current.key,current.answers);
+  } catch {
+    error = "채점에 실패했습니다. 답안을 다시 선택해 주세요.";
+  } finally {
+    setBusy(false);
+    showQuestion();
+    if (error) status.textContent += " · " + error;
+    else get("verdict").focus();
+  }
+}
+
+function showQuestion() {
+  const {questions, answers, index, filters} = current;
+  const q = questions[index];
+  const answered = answers[q.id];
+  const count = Object.keys(answers).length;
+  status.textContent = filters.level + " · " + filters.date + " · " + (index + 1) + " / " + questions.length
+    + " · " + count + "개 풀이";
+  get("result").hidden = count !== questions.length;
+  if (count === questions.length) {
+    get("result").textContent = "오늘의 독해 완료 · " + Object.values(answers).filter(result => result.correct).length
+      + " / " + questions.length + "문항 정답";
+  }
+  quiz.hidden = false;
+  get("passage").textContent = q.passage;
+  get("prompt").textContent = q.prompt;
+  const choices = get("choices");
+  choices.replaceChildren();
+  for (const choice of q.choices) {
+    const button = document.createElement("button");
+    button.lang = "ja";
+    button.type = "button";
+    button.textContent = choice;
+    button.disabled = Boolean(answered);
+    if (answered && choice === answered.answer) button.dataset.state = "correct";
+    else if (answered && choice === answered.choice) button.dataset.state = "wrong";
+    button.addEventListener("click", () => grade(q, choice));
+    choices.append(button);
+  }
+  get("feedback").hidden = !answered;
+  if (answered) {
+    const verdict = get("verdict");
+    verdict.tabIndex = -1;
+    verdict.textContent = (answered.correct ? "정답" : "오답 · 내 답 " + answered.choice) + " · 정답 " + answered.answer;
+    get("translation").textContent = "지문 해석\n" + answered.translation + "\n\n질문 해석\n" + answered.questionTranslation;
+    const meanings = get("meanings");
+    meanings.replaceChildren();
+    for (const choice of q.choices) {
+      const option = document.createElement("li");
+      option.textContent = choice + " — " + answered.meanings[choice];
+      meanings.append(option);
+    }
+    get("reason").textContent = "정답 근거 · " + answered.reason;
+  }
+  previous.disabled = index === 0;
+  next.disabled = !answered || index === questions.length - 1;
+}
+
+function move(amount) {
+  if (busy || !current) return;
+  current.index += amount;
+  showQuestion();
+  get("passage").focus();
+}
+previous.addEventListener("click", () => move(-1));
+next.addEventListener("click", () => move(1));
+level.addEventListener("change", choose);
+date.addEventListener("change", choose);
+get("retry").addEventListener("click", choose);
+choose();
+</script>
+</body>
+</html>

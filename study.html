@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JLPT 암기</title>
+<style>
+:root { font: 16px/1.55 Inter, system-ui, sans-serif; color: #1a2c25; background: #eef3ef; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1030px; margin: auto; padding: clamp(16px, 4vw, 42px); }
+h1 { font-size: clamp(24px, 5vw, 34px); margin: 0 0 14px; }
+.study-nav { display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 6px; border-bottom: 1px solid #cfddd3; margin-bottom: 20px; padding-bottom: 10px; }
+.study-nav a { padding: 7px 12px; text-decoration: none; border-radius: 8px; color: #254e3b; white-space: nowrap; }
+.study-nav a[aria-current="page"] { background: #194b37; color: white; font-weight: 650; }
+.study-nav a:hover { text-decoration: underline; }
+form { display: flex; flex-wrap: wrap; align-items: end; gap: 10px; margin-bottom: 12px; }
+label { display: grid; gap: 4px; }
+button, select, input { font: inherit; color: inherit; background: white; border-radius: 8px; border: 1px solid #a7b8ae; padding: 7px 12px; }
+button, summary { cursor: pointer; }
+button[aria-pressed="true"] { color: white; background: #194b37; border-color: #194b37; }
+a { color: #23513d; }
+#status { color: #52675d; }
+#cards { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); }
+details { background: white; border: 1px solid #d8e3db; border-radius: 12px; padding: 14px; overflow-wrap: anywhere; }
+summary { font-size: 1.25rem; font-weight: 650; }
+details p { margin: 10px 0; }
+.source { font-size: .85rem; }
+#startRecall { margin-bottom: 12px; color: white; background: #194b37; }
+#recall { border: 1px solid #d8e3db; border-radius: 14px; background: white; padding: clamp(14px, 4vw, 26px); max-width: 660px; }
+#recall :is(h2,h3) { margin: 0; }
+.recall-header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; }
+#recallForm { display: grid; gap: 12px; max-width: 520px; }
+#recallForm[hidden] { display: none; }
+#recallChoices { min-width: 0; border: 0; margin: 0; padding: 0; }
+#recallChoices legend { margin-bottom: 6px; }
+#recallChoices label { display: flex; gap: 8px; padding: 8px; margin: 4px 0; border: 1px solid #d8e3db; border-radius: 8px; }
+#recallFeedback { white-space: pre-line; padding: 10px 0; }
+.recall-primary { color: white; background: #194b37; border-color: #194b37; justify-self: start; }
+#readingLabel[hidden] { display: none; }
+@media (max-width: 520px) {
+  button, select, input[type="date"] { min-height: 44px; }
+  #recallChoices label { min-height: 44px; align-items: center; }
+  #recallReading { width: 100%; }
+  details summary { min-height: 44px; display: list-item; align-content: center; }
+}
+#startCards { margin-bottom: 12px; }
+#flashCards { border: 1px solid #d8e3db; border-radius: 14px; background: white; padding: clamp(14px, 4vw, 26px); max-width: 660px; }
+#flashCards h2 { margin: 0; }
+#flashCard details { background: #f4f7f4; margin-bottom: 12px; }
+#flashActions button { min-height: 44px; margin: 0 6px 8px 0; }
+#startCards, #startRecall { min-height: 44px; }
+</style>
+</head>
+<body>
+<main>
+<header><h1 id="title">JLPT 암기</h1></header>
+<nav class="study-nav" aria-label="학습 메뉴">
+<a href="/" data-tab="daily">일일 테스트</a>
+<a href="/vocabulary" data-tab="vocabulary">단어 암기</a>
+<a href="/grammar" data-tab="grammar">문법 암기</a>
+<a href="/reading" data-tab="reading">독해 연습</a>
+<a href="/mock" data-tab="mock">모의고사</a>
+</nav>
+<form id="filters">
+<label>급수 <select id="level"><option>N5</option><option>N4</option><option>N3</option><option>N2</option><option>N1</option></select></label>
+<label>학습 날짜 <input id="date" type="date" required></label>
+<button type="button" id="today">오늘</button>
+<button type="button" id="all" aria-pressed="false">전체 보기</button>
+</form>
+<p id="status" role="status"></p>
+<button id="retry" type="button" hidden>다시 불러오기</button>
+<button id="startCards" type="button" hidden>한 장씩 암기 시작</button>
+<section id="flashCards" aria-label="한 장씩 암기" hidden>
+  <div class="recall-header"><h2>한 장씩 암기</h2><button id="pauseCards" type="button">암기 메뉴로</button></div>
+  <p id="flashProgress" role="status"></p>
+  <div id="flashCard"></div>
+  <div id="flashActions">
+    <button id="knownCard" class="recall-primary" type="button">O · 알았어요</button>
+    <button id="unknownCard" type="button">X · 다시 볼래요</button>
+  </div>
+  <button id="resetCards" type="button" hidden>처음부터 다시 보기</button>
+</section>
+<button id="startRecall" type="button" hidden>암기 확인 시작</button>
+<section id="recall" aria-label="암기 확인" hidden>
+  <div class="recall-header"><h2>암기 확인</h2><button id="closeRecall" type="button">카드로 돌아가기</button></div>
+  <p id="recallDeckInfo"></p>
+  <p id="recallProgress" role="status"></p>
+  <form id="recallForm">
+    <h3 id="recallPrompt" tabindex="-1"></h3>
+    <label id="readingLabel">히라가나 읽기<input id="recallReading" type="text" lang="ja" autocomplete="off" spellcheck="false"></label>
+    <fieldset id="recallChoices"><legend id="recallLegend"></legend></fieldset>
+    <button class="recall-primary" type="submit">답 확인</button>
+  </form>
+  <div id="recallFeedback" role="status" hidden></div>
+  <button id="nextRecall" type="button" class="recall-primary" hidden>다음 카드</button>
+  <button id="retryWrong" type="button" class="recall-primary" hidden>틀린 카드만 다시 풀기</button>
+</section>
+<section id="cards" aria-label="암기 카드"></section>
+</main>
+<script>
+const get = id => document.getElementById(id);
+const section = location.pathname === "/grammar" ? "grammar" : "vocabulary";
+const title = section === "grammar" ? "문법 암기" : "단어 암기";
+const today = new Intl.DateTimeFormat("sv-SE", {timeZone:"Asia/Seoul"}).format(new Date());
+const tabs = [...document.querySelectorAll(".study-nav a[data-tab]")];
+const level = get("level");
+const date = get("date");
+const status = get("status");
+const cards = get("cards");
+const all = get("all");
+const retry = get("retry");
+let requestId = 0;
+let showAll = false;
+const startRecall = get("startRecall");
+const recall = get("recall");
+const recallForm = get("recallForm");
+const readingInput = get("recallReading");
+const recallChoices = get("recallChoices");
+const feedback = get("recallFeedback");
+const nextRecall = get("nextRecall");
+const retryWrong = get("retryWrong");
+let dailyDeck = [];
+let recallQueue = [];
+let mistakes = [];
+let cursor = 0;
+const startCards = get("startCards");
+const flashCards = get("flashCards");
+const flashCard = get("flashCard");
+const flashActions = get("flashActions");
+const resetCards = get("resetCards");
+const memory = new Map();
+let studyRun;
+let recallPool = [];
+let recallKey;
+let recallDate;
+
+function cardKey(card) {
+  return card.cardId ?? "target:" + card.target;
+}
+
+function readStudy(key, fallback) {
+  try { return JSON.parse(localStorage.getItem(key)) ?? memory.get(key) ?? fallback; }
+  catch { return memory.get(key) ?? fallback; }
+}
+
+function saveStudy(key, value) {
+  memory.set(key, value);
+  try { localStorage.setItem(key, JSON.stringify(value)); }
+  catch { /* Storage can be unavailable in private sessions. */ }
+}
+
+function flashKey() {
+  return "jlpt-ox-v1:" + section + ":" + level.value + ":" + date.value;
+}
+
+function historyKey() {
+  return "jlpt-recall-v1:" + section + ":" + level.value;
+}
+
+function closeFlash(restoreFocus = false) {
+  flashCards.hidden = true;
+  studyRun = undefined;
+  updateStudyMenus();
+  if (restoreFocus && !startCards.hidden) startCards.focus();
+}
+
+function updateStudyMenus() {
+  const active = !flashCards.hidden || !recall.hidden;
+  startCards.hidden = startRecall.hidden = active || showAll || !dailyDeck.length;
+  cards.hidden = active || !showAll;
+  if (!startCards.hidden) {
+    const saved = readStudy(flashKey(), null);
+    startCards.textContent = saved && saved.position < saved.queue.length ? "한 장씩 암기 이어서" : "한 장씩 암기 시작";
+  }
+}
+
+function openFlash(restart = false) {
+  if (!dailyDeck.length) return;
+  const index = new Map(dailyDeck.map(card => [cardKey(card), card]));
+  const saved = restart ? null : readStudy(flashKey(), null);
+  const valid = Array.isArray(saved?.queue) && Array.isArray(saved?.missed) && Number.isInteger(saved.position) && saved.position >= 0 && saved.position <= saved.queue.length
+    && saved.queue.every(key => index.has(key)) && saved.missed.every(key => index.has(key));
+  studyRun = valid ? {index, ...saved} : {index, queue: [...index.keys()], position: 0, round: 0, missed: []};
+  flashCards.hidden = false;
+  updateStudyMenus();
+  showFlashCard();
+}
+
+function showFlashCard() {
+  const {queue, position, round, index} = studyRun;
+  flashCard.replaceChildren();
+  const finished = position >= queue.length;
+  flashActions.hidden = finished;
+  resetCards.hidden = !finished;
+  if (finished) {
+    get("flashProgress").textContent = "완료 · 이 날짜의 카드를 모두 O로 표시했어요.";
+    resetCards.focus();
+    return;
+  }
+  get("flashProgress").textContent = (round ? "X 복습 " + round + "회차" : "첫 바퀴")
+    + " · " + (position + 1) + " / " + queue.length;
+  const panel = renderCard(index.get(queue[position]));
+  const summary = panel.querySelector("summary");
+  appendText(summary, "span", " · 뜻과 읽기 보기", "ko");
+  flashCard.append(panel);
+  summary.focus();
+}
+
+function markFlash(known) {
+  if (!studyRun || studyRun.position >= studyRun.queue.length) return;
+  const run = studyRun;
+  if (!known) run.missed.push(run.queue[run.position]);
+  run.position++;
+  if (run.position === run.queue.length && run.missed.length) {
+    run.queue = run.missed;
+    run.missed = [];
+    run.position = 0;
+    run.round++;
+  }
+  const {queue, position, round, missed} = run;
+  saveStudy(flashKey(), {queue, position, round, missed});
+  showFlashCard();
+}
+
+function rememberRecall(card) {
+  const history = readStudy(recallKey, {});
+  const key = cardKey(card);
+  if (!Object.hasOwn(history, key) || history[key] > recallDate) {
+    history[key] = recallDate;
+    saveStudy(recallKey, history);
+  }
+}
+
+async function startCumulativeRecall() {
+  if (!dailyDeck.length || startRecall.disabled) return;
+  const request = requestId;
+  const key = historyKey();
+  const selectedDate = date.value;
+  const history = readStudy(key, {});
+  const previous = new Set(Object.entries(history).filter(([, day]) => day < selectedDate).map(([id]) => id));
+  const combined = new Map(dailyDeck.map(card => [cardKey(card), card]));
+  startRecall.disabled = true;
+  startCards.disabled = true;
+  try {
+    if ([...previous].some(id => !combined.has(id))) {
+      const params = new URLSearchParams({level: level.value, date: selectedDate, section, all: "1"});
+      const response = await fetch("/api/study?" + params);
+      if (!response.ok) throw new Error("이전 암기 확인 기록을 불러오지 못했습니다.");
+      const result = await response.json();
+      for (const card of result.cards) {
+        const id = cardKey(card);
+        if (previous.has(id) && !combined.has(id)) combined.set(id, card);
+      }
+    }
+    if (request !== requestId) return;
+    recallKey = key;
+    recallDate = selectedDate;
+    recallPool = [...combined.values()];
+    get("recallDeckInfo").textContent = "오늘 카드 " + dailyDeck.length + "개 · 이전에 푼 카드 중 추가 "
+      + (recallPool.length - dailyDeck.length) + "개";
+    beginRecall(recallPool);
+  } catch (error) {
+    if (request === requestId) status.textContent = error.message;
+  } finally {
+    if (request === requestId) startRecall.disabled = startCards.disabled = false;
+  }
+}
+
+startCards.addEventListener("click", () => openFlash());
+get("pauseCards").addEventListener("click", () => closeFlash(true));
+get("knownCard").addEventListener("click", () => markFlash(true));
+get("unknownCard").addEventListener("click", () => markFlash(false));
+resetCards.addEventListener("click", () => openFlash(true));
+
+function shuffleRecall(items) {
+  const shuffled = [...items];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function normalizeReading(text) {
+  return text.normalize("NFKC").replace(/\s/g, "").replace(/[ァ-ヶ]/g,
+    letter => String.fromCharCode(letter.charCodeAt(0) - 0x60));
+}
+
+function closeRecall(restoreFocus = false) {
+  recall.hidden = true;
+  updateStudyMenus();
+  if (restoreFocus && !startRecall.hidden) startRecall.focus();
+}
+
+function beginRecall(deck) {
+  recallQueue = shuffleRecall(deck);
+  cursor = 0;
+  mistakes = [];
+  flashCards.hidden = true;
+  recall.hidden = false;
+  updateStudyMenus();
+  showRecallQuestion();
+}
+
+function showRecallQuestion() {
+  const card = recallQueue[cursor];
+  const vocabulary = section === "vocabulary";
+  const prompt = get("recallPrompt");
+  get("recallProgress").textContent = (cursor + 1) + " / " + recallQueue.length;
+  recallForm.hidden = false;
+  feedback.hidden = nextRecall.hidden = retryWrong.hidden = true;
+  readingInput.value = "";
+  readingInput.disabled = !vocabulary;
+  readingInput.required = vocabulary;
+  get("readingLabel").hidden = !vocabulary;
+  prompt.textContent = vocabulary ? card.target : card.exercisePrompt ?? card.explanation;
+  prompt.lang = vocabulary ? "ja" : "ko";
+  get("recallLegend").textContent = vocabulary ? "한국어 뜻을 고르세요." : card.exercisePrompt ? "이 상황에 사용할 일본어 문형을 고르세요." : "이 쓰임에 맞는 일본어 문형을 고르세요.";
+
+  const field = vocabulary ? "meaning" : "target";
+  const correct = card[field];
+  const spelling = value => value.normalize("NFKC").replace(/\([^)]*\)/g, "").replace(/[〜～\s]/g, "");
+  const forms = value => value.split(/\/|／/).map(spelling);
+  const acceptable = new Set(vocabulary ? [correct] : forms(correct));
+  const otherValues = [...new Set(recallPool.map(item => item[field]))].filter(value =>
+    vocabulary ? !acceptable.has(value) : !forms(value).some(form => acceptable.has(form)));
+  const options = shuffleRecall([correct, ...shuffleRecall(otherValues).slice(0, 3)]);
+  for (const label of recallChoices.querySelectorAll("label")) label.remove();
+  for (const option of options) {
+    const label = document.createElement("label");
+    const radio = document.createElement("input");
+    radio.type = "radio";
+    radio.name = "recallChoice";
+    radio.value = option;
+    radio.required = true;
+    label.append(radio);
+    appendText(label, "span", option, vocabulary ? "ko" : "ja");
+    recallChoices.append(label);
+  }
+  prompt.focus();
+}
+
+recallForm.addEventListener("submit", event => {
+  event.preventDefault();
+  if (recallForm.hidden) return;
+  const card = recallQueue[cursor];
+  const selected = new FormData(recallForm).get("recallChoice");
+  const vocabulary = section === "vocabulary";
+  const typed = normalizeReading(readingInput.value);
+  if (vocabulary && !typed) {
+    readingInput.value = "";
+    readingInput.reportValidity();
+    return;
+  }
+  const meaningCorrect = selected === (vocabulary ? card.meaning : card.target);
+  const readingCorrect = !vocabulary || typed === normalizeReading(card.reading);
+  const correct = meaningCorrect && readingCorrect;
+  if (!correct) mistakes.push(card);
+  rememberRecall(card);
+  recallForm.hidden = true;
+  feedback.textContent = vocabulary ? [
+    card.target,
+    "읽기 " + (readingCorrect ? "정답" : "오답") + " · " + card.reading,
+    "뜻 " + (meaningCorrect ? "정답" : "오답") + " · " + card.meaning,
+  ].join("\n") : [
+    correct ? "정답입니다." : "내가 고른 답 · " + selected,
+    "정답 · " + card.target,
+    "히라가나 읽기 · " + card.reading,
+    "쓰임 · " + card.explanation,
+    "예문 · " + card.example,
+    "해석 · " + card.translation,
+  ].join("\n");
+  feedback.hidden = false;
+  nextRecall.textContent = cursor + 1 === recallQueue.length ? "결과 보기" : "다음 카드";
+  nextRecall.hidden = false;
+  nextRecall.focus();
+});
+
+nextRecall.addEventListener("click", () => {
+  cursor++;
+  if (cursor < recallQueue.length) {
+    showRecallQuestion();
+    return;
+  }
+  get("recallProgress").textContent = recallQueue.length + "개 중 " + (recallQueue.length - mistakes.length) + "개 정답";
+  feedback.hidden = nextRecall.hidden = true;
+  retryWrong.hidden = !mistakes.length;
+  (mistakes.length ? retryWrong : get("closeRecall")).focus();
+});
+startRecall.addEventListener("click", startCumulativeRecall);
+retryWrong.addEventListener("click", () => beginRecall(mistakes));
+get("closeRecall").addEventListener("click", () => closeRecall(true));
+
+document.title = "JLPT " + title;
+get("title").textContent = "JLPT " + title;
+tabs.find(tab => tab.dataset.tab === section).setAttribute("aria-current", "page");
+const initial = new URLSearchParams(location.search);
+if (/^N[1-5]$/.test(initial.get("level"))) level.value = initial.get("level");
+date.max = today;
+date.value = initial.get("date") ?? today;
+if (!date.value || date.value > today) date.value = today;
+
+function appendText(parent, tag, text, lang) {
+  const element = document.createElement(tag);
+  element.textContent = text;
+  if (lang) element.lang = lang;
+  parent.append(element);
+  return element;
+}
+
+function renderCard(card) {
+  const panel = document.createElement("details");
+  appendText(panel, "summary", card.exercisePrompt ? "예문 적용 · " + card.exercisePrompt : card.target, card.exercisePrompt ? "ko" : "ja");
+  if (section === "grammar") {
+    if (card.exercisePrompt) appendText(panel, "p", card.target, "ja");
+    appendText(panel, "p", "읽기 · " + card.reading);
+    appendText(panel, "p", card.explanation);
+    appendText(panel, "p", card.example, "ja");
+    appendText(panel, "p", card.translation);
+  } else {
+    appendText(panel, "p", card.reading, "ja");
+    appendText(panel, "p", card.meaning);
+  }
+  if (card.source) {
+    const link = appendText(panel, "a", card.source.label);
+    link.className = "source";
+    link.href = card.source.url;
+  }
+  return panel;
+}
+
+async function loadCards() {
+  const id = ++requestId;
+  dailyDeck = [];
+  startRecall.disabled = startCards.disabled = false;
+  closeFlash();
+  closeRecall();
+  cards.replaceChildren();
+  retry.hidden = true;
+  if (!date.checkValidity()) {
+    status.textContent = "오늘 또는 이전 학습 날짜를 선택해 주세요.";
+    return;
+  }
+  const navigation = new URLSearchParams({level: level.value, date: date.value});
+  for (const tab of tabs) tab.search = navigation.toString();
+  const params = new URLSearchParams(navigation);
+  params.set("section", section);
+  if (showAll) params.set("all", "1");
+  status.textContent = "암기 카드를 불러오는 중입니다.";
+  try {
+    const response = await fetch("/api/study?" + params);
+    if (!response.ok) throw new Error("Unable to load cards");
+    const result = await response.json();
+    if (id !== requestId) return;
+    const details = section === "grammar" && !showAll
+      ? " · 문형 " + result.cards.filter(card => !card.exercisePrompt).length + "개 + 예문 적용 "
+        + result.cards.filter(card => card.exercisePrompt).length + "개"
+      : "";
+    status.textContent = level.value + " · " + (showAll ? "전체" : date.value) + " · "
+      + result.cards.length + "개" + details + "";
+    if (showAll) cards.replaceChildren(...result.cards.map(renderCard));
+    else dailyDeck = result.cards;
+    updateStudyMenus();
+  } catch {
+    if (id !== requestId) return;
+    status.textContent = "암기 카드를 불러오지 못했습니다.";
+    retry.hidden = false;
+  }
+}
+
+function dailyCards() {
+  showAll = false;
+  all.setAttribute("aria-pressed", "false");
+  return loadCards();
+}
+
+get("filters").addEventListener("submit", event => event.preventDefault());
+level.addEventListener("change", loadCards);
+date.addEventListener("change", dailyCards);
+get("today").addEventListener("click", () => {
+  date.value = today;
+  return dailyCards();
+});
+all.addEventListener("click", () => {
+  showAll = !showAll;
+  all.setAttribute("aria-pressed", String(showAll));
+  return loadCards();
+});
+retry.addEventListener("click", loadCards);
+loadCards();
+</script>
+</body>
+</html>

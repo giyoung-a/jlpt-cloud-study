@@ -1,0 +1,1472 @@
+[
+  {
+    "level": "N5",
+    "target": "〜です",
+    "explanation": "명사나 な형용사로 정중하게 서술합니다.",
+    "example": "私は学生です。",
+    "translation": "저는 학생입니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜ではありません",
+    "explanation": "명사나 な형용사를 정중하게 부정합니다.",
+    "example": "ここは学校ではありません。",
+    "translation": "여기는 학교가 아닙니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜でした",
+    "explanation": "명사나 な형용사의 과거를 정중하게 말합니다.",
+    "example": "昨日は休みでした。",
+    "translation": "어제는 쉬는 날이었습니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜ではありませんでした",
+    "explanation": "명사나 な형용사의 과거를 정중하게 부정합니다.",
+    "example": "昨日は休みではありませんでした。",
+    "translation": "어제는 쉬는 날이 아니었습니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜ます",
+    "explanation": "동작을 정중하게 말합니다.",
+    "example": "毎朝走ります。",
+    "translation": "매일 아침 달립니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜ません",
+    "explanation": "정중한 현재 부정입니다.",
+    "example": "肉は食べません。",
+    "translation": "고기는 먹지 않습니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜ました",
+    "explanation": "동작의 정중한 과거형입니다.",
+    "example": "昨日泳ぎました。",
+    "translation": "어제 수영했습니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜は",
+    "explanation": "말하고자 하는 화제를 나타냅니다.",
+    "example": "私は韓国人です。",
+    "translation": "저는 한국 사람입니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜も",
+    "explanation": "다른 대상에도 같은 내용이 적용됨을 나타냅니다.",
+    "example": "私も行きます。",
+    "translation": "저도 갑니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜の",
+    "explanation": "명사 사이에서 소유나 관계를 나타냅니다.",
+    "example": "これは母の本です。",
+    "translation": "이것은 어머니의 책입니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜で（장소）",
+    "explanation": "동작이 이뤄지는 장소를 나타냅니다.",
+    "example": "公園で遊びます。",
+    "translation": "공원에서 놉니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜で（수단）",
+    "explanation": "동작에 쓰는 도구나 교통수단을 나타냅니다.",
+    "example": "電車で帰ります。",
+    "translation": "전철로 돌아갑니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜に（시간）",
+    "explanation": "동작을 하는 시점을 나타냅니다.",
+    "example": "七時に起きます。",
+    "translation": "일곱 시에 일어납니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜に（도착점）",
+    "explanation": "이동의 도착점을 나타냅니다.",
+    "example": "学校に着きました。",
+    "translation": "학교에 도착했습니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜と（一緒に）",
+    "explanation": "함께 행동하는 상대를 나타냅니다.",
+    "example": "兄と歩きます。",
+    "translation": "형과 걷습니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜と（나열）",
+    "explanation": "나열한 대상을 모두 연결합니다.",
+    "example": "卵と牛乳を買いました。",
+    "translation": "달걀과 우유를 샀습니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜や",
+    "explanation": "대표적인 예를 몇 가지 나열합니다.",
+    "example": "りんごやみかんを買います。",
+    "translation": "사과나 귤 등을 삽니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜か（질문）",
+    "explanation": "문장 끝에서 질문을 나타냅니다.",
+    "example": "学生ですか。",
+    "translation": "학생인가요?"
+  },
+  {
+    "level": "N5",
+    "target": "〜か（선택）",
+    "explanation": "선택지 사이에서 ‘또는’이라는 뜻입니다.",
+    "example": "水かお茶をください。",
+    "translation": "물이나 차를 주세요."
+  },
+  {
+    "level": "N5",
+    "target": "〜ね",
+    "explanation": "상대의 공감이나 확인을 구합니다.",
+    "example": "いい天気ですね。",
+    "translation": "날씨가 좋네요."
+  },
+  {
+    "level": "N5",
+    "target": "〜よ",
+    "explanation": "상대에게 알려 주거나 강조합니다.",
+    "example": "もう時間ですよ。",
+    "translation": "벌써 시간이 됐어요."
+  },
+  {
+    "level": "N5",
+    "target": "〜ごろ",
+    "explanation": "시각 뒤에 붙어 대략적인 때를 나타냅니다.",
+    "example": "六時ごろ帰ります。",
+    "translation": "여섯 시쯤 돌아옵니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜くらい",
+    "explanation": "수량이나 기간을 대략적으로 말합니다.",
+    "example": "一時間くらい歩きます。",
+    "translation": "한 시간 정도 걷습니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜だけ",
+    "explanation": "범위를 그것 하나로 한정합니다.",
+    "example": "水だけ飲みます。",
+    "translation": "물만 마십니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜より",
+    "explanation": "비교의 기준을 나타냅니다.",
+    "example": "今日は昨日より暑いです。",
+    "translation": "오늘은 어제보다 덥습니다."
+  },
+  {
+    "level": "N5",
+    "target": "いちばん〜",
+    "explanation": "어떤 범위에서 가장 높은 정도를 나타냅니다.",
+    "example": "この店がいちばん安いです。",
+    "translation": "이 가게가 가장 쌉니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜くて",
+    "explanation": "い형용사를 이어 성질을 나열합니다.",
+    "example": "この部屋は広くて明るいです。",
+    "translation": "이 방은 넓고 밝습니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜で（명사·형용사 연결）",
+    "explanation": "명사나 な형용사를 이어 설명합니다.",
+    "example": "この町は静かで便利です。",
+    "translation": "이 도시는 조용하고 편리합니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜かった",
+    "explanation": "い형용사의 과거형입니다.",
+    "example": "昨日は寒かったです。",
+    "translation": "어제는 추웠습니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜くなかった",
+    "explanation": "い형용사의 부정 과거형입니다.",
+    "example": "昨日は寒くなかったです。",
+    "translation": "어제는 춥지 않았습니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜な＋명사",
+    "explanation": "な형용사로 명사를 꾸밉니다.",
+    "example": "静かな部屋で勉強します。",
+    "translation": "조용한 방에서 공부합니다."
+  },
+  {
+    "level": "N5",
+    "target": "동사 사전형＋명사",
+    "explanation": "명사를 하는 동작이나 용도로 꾸밉니다.",
+    "example": "これは寝る部屋です。",
+    "translation": "여기는 자는 방입니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜て（동작 연결）",
+    "explanation": "동작을 순서대로 연결합니다.",
+    "example": "家に帰って、ご飯を食べます。",
+    "translation": "집에 돌아가서 밥을 먹습니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜ている（진행）",
+    "explanation": "동작이 진행 중임을 나타냅니다.",
+    "example": "今、本を読んでいます。",
+    "translation": "지금 책을 읽고 있습니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜てから",
+    "explanation": "첫 동작이 끝난 뒤의 행동을 말합니다.",
+    "example": "手を洗ってから食べます。",
+    "translation": "손을 씻고 나서 먹습니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜とき",
+    "explanation": "동작이나 상태가 일어나는 때를 말합니다.",
+    "example": "家を出るとき、鍵をかけます。",
+    "translation": "집을 나갈 때 문을 잠급니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜ませんか",
+    "explanation": "상대에게 같이 하자고 권유합니다.",
+    "example": "一緒に勉強しませんか。",
+    "translation": "함께 공부하지 않을래요?"
+  },
+  {
+    "level": "N5",
+    "target": "〜ましょう",
+    "explanation": "같이 하자는 제안입니다.",
+    "example": "明日会いましょう。",
+    "translation": "내일 만납시다."
+  },
+  {
+    "level": "N5",
+    "target": "〜がほしい",
+    "explanation": "가지고 싶은 대상을 が로 나타냅니다.",
+    "example": "新しい靴がほしいです。",
+    "translation": "새 신발을 갖고 싶습니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜から（이유）",
+    "explanation": "판단이나 행동의 이유를 나타냅니다.",
+    "example": "寒いから、窓を閉めます。",
+    "translation": "추워서 창문을 닫습니다."
+  },
+  {
+    "level": "N5",
+    "target": "〜が（역접）",
+    "explanation": "앞과 대조되는 내용을 이어 줍니다.",
+    "example": "小さいですが、便利です。",
+    "translation": "작지만 편리합니다."
+  },
+  {
+    "level": "N5",
+    "target": "あまり〜ない",
+    "explanation": "부정형과 함께 써 정도가 낮음을 나타냅니다.",
+    "example": "あまりテレビを見ません。",
+    "translation": "텔레비전을 별로 보지 않습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜てみる",
+    "explanation": "시험 삼아 해 봅니다.",
+    "example": "この服を着てみます。",
+    "translation": "이 옷을 입어 보겠습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜ておく",
+    "explanation": "나중을 위해 미리 해 둡니다.",
+    "example": "切符を買っておきます。",
+    "translation": "표를 미리 사 둡니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜てしまう",
+    "explanation": "일을 전부 끝냈거나 뜻밖의 결과를 나타냅니다.",
+    "example": "財布を忘れてしまいました。",
+    "translation": "지갑을 그만 두고 왔습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜てある",
+    "explanation": "의도적으로 한 동작의 결과가 남아 있습니다.",
+    "example": "窓が開けてあります。",
+    "translation": "창문을 열어 둔 상태입니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜てくれる",
+    "explanation": "다른 사람이 나나 내 쪽 사람을 위해 해 줍니다.",
+    "example": "友達が教えてくれました。",
+    "translation": "친구가 알려 줬습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜てもらう",
+    "explanation": "다른 사람에게 행동을 부탁해 혜택을 받습니다.",
+    "example": "姉に手伝ってもらいました。",
+    "translation": "누나에게 도와 달라고 해서 도움을 받았습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜てあげる",
+    "explanation": "다른 사람에게 어떤 행동을 해 줍니다.",
+    "example": "弟に本を読んであげます。",
+    "translation": "동생에게 책을 읽어 줍니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜てほしい",
+    "explanation": "다른 사람이 어떤 행동을 하길 바랍니다.",
+    "example": "早く連絡してほしいです。",
+    "translation": "빨리 연락해 주면 좋겠습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜ないでください",
+    "explanation": "어떤 행동을 하지 말라고 부탁합니다.",
+    "example": "ここに車を止めないでください。",
+    "translation": "여기에 차를 세우지 말아 주세요."
+  },
+  {
+    "level": "N4",
+    "target": "〜なくてもいい",
+    "explanation": "어떤 행동을 할 필요가 없음을 나타냅니다.",
+    "example": "明日は来なくてもいいです。",
+    "translation": "내일은 오지 않아도 됩니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜ないといけない",
+    "explanation": "해야 하는 일이나 의무를 나타냅니다.",
+    "example": "もう帰らないといけません。",
+    "translation": "이제 돌아가야 합니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜たほうがいい",
+    "explanation": "어떤 행동을 권합니다.",
+    "example": "早く寝たほうがいいです。",
+    "translation": "일찍 자는 게 좋습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜ないほうがいい",
+    "explanation": "어떤 행동을 피하라고 조언합니다.",
+    "example": "夜遅く食べないほうがいいです。",
+    "translation": "밤늦게 먹지 않는 게 좋습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜かた",
+    "explanation": "동사 ます형 어간에 붙어 방법을 나타냅니다.",
+    "example": "この機械の使い方を教えてください。",
+    "translation": "이 기계 사용법을 알려 주세요."
+  },
+  {
+    "level": "N4",
+    "target": "〜にくい",
+    "explanation": "동사 ます형 어간에 붙어 하기 어려움을 나타냅니다.",
+    "example": "この字は読みにくいです。",
+    "translation": "이 글자는 읽기 어렵습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜はじめる",
+    "explanation": "어떤 동작이 시작되었음을 나타냅니다.",
+    "example": "急に雨が降り始めました。",
+    "translation": "갑자기 비가 내리기 시작했습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜おわる",
+    "explanation": "어떤 동작이 끝났음을 나타냅니다.",
+    "example": "もう読み終わりました。",
+    "translation": "이미 다 읽었습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜つづける",
+    "explanation": "동작이 계속됨을 나타냅니다.",
+    "example": "一時間走り続けました。",
+    "translation": "한 시간 동안 계속 달렸습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜そうだ（모양）",
+    "explanation": "보이는 상태를 근거로 짐작합니다.",
+    "example": "おいしそうです。",
+    "translation": "맛있어 보입니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜そうだ（전해 들은 말）",
+    "explanation": "다른 출처에서 들은 내용을 전달합니다.",
+    "example": "明日は雨が降るそうです。",
+    "translation": "내일 비가 온다고 합니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜ようになる",
+    "explanation": "능력이나 습관의 변화를 나타냅니다.",
+    "example": "漢字が読めるようになりました。",
+    "translation": "한자를 읽을 수 있게 되었습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜ようにする",
+    "explanation": "목표를 위해 의식적으로 노력하거나 습관을 들입니다.",
+    "example": "毎日歩くようにしています。",
+    "translation": "매일 걷도록 하고 있습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜すれば",
+    "explanation": "동사 ば형으로 조건을 제시합니다.",
+    "example": "練習すれば上手になります。",
+    "translation": "연습하면 실력이 늘어요."
+  },
+  {
+    "level": "N4",
+    "target": "〜なら",
+    "explanation": "상대가 제시한 상황을 전제로 말합니다.",
+    "example": "京都へ行くなら、春がいいです。",
+    "translation": "교토에 갈 거라면 봄이 좋습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜と（조건）",
+    "explanation": "앞 동작 뒤에 자연스럽게 생기는 결과를 말합니다.",
+    "example": "このボタンを押すと、ドアが開きます。",
+    "translation": "이 버튼을 누르면 문이 열립니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜ても",
+    "explanation": "앞 조건에도 결과가 달라지지 않음을 나타냅니다.",
+    "example": "雨が降っても行きます。",
+    "translation": "비가 와도 갑니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜ので",
+    "explanation": "상황이나 판단의 이유를 설명합니다.",
+    "example": "病気なので、休みます。",
+    "translation": "아파서 쉽니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜のに",
+    "explanation": "기대와 다른 상황에 놀람이나 불만을 나타냅니다.",
+    "example": "安いのに、よく売れません。",
+    "translation": "싼데도 잘 팔리지 않습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜けれども",
+    "explanation": "앞 문장과 대조되는 내용을 잇습니다.",
+    "example": "便利だけれども、高いです。",
+    "translation": "편리하지만 비쌉니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜ために（목적）",
+    "explanation": "의도한 목적을 나타냅니다.",
+    "example": "留学するために貯金します。",
+    "translation": "유학하기 위해 저축합니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜ように（목적）",
+    "explanation": "어떤 상태가 되거나 유지되도록 하는 목적입니다.",
+    "example": "忘れないように書きます。",
+    "translation": "잊지 않도록 적습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜ところだ",
+    "explanation": "동사 형태에 따라 직전·진행·직후를 나타냅니다.",
+    "example": "今から出かけるところです。",
+    "translation": "이제 막 외출하려는 참입니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜たばかり",
+    "explanation": "말하는 사람이 느끼기에 그 행동이 끝난 지 얼마 되지 않았음을 나타냅니다.",
+    "example": "先月引っ越したばかりです。",
+    "translation": "지난달 막 이사했습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜たあとで",
+    "explanation": "한 동작을 마친 뒤 다음 동작을 합니다.",
+    "example": "宿題をしたあとで、遊びます。",
+    "translation": "숙제를 한 뒤에 놉니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜間",
+    "explanation": "동작이나 상태가 일정 기간 내내 지속됨을 나타냅니다.",
+    "example": "夏休みの間、毎朝泳ぎました。",
+    "translation": "여름방학 동안 매일 아침 수영했습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜間に",
+    "explanation": "어떤 기간 안에 다른 일이 일어납니다.",
+    "example": "留守の間に電話がありました。",
+    "translation": "집을 비운 사이 전화가 왔습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜までに",
+    "explanation": "행동을 끝내야 하는 기한을 나타냅니다.",
+    "example": "金曜日までに提出します。",
+    "translation": "금요일까지 제출합니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜しか〜ない",
+    "explanation": "부정과 함께 범위가 그 정도뿐이라고 강조합니다.",
+    "example": "百円しかありません。",
+    "translation": "100엔밖에 없습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜ずつ",
+    "explanation": "같은 양을 나누거나 조금씩 반복합니다.",
+    "example": "一人に二枚ずつ渡します。",
+    "translation": "한 사람에게 두 장씩 건넵니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜かどうか",
+    "explanation": "어떤 일이 맞는지 아닌지 나타냅니다.",
+    "example": "明日行けるかどうか分かりません。",
+    "translation": "내일 갈 수 있을지 모르겠습니다."
+  },
+  {
+    "level": "N4",
+    "target": "〜んです",
+    "explanation": "이미 언급된 사실의 배경이나 사정을 설명합니다.",
+    "example": "電車が遅れたんです。",
+    "translation": "전철이 늦었거든요."
+  },
+  {
+    "level": "N4",
+    "target": "동사 가능형",
+    "explanation": "할 수 있는 동작을 나타냅니다.",
+    "example": "私は少し日本語が話せます。",
+    "translation": "저는 일본어를 조금 할 수 있습니다."
+  },
+  {
+    "level": "N3",
+    "target": "〜はずだ",
+    "explanation": "근거를 바탕으로 당연히 그럴 것이라고 예상합니다.",
+    "example": "もう着いているはずだ。",
+    "translation": "이미 도착했을 것이다."
+  },
+  {
+    "level": "N3",
+    "target": "〜はずがない",
+    "explanation": "가능성이 없다고 강하게 판단합니다.",
+    "example": "彼が忘れるはずがない。",
+    "translation": "그가 잊었을 리 없다."
+  },
+  {
+    "level": "N3",
+    "target": "〜に違いない",
+    "explanation": "근거를 바탕으로 강하게 확신합니다.",
+    "example": "彼は事情を知っているに違いない。",
+    "translation": "그는 사정을 알고 있음이 틀림없다."
+  },
+  {
+    "level": "N3",
+    "target": "〜わけがない",
+    "explanation": "상식이나 근거상 불가능하다고 판단합니다.",
+    "example": "一日で終わるわけがない。",
+    "translation": "하루 만에 끝날 리 없다."
+  },
+  {
+    "level": "N3",
+    "target": "〜わけにはいかない",
+    "explanation": "사정이나 책임 때문에 할 수 없음을 나타냅니다.",
+    "example": "約束を破るわけにはいかない。",
+    "translation": "약속을 어길 수는 없다."
+  },
+  {
+    "level": "N3",
+    "target": "〜ことになる",
+    "explanation": "결정이 내려지거나 상황이 그렇게 되었다고 말합니다.",
+    "example": "来月転勤することになった。",
+    "translation": "다음 달에 전근하게 되었다."
+  },
+  {
+    "level": "N3",
+    "target": "〜ことになっている",
+    "explanation": "규칙이나 이미 정해진 일정을 나타냅니다.",
+    "example": "ここでは靴を脱ぐことになっている。",
+    "translation": "여기서는 신발을 벗게 되어 있다."
+  },
+  {
+    "level": "N3",
+    "target": "〜という",
+    "explanation": "명칭이나 내용을 소개합니다.",
+    "example": "桜町という町に住んでいる。",
+    "translation": "사쿠라마치라는 마을에 산다."
+  },
+  {
+    "level": "N3",
+    "target": "〜とおりに",
+    "explanation": "설명이나 지시와 같게 행동합니다.",
+    "example": "地図のとおりに進んだ。",
+    "translation": "지도대로 나아갔다."
+  },
+  {
+    "level": "N3",
+    "target": "〜まま",
+    "explanation": "상태를 유지한 채 다른 일을 합니다.",
+    "example": "電気をつけたまま寝た。",
+    "translation": "불을 켜 둔 채 잤다."
+  },
+  {
+    "level": "N3",
+    "target": "〜たところ",
+    "explanation": "어떤 동작을 해 보고 알게 된 결과를 말합니다.",
+    "example": "店に電話したところ、今日は休みだった。",
+    "translation": "가게에 전화해 보니 오늘은 쉬는 날이었다."
+  },
+  {
+    "level": "N3",
+    "target": "〜ところに",
+    "explanation": "어떤 순간에 다른 일이 일어났음을 보여 줍니다.",
+    "example": "出かけようとしたところに、友達が来た。",
+    "translation": "나가려는 참에 친구가 왔다."
+  },
+  {
+    "level": "N3",
+    "target": "〜ことがある（가끔）",
+    "explanation": "어떤 일이 가끔 생긴다는 뜻입니다.",
+    "example": "電車で眠ることがある。",
+    "translation": "전철에서 잠들 때가 있다."
+  },
+  {
+    "level": "N3",
+    "target": "〜ようとする",
+    "explanation": "행동을 막 시작하려 하거나 시도합니다.",
+    "example": "子どもは立とうとした。",
+    "translation": "아이는 일어서려고 했다."
+  },
+  {
+    "level": "N3",
+    "target": "〜ような",
+    "explanation": "예시나 비유를 써서 뒤의 명사를 꾸밉니다.",
+    "example": "雪のような白い花が咲いた。",
+    "translation": "눈처럼 하얀 꽃이 피었다."
+  },
+  {
+    "level": "N3",
+    "target": "〜らしい（추정）",
+    "explanation": "간접적인 정보로 추정합니다.",
+    "example": "あの店は来月閉まるらしい。",
+    "translation": "저 가게는 다음 달에 문을 닫는 모양이다."
+  },
+  {
+    "level": "N3",
+    "target": "〜らしい（전형）",
+    "explanation": "그 대상에 걸맞은 특징을 나타냅니다.",
+    "example": "春らしい暖かい日だ。",
+    "translation": "봄다운 따뜻한 날이다."
+  },
+  {
+    "level": "N3",
+    "target": "〜みたいだ",
+    "explanation": "일상적인 말에서 비유하거나 추정합니다.",
+    "example": "あの雲は船みたいだ。",
+    "translation": "저 구름은 배 같다."
+  },
+  {
+    "level": "N3",
+    "target": "〜っぽい",
+    "explanation": "그런 경향이나 인상이 강함을 나타냅니다.",
+    "example": "白っぽいシャツを買った。",
+    "translation": "희끄무레한 셔츠를 샀다."
+  },
+  {
+    "level": "N3",
+    "target": "〜がち",
+    "explanation": "특정 행동이나 상태가 자주 나타남을 말합니다.",
+    "example": "忙しいと朝食を抜きがちだ。",
+    "translation": "바쁘면 아침을 거르기 쉽다."
+  },
+  {
+    "level": "N3",
+    "target": "〜気味",
+    "explanation": "약간 그런 상태나 기미가 있음을 말합니다.",
+    "example": "今日は風邪気味です。",
+    "translation": "오늘은 감기 기운이 있습니다."
+  },
+  {
+    "level": "N3",
+    "target": "〜だらけ",
+    "explanation": "달갑지 않은 것이 여기저기 많음을 나타냅니다.",
+    "example": "靴が泥だらけになった。",
+    "translation": "신발이 진흙투성이가 됐다."
+  },
+  {
+    "level": "N3",
+    "target": "〜向け",
+    "explanation": "대상에 맞추어 만든 것을 나타냅니다.",
+    "example": "初心者向けの本を買った。",
+    "translation": "초보자용 책을 샀다."
+  },
+  {
+    "level": "N3",
+    "target": "〜向き",
+    "explanation": "그 대상에게 적합함을 나타냅니다.",
+    "example": "この本は子ども向きだ。",
+    "translation": "이 책은 아이들에게 알맞다."
+  },
+  {
+    "level": "N3",
+    "target": "〜にとって",
+    "explanation": "어떤 사람의 관점이나 입장을 제시합니다.",
+    "example": "私にとって大切な本だ。",
+    "translation": "나에게 소중한 책이다."
+  },
+  {
+    "level": "N3",
+    "target": "〜に対して",
+    "explanation": "어떤 태도나 행동이 향하는 대상을 나타냅니다.",
+    "example": "提案に対して質問が出た。",
+    "translation": "제안에 대해 질문이 나왔다."
+  },
+  {
+    "level": "N3",
+    "target": "〜について",
+    "explanation": "이야기나 조사의 주제를 나타냅니다.",
+    "example": "進路について話し合った。",
+    "translation": "진로에 대해 상의했다."
+  },
+  {
+    "level": "N3",
+    "target": "〜に関して",
+    "explanation": "어떤 사안과 관련된 범위를 제시합니다.",
+    "example": "契約に関して質問があります。",
+    "translation": "계약과 관련해 질문이 있습니다."
+  },
+  {
+    "level": "N3",
+    "target": "〜によると",
+    "explanation": "정보 출처를 나타냅니다.",
+    "example": "予報によると、明日は晴れる。",
+    "translation": "예보에 따르면 내일은 맑다."
+  },
+  {
+    "level": "N3",
+    "target": "〜に加えて",
+    "explanation": "앞의 내용에 다른 요소를 추가합니다.",
+    "example": "風に加えて雨も強くなった。",
+    "translation": "바람에 더해 비도 세졌다."
+  },
+  {
+    "level": "N3",
+    "target": "〜に比べて",
+    "explanation": "비교하는 기준을 제시합니다.",
+    "example": "去年に比べて売上が増えた。",
+    "translation": "작년보다 매출이 늘었다."
+  },
+  {
+    "level": "N3",
+    "target": "〜にしたがって",
+    "explanation": "한 변화와 함께 다른 변화도 진행됨을 나타냅니다.",
+    "example": "日が暮れるにしたがって寒くなった。",
+    "translation": "해가 저물면서 추워졌다."
+  },
+  {
+    "level": "N3",
+    "target": "〜につれて",
+    "explanation": "상황 변화에 맞물려 다른 변화가 생깁니다.",
+    "example": "慣れるにつれて不安が減った。",
+    "translation": "익숙해질수록 불안이 줄었다."
+  },
+  {
+    "level": "N3",
+    "target": "〜とともに",
+    "explanation": "두 변화가 함께 일어납니다.",
+    "example": "人口の増加とともに交通量も増えた。",
+    "translation": "인구 증가와 함께 교통량도 늘었다."
+  },
+  {
+    "level": "N3",
+    "target": "〜を通して",
+    "explanation": "사람이나 매체를 거쳐 전해짐을 나타냅니다.",
+    "example": "友人を通して彼を知った。",
+    "translation": "친구를 통해 그를 알게 됐다."
+  },
+  {
+    "level": "N3",
+    "target": "〜を中心に",
+    "explanation": "어떤 대상을 중심으로 범위를 잡습니다.",
+    "example": "駅を中心に店が集まっている。",
+    "translation": "역을 중심으로 가게가 모여 있다."
+  },
+  {
+    "level": "N3",
+    "target": "〜かわりに",
+    "explanation": "대신 다른 행동이나 조건을 제시합니다.",
+    "example": "電車に乗るかわりに歩いた。",
+    "translation": "전철을 타는 대신 걸었다."
+  },
+  {
+    "level": "N3",
+    "target": "〜せいで",
+    "explanation": "나쁜 결과를 초래한 원인을 나타냅니다.",
+    "example": "渋滞のせいで遅れた。",
+    "translation": "교통 체증 때문에 늦었다."
+  },
+  {
+    "level": "N3",
+    "target": "〜おかげで",
+    "explanation": "좋은 결과의 원인을 나타냅니다.",
+    "example": "助言のおかげで解決できた。",
+    "translation": "조언 덕분에 해결할 수 있었다."
+  },
+  {
+    "level": "N3",
+    "target": "〜ものの",
+    "explanation": "앞의 사실을 인정하고 대조되는 결과를 말합니다.",
+    "example": "買ったものの、まだ使っていない。",
+    "translation": "샀지만 아직 쓰지 않았다."
+  },
+  {
+    "level": "N3",
+    "target": "〜といえば",
+    "explanation": "화제를 받아 연관된 말을 꺼냅니다.",
+    "example": "京都といえば、古い寺が多い。",
+    "translation": "교토 하면 오래된 절이 많다."
+  },
+  {
+    "level": "N3",
+    "target": "〜ほどではない",
+    "explanation": "비교 기준만큼 심하거나 크지는 않음을 나타냅니다.",
+    "example": "心配するほどではない。",
+    "translation": "걱정할 정도는 아니다."
+  },
+  {
+    "level": "N2",
+    "target": "〜に応じて",
+    "explanation": "상황이나 기준에 알맞게 대응합니다.",
+    "example": "人数に応じて席を用意する。",
+    "translation": "인원수에 맞춰 자리를 준비한다."
+  },
+  {
+    "level": "N2",
+    "target": "〜に沿って",
+    "explanation": "정해진 기준이나 방향을 따릅니다.",
+    "example": "計画に沿って進める。",
+    "translation": "계획에 따라 진행한다."
+  },
+  {
+    "level": "N2",
+    "target": "〜に基づいて",
+    "explanation": "근거를 바탕으로 판단하거나 행동합니다.",
+    "example": "資料に基づいて判断する。",
+    "translation": "자료를 근거로 판단한다."
+  },
+  {
+    "level": "N2",
+    "target": "〜に即して",
+    "explanation": "실제 상황이나 기준에 맞춥니다.",
+    "example": "現状に即して対策を考える。",
+    "translation": "실정에 맞춰 대책을 생각한다."
+  },
+  {
+    "level": "N2",
+    "target": "〜に限らず",
+    "explanation": "해당 범위에 한정하지 않고 넓힙니다.",
+    "example": "学生に限らず誰でも参加できる。",
+    "translation": "학생에 한정하지 않고 누구나 참가할 수 있다."
+  },
+  {
+    "level": "N2",
+    "target": "〜に限って",
+    "explanation": "특정한 때나 대상에만 그런 일이 일어남을 강조합니다.",
+    "example": "急ぐ日に限って電車が遅れる。",
+    "translation": "하필 급한 날에 전철이 늦는다."
+  },
+  {
+    "level": "N2",
+    "target": "〜に限る",
+    "explanation": "어떤 선택이 가장 좋다고 말합니다.",
+    "example": "暑い日は冷たい麦茶に限る。",
+    "translation": "더운 날에는 차가운 보리차가 최고다."
+  },
+  {
+    "level": "N2",
+    "target": "〜を問わず",
+    "explanation": "조건을 문제 삼지 않음을 나타냅니다.",
+    "example": "年齢を問わず応募できる。",
+    "translation": "나이에 관계없이 지원할 수 있다."
+  },
+  {
+    "level": "N2",
+    "target": "〜をめぐって",
+    "explanation": "의견이나 갈등의 쟁점을 나타냅니다.",
+    "example": "方針をめぐって議論が続く。",
+    "translation": "방침을 둘러싼 논의가 계속된다."
+  },
+  {
+    "level": "N2",
+    "target": "〜にわたって",
+    "explanation": "일정한 기간이나 범위를 두루 나타냅니다.",
+    "example": "三日間にわたって会議が行われた。",
+    "translation": "사흘에 걸쳐 회의가 열렸다."
+  },
+  {
+    "level": "N2",
+    "target": "〜を機に",
+    "explanation": "어떤 사건을 계기로 변화를 시작합니다.",
+    "example": "転職を機に引っ越した。",
+    "translation": "이직을 계기로 이사했다."
+  },
+  {
+    "level": "N2",
+    "target": "〜をきっかけに",
+    "explanation": "어떤 일을 출발점으로 변화가 시작됩니다.",
+    "example": "留学をきっかけに考え方が変わった。",
+    "translation": "유학을 계기로 생각이 바뀌었다."
+  },
+  {
+    "level": "N2",
+    "target": "〜に際して",
+    "explanation": "특별한 일에 임하는 때를 격식 있게 나타냅니다.",
+    "example": "契約に際して身分証を提示する。",
+    "translation": "계약할 때 신분증을 제시한다."
+  },
+  {
+    "level": "N2",
+    "target": "〜にあたって",
+    "explanation": "일을 시작하거나 중요한 상황을 맞는 때를 나타냅니다.",
+    "example": "開店にあたって挨拶をした。",
+    "translation": "개점을 앞두고 인사했다."
+  },
+  {
+    "level": "N2",
+    "target": "〜ことから",
+    "explanation": "어떤 사실이 판단이나 이름의 근거임을 나타냅니다.",
+    "example": "形が星に似ていることから、その名が付いた。",
+    "translation": "모양이 별을 닮았다는 데서 그런 이름이 붙었다."
+  },
+  {
+    "level": "N2",
+    "target": "〜ばかりに",
+    "explanation": "사소한 원인으로 좋지 않은 결과가 났다고 말합니다.",
+    "example": "確認しなかったばかりに、資料を間違えた。",
+    "translation": "확인하지 않은 탓에 자료를 잘못 골랐다."
+  },
+  {
+    "level": "N2",
+    "target": "〜からには",
+    "explanation": "이미 결정했거나 사실이라면 그에 맞는 행동을 해야 한다는 뜻입니다.",
+    "example": "引き受けたからには、最後までやる。",
+    "translation": "맡은 이상 끝까지 한다."
+  },
+  {
+    "level": "N2",
+    "target": "〜以上は",
+    "explanation": "상황을 받아들인 이상 의무나 의지가 생김을 나타냅니다.",
+    "example": "出ると決めた以上は、全力を尽くす。",
+    "translation": "출전하기로 한 이상 최선을 다한다."
+  },
+  {
+    "level": "N2",
+    "target": "〜ものなら",
+    "explanation": "가능하다면 그렇게 하고 싶다는 뜻입니다.",
+    "example": "戻れるものなら、昔に戻りたい。",
+    "translation": "돌아갈 수만 있다면 옛날로 돌아가고 싶다."
+  },
+  {
+    "level": "N2",
+    "target": "〜ようものなら",
+    "explanation": "그런 일이 생기면 심각한 결과가 날 것임을 나타냅니다.",
+    "example": "秘密が漏れようものなら、大騒ぎになる。",
+    "translation": "비밀이 새기라도 하면 큰 소동이 벌어진다."
+  },
+  {
+    "level": "N2",
+    "target": "〜にもかかわらず",
+    "explanation": "앞의 사정에 반하는 결과를 나타냅니다.",
+    "example": "悪天候にもかかわらず、試合は行われた。",
+    "translation": "악천후에도 불구하고 경기가 열렸다."
+  },
+  {
+    "level": "N2",
+    "target": "〜ながらも",
+    "explanation": "앞의 사실을 인정하면서 그에 상반되는 일을 말합니다.",
+    "example": "不安を感じながらも、舞台に立った。",
+    "translation": "불안을 느끼면서도 무대에 섰다."
+  },
+  {
+    "level": "N2",
+    "target": "〜つつも",
+    "explanation": "앞의 생각이나 상황과 다른 행동을 나타냅니다.",
+    "example": "危険と知りつつも、先へ進んだ。",
+    "translation": "위험하다는 걸 알면서도 앞으로 나아갔다."
+  },
+  {
+    "level": "N2",
+    "target": "〜反面",
+    "explanation": "같은 대상의 대비되는 양면을 말합니다.",
+    "example": "便利な反面、費用がかかる。",
+    "translation": "편리한 반면 비용이 든다."
+  },
+  {
+    "level": "N2",
+    "target": "〜一方で",
+    "explanation": "한 면을 말한 뒤 다른 면을 덧붙입니다.",
+    "example": "売上が伸びる一方で、費用も増えた。",
+    "translation": "매출이 늘어나는 한편 비용도 증가했다."
+  },
+  {
+    "level": "N2",
+    "target": "〜上に",
+    "explanation": "앞의 사실에 같은 방향의 사실을 더합니다.",
+    "example": "安い上に、品質もいい。",
+    "translation": "싼 데다 품질도 좋다."
+  },
+  {
+    "level": "N2",
+    "target": "〜ばかりか",
+    "explanation": "앞의 사실뿐 아니라 더 의외인 사실까지 덧붙입니다.",
+    "example": "約束を忘れたばかりか、謝りもしない。",
+    "translation": "약속을 잊었을 뿐 아니라 사과도 하지 않는다."
+  },
+  {
+    "level": "N2",
+    "target": "〜どころか",
+    "explanation": "예상과 크게 다른 정도나 반대 사실을 강조합니다.",
+    "example": "休むどころか、仕事が増えた。",
+    "translation": "쉬기는커녕 일이 늘었다."
+  },
+  {
+    "level": "N2",
+    "target": "〜にほかならない",
+    "explanation": "다른 가능성을 배제하고 판단을 강조합니다.",
+    "example": "成功は努力の結果にほかならない。",
+    "translation": "성공은 노력의 결과임이 틀림없다."
+  },
+  {
+    "level": "N2",
+    "target": "〜に決まっている",
+    "explanation": "틀림없이 사실이라고 단정합니다.",
+    "example": "そんな話はうそに決まっている。",
+    "translation": "그런 이야기는 거짓말이 분명하다."
+  },
+  {
+    "level": "N2",
+    "target": "〜おそれがある",
+    "explanation": "좋지 않은 일이 생길 가능성을 말합니다.",
+    "example": "川があふれるおそれがある。",
+    "translation": "강물이 범람할 우려가 있다."
+  },
+  {
+    "level": "N2",
+    "target": "〜かねない",
+    "explanation": "나쁜 결과가 실제로 벌어질 수 있음을 나타냅니다.",
+    "example": "誤解を招きかねない説明だ。",
+    "translation": "오해를 불러올 수 있는 설명이다."
+  },
+  {
+    "level": "N2",
+    "target": "〜得る",
+    "explanation": "어떤 일이 가능함을 나타냅니다.",
+    "example": "誰にでも起こり得る。",
+    "translation": "누구에게나 일어날 수 있다."
+  },
+  {
+    "level": "N2",
+    "target": "〜得ない",
+    "explanation": "어떤 일이 가능하지 않다고 말합니다.",
+    "example": "その説明はあり得ない。",
+    "translation": "그 설명은 말이 안 된다."
+  },
+  {
+    "level": "N2",
+    "target": "〜きる",
+    "explanation": "동작을 마지막까지 완전히 합니다.",
+    "example": "一日で読み切った。",
+    "translation": "하루 만에 끝까지 읽었다."
+  },
+  {
+    "level": "N2",
+    "target": "〜抜く",
+    "explanation": "어려움에도 마지막까지 해냅니다.",
+    "example": "最後まで走り抜いた。",
+    "translation": "끝까지 달려냈다."
+  },
+  {
+    "level": "N2",
+    "target": "〜がたい",
+    "explanation": "심정이나 판단상 그렇게 하기 어렵습니다.",
+    "example": "信じがたい知らせを聞いた。",
+    "translation": "믿기 어려운 소식을 들었다."
+  },
+  {
+    "level": "N2",
+    "target": "〜ようがない",
+    "explanation": "어떻게 해 볼 방법 자체가 없음을 나타냅니다.",
+    "example": "連絡先がなく、知らせようがない。",
+    "translation": "연락처가 없어 알릴 방법이 없다."
+  },
+  {
+    "level": "N2",
+    "target": "〜次第（즉시）",
+    "explanation": "앞의 일이 끝나는 즉시 다음 일을 합니다.",
+    "example": "終わり次第、ご連絡します。",
+    "translation": "끝나는 대로 연락드리겠습니다."
+  },
+  {
+    "level": "N2",
+    "target": "〜ないことはない",
+    "explanation": "조건에 따라 가능함을 완곡하게 인정합니다.",
+    "example": "食べられないことはない。",
+    "translation": "먹을 수 없는 것은 아니다."
+  },
+  {
+    "level": "N2",
+    "target": "〜てたまらない",
+    "explanation": "감정이나 감각이 견디기 힘들 정도로 강합니다.",
+    "example": "会いたくてたまらない。",
+    "translation": "보고 싶어 견딜 수 없다."
+  },
+  {
+    "level": "N2",
+    "target": "〜てならない",
+    "explanation": "감정이나 생각이 저절로 강하게 듭니다.",
+    "example": "結果が気になってならない。",
+    "translation": "결과가 몹시 신경 쓰인다."
+  },
+  {
+    "level": "N1",
+    "target": "〜を余儀なくされる",
+    "explanation": "외부 사정으로 어쩔 수 없이 하게 됩니다.",
+    "example": "大雨で延期を余儀なくされた。",
+    "translation": "폭우로 연기할 수밖에 없었다."
+  },
+  {
+    "level": "N1",
+    "target": "〜を禁じ得ない",
+    "explanation": "강한 감정을 억누를 수 없음을 나타냅니다.",
+    "example": "その判断には失望を禁じ得ない。",
+    "translation": "그 판단에 실망을 금할 수 없다."
+  },
+  {
+    "level": "N1",
+    "target": "〜をものともせず",
+    "explanation": "어려움을 개의치 않고 행동합니다.",
+    "example": "冷たい風をものともせず進んだ。",
+    "translation": "차가운 바람을 아랑곳하지 않고 나아갔다."
+  },
+  {
+    "level": "N1",
+    "target": "〜を皮切りに",
+    "explanation": "첫 사례를 시작으로 같은 일이 이어집니다.",
+    "example": "大阪を皮切りに各地を回る。",
+    "translation": "오사카를 시작으로 각지를 돈다."
+  },
+  {
+    "level": "N1",
+    "target": "〜を境に",
+    "explanation": "어떤 시점을 전후해 상황이 바뀝니다.",
+    "example": "事故を境に生活が一変した。",
+    "translation": "사고를 기점으로 생활이 완전히 달라졌다."
+  },
+  {
+    "level": "N1",
+    "target": "〜を経て",
+    "explanation": "과정이나 시간을 거쳐 다음 단계에 이릅니다.",
+    "example": "審査を経て採用が決まった。",
+    "translation": "심사를 거쳐 채용이 결정됐다."
+  },
+  {
+    "level": "N1",
+    "target": "〜をおいてほかにない",
+    "explanation": "그 대상 외에 마땅한 다른 대상이 없다고 단정합니다.",
+    "example": "適任者は彼をおいてほかにない。",
+    "translation": "적임자는 그 외에는 없다."
+  },
+  {
+    "level": "N1",
+    "target": "〜を限りに",
+    "explanation": "그 시점을 마지막으로 삼습니다.",
+    "example": "今月を限りに連載を終える。",
+    "translation": "이번 달을 끝으로 연재를 마친다."
+  },
+  {
+    "level": "N1",
+    "target": "〜を踏まえて",
+    "explanation": "상황이나 결과를 고려해 판단합니다.",
+    "example": "調査結果を踏まえて決定する。",
+    "translation": "조사 결과를 고려해 결정한다."
+  },
+  {
+    "level": "N1",
+    "target": "〜を顧みず",
+    "explanation": "자신의 위험 등을 돌보지 않고 행동합니다.",
+    "example": "危険を顧みず人を助けた。",
+    "translation": "위험을 무릅쓰고 사람을 구했다."
+  },
+  {
+    "level": "N1",
+    "target": "〜にひきかえ",
+    "explanation": "두 대상을 강하게 대비합니다.",
+    "example": "静かな兄にひきかえ、弟はよく話す。",
+    "translation": "조용한 형과 달리 동생은 말이 많다."
+  },
+  {
+    "level": "N1",
+    "target": "〜にもまして",
+    "explanation": "이전이나 비교 대상보다 정도가 더 심합니다.",
+    "example": "今年は例年にもまして暑い。",
+    "translation": "올해는 예년보다 더욱 덥다."
+  },
+  {
+    "level": "N1",
+    "target": "〜にとどまらず",
+    "explanation": "특정 범위를 넘어 다른 곳까지 미칩니다.",
+    "example": "影響は国内にとどまらず海外にも及ぶ。",
+    "translation": "영향은 국내에 그치지 않고 해외에도 미친다."
+  },
+  {
+    "level": "N1",
+    "target": "〜に足る",
+    "explanation": "어떤 평가를 받을 만한 충분한 자격이 있습니다.",
+    "example": "信頼に足る情報を求める。",
+    "translation": "신뢰할 만한 정보를 구한다."
+  },
+  {
+    "level": "N1",
+    "target": "〜にあたらない",
+    "explanation": "그 정도로 평가하거나 반응할 이유가 없습니다.",
+    "example": "驚くにあたらない。",
+    "translation": "놀랄 일은 아니다."
+  },
+  {
+    "level": "N1",
+    "target": "〜にかたくない",
+    "explanation": "어렵지 않게 짐작할 수 있습니다.",
+    "example": "当時の苦労は想像にかたくない。",
+    "translation": "당시의 고생은 어렵지 않게 짐작할 수 있다."
+  },
+  {
+    "level": "N1",
+    "target": "〜に至って",
+    "explanation": "상황이 특정 단계에 이르렀음을 나타냅니다.",
+    "example": "問題が深刻化するに至って、ようやく動いた。",
+    "translation": "문제가 심각해지고서야 비로소 움직였다."
+  },
+  {
+    "level": "N1",
+    "target": "〜に至っても",
+    "explanation": "그 단계까지 도달했는데도 상황이 달라지지 않습니다.",
+    "example": "最終段階に至っても、意見は分かれたままだった。",
+    "translation": "최종 단계에 이르러서도 의견은 여전히 갈려 있었다."
+  },
+  {
+    "level": "N1",
+    "target": "〜ないまでも",
+    "explanation": "이상적인 정도에는 못 미쳐도 최소한의 선을 인정합니다.",
+    "example": "完璧とは言えないまでも、実用的だ。",
+    "translation": "완벽하다고 할 수는 없어도 실용적이다."
+  },
+  {
+    "level": "N1",
+    "target": "〜とあって",
+    "explanation": "특별한 사정으로 자연스럽게 결과가 생깁니다.",
+    "example": "連休とあって、駅は混雑した。",
+    "translation": "연휴라서 역이 붐볐다."
+  },
+  {
+    "level": "N1",
+    "target": "〜とあれば",
+    "explanation": "그런 상황이라면 기꺼이 행동한다는 뜻입니다.",
+    "example": "友人の頼みとあれば、力を貸す。",
+    "translation": "친구의 부탁이라면 도와주겠다."
+  },
+  {
+    "level": "N1",
+    "target": "〜とばかりに",
+    "explanation": "말하지 않아도 그렇게 말하는 듯한 태도를 보입니다.",
+    "example": "帰れとばかりに、彼は出口を指した。",
+    "translation": "돌아가라는 듯 그가 출구를 가리켰다."
+  },
+  {
+    "level": "N1",
+    "target": "〜といったらない",
+    "explanation": "강한 감정이나 상태를 더할 나위 없다고 강조합니다.",
+    "example": "悔しさといったらない。",
+    "translation": "그 억울함은 이루 말할 수 없다."
+  },
+  {
+    "level": "N1",
+    "target": "〜ともなると",
+    "explanation": "상황이나 지위가 그 수준이 되면 결과가 달라집니다.",
+    "example": "冬ともなると山道は凍る。",
+    "translation": "겨울이 되면 산길이 언다."
+  },
+  {
+    "level": "N1",
+    "target": "〜ともあろう",
+    "explanation": "그런 지위의 사람에게 어울리지 않는 행동을 비판합니다.",
+    "example": "部長ともあろう人が規則を破った。",
+    "translation": "부장이나 되는 사람이 규칙을 어겼다."
+  },
+  {
+    "level": "N1",
+    "target": "〜ともなく",
+    "explanation": "딱히 의식하거나 정하지 않고 행동합니다.",
+    "example": "見るともなく窓の外を見ていた。",
+    "translation": "별생각 없이 창밖을 보고 있었다."
+  },
+  {
+    "level": "N1",
+    "target": "〜や否や",
+    "explanation": "앞 동작 직후 곧바로 다음 동작이 일어납니다.",
+    "example": "鐘が鳴るや否や、子どもたちは走り出した。",
+    "translation": "종이 울리자마자 아이들이 뛰어나갔다."
+  },
+  {
+    "level": "N1",
+    "target": "〜なり",
+    "explanation": "앞 동작 직후 예상 밖의 반응을 자주 나타냅니다.",
+    "example": "部屋に入るなり、彼は泣き出した。",
+    "translation": "방에 들어오자마자 그는 울음을 터뜨렸다."
+  },
+  {
+    "level": "N1",
+    "target": "〜そばから",
+    "explanation": "앞 동작을 하는 족족 다른 일이 반복됩니다.",
+    "example": "片付けるそばから散らかされる。",
+    "translation": "정리하는 족족 다시 어질러진다."
+  },
+  {
+    "level": "N1",
+    "target": "〜ずくめ",
+    "explanation": "하나의 특징이나 사건이 연달아 나타납니다.",
+    "example": "今年はいいことずくめだった。",
+    "translation": "올해는 좋은 일만 가득했다."
+  },
+  {
+    "level": "N1",
+    "target": "〜まみれ",
+    "explanation": "액체나 가루 따위가 온통 묻은 상태를 나타냅니다.",
+    "example": "靴が泥まみれになった。",
+    "translation": "신발이 진흙 범벅이 되었다."
+  },
+  {
+    "level": "N1",
+    "target": "〜めく",
+    "explanation": "어떤 분위기나 징후가 느껴집니다.",
+    "example": "日差しが春めいてきた。",
+    "translation": "햇살에서 봄기운이 느껴지기 시작했다."
+  },
+  {
+    "level": "N1",
+    "target": "〜じみる",
+    "explanation": "마음에 들지 않는 특징을 띤다는 느낌을 줍니다.",
+    "example": "言い訳じみた説明だった。",
+    "translation": "변명처럼 들리는 설명이었다."
+  },
+  {
+    "level": "N1",
+    "target": "〜ぶる",
+    "explanation": "실제로 그런 사람인 듯 행동하거나 꾸밉니다.",
+    "example": "彼は専門家ぶって語った。",
+    "translation": "그는 전문가인 척 이야기했다."
+  },
+  {
+    "level": "N1",
+    "target": "〜がましい",
+    "explanation": "대체로 부정적인 인상으로 그런 기색이 강함을 말합니다.",
+    "example": "押し付けがましい態度は避けたい。",
+    "translation": "강요하는 듯한 태도는 피하고 싶다."
+  },
+  {
+    "level": "N1",
+    "target": "〜がてら",
+    "explanation": "한 활동을 하면서 겸사겸사 다른 일을 합니다.",
+    "example": "散歩がてら買い物をした。",
+    "translation": "산책하는 김에 장을 봤다."
+  },
+  {
+    "level": "N1",
+    "target": "〜かたがた",
+    "explanation": "여러 목적을 겸함을 격식 있게 말합니다.",
+    "example": "ご挨拶かたがたお礼に伺いました。",
+    "translation": "인사도 드릴 겸 감사 인사를 전하러 찾아뵈었습니다."
+  },
+  {
+    "level": "N1",
+    "target": "〜かたわら",
+    "explanation": "주된 활동을 하면서 별개의 활동도 지속합니다.",
+    "example": "働くかたわら、小説を書いている。",
+    "translation": "일하는 한편 소설을 쓰고 있다."
+  },
+  {
+    "level": "N1",
+    "target": "〜ならでは",
+    "explanation": "그 대상만이 가진 특별한 특징을 말합니다.",
+    "example": "地元ならではの味を楽しんだ。",
+    "translation": "그 지역에서만 맛볼 수 있는 음식을 즐겼다."
+  },
+  {
+    "level": "N1",
+    "target": "〜ならいざ知らず",
+    "explanation": "특정 예외라면 몰라도 다른 경우에는 판단이 다르다는 뜻입니다.",
+    "example": "子どもならいざ知らず、大人が知らないのは困る。",
+    "translation": "아이라면 몰라도 어른이 모르면 곤란하다."
+  },
+  {
+    "level": "N1",
+    "target": "〜なくしては",
+    "explanation": "그 조건이 없다면 성립하기 어렵습니다.",
+    "example": "信頼なくしては交渉は進まない。",
+    "translation": "신뢰 없이는 협상이 진전되지 않는다."
+  },
+  {
+    "level": "N1",
+    "target": "〜なしには",
+    "explanation": "조건이 없으면 뒤의 일이 성립하지 않습니다.",
+    "example": "準備なしには成功しない。",
+    "translation": "준비 없이는 성공하지 못한다."
+  }
+]

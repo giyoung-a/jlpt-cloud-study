@@ -1,0 +1,10 @@
+*
+!*.cjs
+!*.html
+!mock-voice.ps1
+!questions.json
+!study-*.json
+!translations.json
+!package.json
+!package-lock.json
+!Dockerfile

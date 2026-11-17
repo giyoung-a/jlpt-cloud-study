@@ -1,0 +1,14 @@
+{
+  "name": "jlpt-study-server",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.cjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "pg": "8.23.1"
+  }
+}

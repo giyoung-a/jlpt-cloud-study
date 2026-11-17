@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JLPT 어휘·문법 연습</title>
+<style>
+:root { color-scheme: light; font: 16px/1.6 Inter, system-ui, sans-serif; color: #182a24; background: #f0f4ef; }
+* { box-sizing: border-box; }
+main { max-width: 720px; margin: 6vh auto; padding: clamp(20px, 5vw, 44px); background: white; border-radius: 20px; }
+body { margin: 14px; }
+h1 { line-height: 1.2; margin-top: 0; }
+form, footer { display: flex; flex-wrap: wrap; align-items: end; gap: 12px; }
+label { display: grid; gap: 4px; }
+button, select { font: inherit; border: 1px solid #92a59b; background: white; color: inherit; border-radius: 9px; padding: 8px 14px; }
+button:not(:disabled) { cursor: pointer; }
+.primary { background: #194b37; border-color: #194b37; color: white; }
+#choices { display: grid; gap: 8px; margin-block: 16px; }
+#choices button { text-align: left; }
+#choices [aria-pressed="true"] { background: #e0efe6; border-color: #194b37; }
+#feedback { white-space: pre-line; }
+footer { border-top: 1px solid #d8e1da; margin-top: 28px; padding-top: 14px; }
+a { color: #194b37; }
+</style>
+</head>
+<body>
+<main>
+<h1>JLPT 어휘·문법 연습</h1>
+<form id="settings">
+<label>급수<select id="level"><option>N5</option><option>N4</option><option>N3</option><option>N2</option><option>N1</option></select></label>
+<label>영역<select id="section"><option value="all">어휘 + 문법</option><option value="vocabulary">어휘</option><option value="grammar">문법</option></select></label>
+<button class="primary">테스트 시작</button>
+</form>
+<p id="progress" role="status"></p>
+<section id="quiz" hidden>
+<h2 id="prompt" lang="ja" tabindex="-1"></h2>
+<div id="choices"></div>
+<p id="feedback" role="status"></p>
+<p id="source" hidden><a id="source-link"></a></p>
+<button id="next" class="primary" type="button" hidden>다음</button>
+</section>
+<footer><a href="https://www.jlpt.jp/e/samples/forlearners.html">JLPT 공식 예제</a><span>급수별 학습용 자체 제작 문항</span></footer>
+</main>
+<script>
+const get = (id) => document.getElementById(id);
+const settings = get("settings");
+const start = settings.querySelector("button");
+const next = get("next");
+const choices = get("choices");
+const progress = get("progress");
+let filters;
+let questions = [];
+let position = 0;
+let score = 0;
+let round = 0;
+
+async function request(url, options) {
+  const response = await fetch(url, options);
+  const data = await response.json();
+  if (!response.ok) throw new Error(data.error);
+  return data;
+}
+
+async function grade(question, choice, selected) {
+  const buttons = [...choices.querySelectorAll("button")];
+  buttons.forEach((button) => button.disabled = true);
+  start.disabled = true;
+  try {
+    const result = await request("/api/grade", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({id: question.id, choice}),
+    });
+    score += Number(result.correct);
+    selected.setAttribute("aria-pressed", "true");
+    const feedback = [
+      result.correct ? "정답입니다." : "틀렸습니다.",
+      "정답 " + result.answer + " · " + result.target,
+      result.explanation,
+    ];
+    const last = position === questions.length - 1;
+    if (last) feedback.push(round + "회차 결과 · " + questions.length + "문제 중 " + score + "문제 정답");
+    get("feedback").textContent = feedback.join("\n");
+    if (result.source) {
+      get("source-link").href = result.source.url;
+      get("source-link").textContent = result.source.label;
+      get("source").hidden = false;
+    }
+    next.textContent = last ? "다음 회차 시작" : "다음 문항";
+    next.hidden = false;
+    next.focus();
+  } catch {
+    get("feedback").textContent = "채점에 실패했습니다. 답안을 다시 선택해 주세요.";
+    buttons.forEach((button) => button.disabled = false);
+    selected.focus();
+  } finally {
+    start.disabled = false;
+  }
+}
+
+function showQuestion() {
+  const question = questions[position];
+  get("quiz").hidden = !question;
+  if (!question) {
+    progress.textContent = "선택한 급수와 영역에 등록된 문항이 없습니다.";
+    start.focus();
+    return;
+  }
+  progress.textContent = filters.get("level") + " · " + round + "회차 · "
+    + (position + 1) + " / " + questions.length
+    + " · " + (question.section === "grammar" ? "문법" : "어휘");
+  get("prompt").textContent = question.prompt;
+  get("feedback").textContent = "";
+  next.hidden = true;
+  get("source").hidden = true;
+  choices.replaceChildren();
+  for (const choice of question.choices) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.lang = "ja";
+    button.textContent = choice;
+    button.addEventListener("click", () => grade(question, choice, button));
+    choices.append(button);
+  }
+  get("prompt").focus();
+}
+
+async function loadRound(selectedFilters, continuing = false) {
+  start.disabled = next.disabled = true;
+  const previousProgress = progress.textContent;
+  progress.textContent = "문항을 불러오는 중입니다.";
+  try {
+    const {questions: shuffled} = await request("/api/questions?" + selectedFilters);
+    if (continuing && shuffled.length > 1 && shuffled[0].id === questions[position].id) {
+      shuffled.push(shuffled.shift());
+    }
+    questions = shuffled;
+    filters = selectedFilters;
+    position = score = 0;
+    round = continuing ? round + 1 : 1;
+    start.disabled = false;
+    showQuestion();
+  } catch {
+    if (get("quiz").hidden) {
+      progress.textContent = "문항을 불러오지 못했습니다. 다시 시도해 주세요.";
+    } else {
+      progress.textContent = previousProgress + " · 문항을 불러오지 못했습니다. 다시 시도해 주세요.";
+    }
+  } finally {
+    start.disabled = next.disabled = false;
+  }
+}
+
+settings.addEventListener("submit", (event) => {
+  event.preventDefault();
+  if (start.disabled) return;
+  // Pause the previous question while the selected filters load.
+  get("quiz").hidden = true;
+  return loadRound(new URLSearchParams({level: get("level").value, section: get("section").value}));
+});
+
+next.addEventListener("click", () => {
+  if (next.disabled || next.hidden) return;
+  if (position === questions.length - 1) return loadRound(filters, true);
+  position += 1;
+  showQuestion();
+});
+</script>
+</body>
+</html>

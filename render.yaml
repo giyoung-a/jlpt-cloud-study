@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: jlpt-study
+    runtime: docker
+    plan: free
+    region: singapore
+    healthCheckPath: /health
+    envVars:
+      - key: JLPT_CLOUD
+        value: "1"
+      - key: DATABASE_URL
+        sync: false
+      - key: JLPT_INVITE_CODE
+        generateValue: true
+      - key: JLPT_SESSION_SECRET
+        generateValue: true

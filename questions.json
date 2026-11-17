@@ -1,0 +1,5768 @@
+{
+  "n5-1": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "新聞",
+    "prompt": "「新聞」の読み方は？",
+    "answer": "しんぶん",
+    "distractors": [
+      "しんもん",
+      "しんぷん",
+      "しんぼん"
+    ],
+    "explanation": "신문",
+    "source": {
+      "label": "공식 문제집 제2집 N5 문법 13번에 나온 어휘",
+      "url": "https://pop.jlpt.jp/samples/sample2018/pdf/N5G.pdf"
+    }
+  },
+  "n5-2": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "毎日",
+    "prompt": "「毎日」の読み方は？",
+    "answer": "まいにち",
+    "distractors": [
+      "まいひ",
+      "まえにち",
+      "めいにち"
+    ],
+    "explanation": "매일",
+    "source": null
+  },
+  "n5-3": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "水",
+    "prompt": "「水」の読み方は？",
+    "answer": "みず",
+    "distractors": [
+      "みつ",
+      "すい",
+      "みし"
+    ],
+    "explanation": "물",
+    "source": null
+  },
+  "n5-4": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜に",
+    "prompt": "駅の前で友達（　）会いました。",
+    "answer": "に",
+    "distractors": [
+      "を",
+      "の",
+      "で"
+    ],
+    "explanation": "会う에서 만난 상대는 に로 나타냅니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N5 문법 4번",
+      "url": "https://pop.jlpt.jp/samples/sample2018/pdf/N5G.pdf"
+    }
+  },
+  "n5-5": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜を",
+    "prompt": "パン（　）食べます。",
+    "answer": "を",
+    "distractors": [
+      "に",
+      "で",
+      "へ"
+    ],
+    "explanation": "食べる의 목적어에는 を를 씁니다.",
+    "source": null
+  },
+  "n5-6": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜ませんでした",
+    "prompt": "昨日は雨だったので、外へ行き（　）。",
+    "answer": "ませんでした",
+    "distractors": [
+      "ませんか",
+      "ましょう",
+      "たいです"
+    ],
+    "explanation": "과거의 부정은 ませんでした로 표현합니다.",
+    "source": null
+  },
+  "n4-1": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "準備",
+    "prompt": "「準備」の読み方は？",
+    "answer": "じゅんび",
+    "distractors": [
+      "じゅび",
+      "しゅんび",
+      "じゅんぴ"
+    ],
+    "explanation": "준비",
+    "source": null
+  },
+  "n4-2": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "特別",
+    "prompt": "「特別」の読み方は？",
+    "answer": "とくべつ",
+    "distractors": [
+      "とくへつ",
+      "どくべつ",
+      "とっべつ"
+    ],
+    "explanation": "특별",
+    "source": null
+  },
+  "n4-3": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "約束",
+    "prompt": "「約束」の読み方は？",
+    "answer": "やくそく",
+    "distractors": [
+      "やっそく",
+      "やくぞく",
+      "やくしょく"
+    ],
+    "explanation": "약속",
+    "source": {
+      "label": "공식 문제집 2012년판 N4 독해 28번에 나온 어휘",
+      "url": "https://ns.jlpt.jp/samples/sample2012/pdf/N4R.pdf"
+    }
+  },
+  "n4-4": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜たことがある",
+    "prompt": "私は一度、京都に行った（　）があります。",
+    "answer": "こと",
+    "distractors": [
+      "もの",
+      "ほう",
+      "ため"
+    ],
+    "explanation": "동사 과거형 + ことがある는 경험을 나타냅니다.",
+    "source": null
+  },
+  "n4-5": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜ながら",
+    "prompt": "音楽を聞き（　）、宿題をしました。",
+    "answer": "ながら",
+    "distractors": [
+      "まで",
+      "より",
+      "だけ"
+    ],
+    "explanation": "동사 ます형 어간 + ながら는 두 동작의 동시 진행을 나타냅니다.",
+    "source": null
+  },
+  "n4-6": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜なければならない",
+    "prompt": "明日までにこの書類を出さ（　）なりません。",
+    "answer": "なければ",
+    "distractors": [
+      "なくても",
+      "なかったら",
+      "ないほど"
+    ],
+    "explanation": "なければならない는 의무를 나타냅니다.",
+    "source": {
+      "label": "공식 문제집 2012년판 N4 독해 28번 지문에 나온 문형",
+      "url": "https://ns.jlpt.jp/samples/sample2012/pdf/N4R.pdf"
+    }
+  },
+  "n3-1": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "税金",
+    "prompt": "「税金」の読み方は？",
+    "answer": "ぜいきん",
+    "distractors": [
+      "ぜいぎん",
+      "さいきん",
+      "せいぎん"
+    ],
+    "explanation": "세금",
+    "source": {
+      "label": "공식 문제집 제2집 N3 어휘 8번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf"
+    }
+  },
+  "n3-2": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "提案",
+    "prompt": "「提案」の読み方は？",
+    "answer": "ていあん",
+    "distractors": [
+      "たいあん",
+      "てあん",
+      "ていおん"
+    ],
+    "explanation": "제안",
+    "source": null
+  },
+  "n3-3": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "判断",
+    "prompt": "「判断」の読み方は？",
+    "answer": "はんだん",
+    "distractors": [
+      "はんたん",
+      "ばんだん",
+      "はったん"
+    ],
+    "explanation": "판단",
+    "source": null
+  },
+  "n3-4": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜として",
+    "prompt": "大学を卒業してから、通訳（　）働いています。",
+    "answer": "として",
+    "distractors": [
+      "に比べて",
+      "を通じて",
+      "に向けて"
+    ],
+    "explanation": "명사 + として는 신분, 자격 또는 역할을 나타냅니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N3 문법 1번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3G.pdf"
+    }
+  },
+  "n3-5": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜わけではない",
+    "prompt": "毎日料理するが、料理が得意な（　）。簡単なものしか作れない。",
+    "answer": "わけではない",
+    "distractors": [
+      "ことになっている",
+      "に違いない",
+      "ほうがいい"
+    ],
+    "explanation": "わけではない는 앞 상황에서 예상할 수 있는 결론을 부정합니다.",
+    "source": null
+  },
+  "n3-6": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜たびに",
+    "prompt": "この写真を見る（　）、留学していた頃を思い出す。",
+    "answer": "たびに",
+    "distractors": [
+      "ために",
+      "ばかりで",
+      "ところを"
+    ],
+    "explanation": "동사 사전형 + たびに는 ‘~할 때마다’라는 뜻입니다.",
+    "source": null
+  },
+  "n2-1": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "願望",
+    "prompt": "「願望」の読み方は？",
+    "answer": "がんぼう",
+    "distractors": [
+      "かんぼう",
+      "がんほう",
+      "がんもう"
+    ],
+    "explanation": "간절히 바라는 마음, 소망",
+    "source": {
+      "label": "공식 문제집 제2집 N2 어휘 5번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf"
+    }
+  },
+  "n2-2": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "著しい",
+    "prompt": "「著しい」の読み方は？",
+    "answer": "いちじるしい",
+    "distractors": [
+      "めずらしい",
+      "おびただしい",
+      "なやましい"
+    ],
+    "explanation": "현저하다, 두드러지다",
+    "source": null
+  },
+  "n2-3": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "慎重",
+    "prompt": "「慎重」の読み方は？",
+    "answer": "しんちょう",
+    "distractors": [
+      "しんじゅう",
+      "しんじょう",
+      "しんしょう"
+    ],
+    "explanation": "신중",
+    "source": null
+  },
+  "n2-4": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜て以来",
+    "prompt": "引っ越し（　）、毎朝近所の川沿いを走っている。",
+    "answer": "て以来",
+    "distractors": [
+      "たところで",
+      "てまで",
+      "つつも"
+    ],
+    "explanation": "〜て以来는 어떤 일이 일어난 뒤로 같은 상태나 습관이 계속됨을 나타냅니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N2 문법 46번",
+      "url": "https://ns2.jlpt.jp/samples/sample2018/pdf/N2G.pdf"
+    }
+  },
+  "n2-5": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜にかかわらず",
+    "prompt": "この講座は、年齢（　）、どなたでも申し込めます。",
+    "answer": "にかかわらず",
+    "distractors": [
+      "に限り",
+      "に比べて",
+      "に先立って"
+    ],
+    "explanation": "にかかわらず는 조건과 관계없음을 나타냅니다.",
+    "source": null
+  },
+  "n2-6": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜かねる",
+    "prompt": "個人情報に関するお問い合わせには、お答えし（　）。",
+    "answer": "かねます",
+    "distractors": [
+      "つつあります",
+      "きれます",
+      "がちです"
+    ],
+    "explanation": "かねる는 요청을 받아들이기 어렵다고 정중하게 표현할 때 씁니다.",
+    "source": null
+  },
+  "n1-1": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "顕著",
+    "prompt": "「顕著」の読み方は？",
+    "answer": "けんちょ",
+    "distractors": [
+      "けんしゃ",
+      "げんちょ",
+      "けんじょ"
+    ],
+    "explanation": "현저함",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 3번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-2": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "施す",
+    "prompt": "「施す」の読み方は？",
+    "answer": "ほどこす",
+    "distractors": [
+      "おこす",
+      "もよおす",
+      "うながす"
+    ],
+    "explanation": "베풀다, 조치를 취하다",
+    "source": null
+  },
+  "n1-3": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "踏襲",
+    "prompt": "「踏襲」の読み方は？",
+    "answer": "とうしゅう",
+    "distractors": [
+      "とうじゅう",
+      "どうしゅう",
+      "ていしゅう"
+    ],
+    "explanation": "기존 방식이나 전통을 그대로 따름",
+    "source": null
+  },
+  "n1-4": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜をよそに",
+    "prompt": "住民の反対（　）、市は建設計画を進めた。",
+    "answer": "をよそに",
+    "distractors": [
+      "にこたえて",
+      "を機に",
+      "に先駆けて"
+    ],
+    "explanation": "〜をよそには 주변의 반응이나 상황을 아랑곳하지 않고 행동한다는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 문법 문제 5 (책자 6쪽)",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1G.pdf"
+    }
+  },
+  "n1-5": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜に堪えない",
+    "prompt": "私の不注意で皆様にご迷惑をおかけし、まことに恐縮（　）。",
+    "answer": "に堪えません",
+    "distractors": [
+      "には及びません",
+      "にほかなりません",
+      "をものともしません"
+    ],
+    "explanation": "恐縮に堪えない는 대단히 송구하다는 격식 있는 표현입니다.",
+    "source": null
+  },
+  "n1-6": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜までもない",
+    "prompt": "この程度なら自力で直せる。専門家に頼む（　）。",
+    "answer": "までもない",
+    "distractors": [
+      "べくもない",
+      "きらいがある",
+      "にたえない"
+    ],
+    "explanation": "までもない는 굳이 그 정도까지 할 필요가 없음을 나타냅니다.",
+    "source": null
+  },
+  "n5-vocabulary-1": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "朝",
+    "prompt": "「朝」の読み方は？",
+    "answer": "あさ",
+    "distractors": [
+      "あし",
+      "あせ",
+      "あす"
+    ],
+    "explanation": "아침",
+    "source": null
+  },
+  "n5-vocabulary-2": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "友達",
+    "prompt": "「友達」の読み方は？",
+    "answer": "ともだち",
+    "distractors": [
+      "ともたち",
+      "とまだち",
+      "ともだつ"
+    ],
+    "explanation": "친구",
+    "source": null
+  },
+  "n5-vocabulary-3": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "電車",
+    "prompt": "「電車」の読み方は？",
+    "answer": "でんしゃ",
+    "distractors": [
+      "でんじゃ",
+      "てんしゃ",
+      "でんさ"
+    ],
+    "explanation": "전철",
+    "source": null
+  },
+  "n5-vocabulary-4": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "先生",
+    "prompt": "「先生」の読み方は？",
+    "answer": "せんせい",
+    "distractors": [
+      "せんぜい",
+      "せいせん",
+      "せんさい"
+    ],
+    "explanation": "선생님",
+    "source": null
+  },
+  "n5-vocabulary-5": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "映画",
+    "prompt": "「映画」の読み方は？",
+    "answer": "えいが",
+    "distractors": [
+      "えが",
+      "えいか",
+      "えいご"
+    ],
+    "explanation": "영화",
+    "source": null
+  },
+  "n5-vocabulary-6": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "白い",
+    "prompt": "「白い」の読み方は？",
+    "answer": "しろい",
+    "distractors": [
+      "くろい",
+      "あおい",
+      "ひろい"
+    ],
+    "explanation": "하얗다",
+    "source": null
+  },
+  "n5-vocabulary-7": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "買う",
+    "prompt": "「買う」の読み方は？",
+    "answer": "かう",
+    "distractors": [
+      "いう",
+      "あう",
+      "こう"
+    ],
+    "explanation": "사다",
+    "source": null
+  },
+  "n5-vocabulary-8": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "駅",
+    "prompt": "「駅」の読み方は？",
+    "answer": "えき",
+    "distractors": [
+      "いき",
+      "えぎ",
+      "おき"
+    ],
+    "explanation": "역",
+    "source": null
+  },
+  "n5-vocabulary-9": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "時間",
+    "prompt": "「時間」の読み方は？",
+    "answer": "じかん",
+    "distractors": [
+      "しかん",
+      "じけん",
+      "じがん"
+    ],
+    "explanation": "시간",
+    "source": null
+  },
+  "n5-vocabulary-10": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "病院",
+    "prompt": "「病院」の読み方は？",
+    "answer": "びょういん",
+    "distractors": [
+      "びよういん",
+      "びょいん",
+      "びょうえん"
+    ],
+    "explanation": "병원",
+    "source": null
+  },
+  "n5-grammar-1": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜がある",
+    "prompt": "机の上に辞書（　）あります。",
+    "answer": "が",
+    "distractors": [
+      "を",
+      "で",
+      "へ"
+    ],
+    "explanation": "사물의 존재를 나타내는 ある에서 존재하는 대상은 が로 표시합니다.",
+    "source": null
+  },
+  "n5-grammar-2": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜がいる",
+    "prompt": "庭に猫が（　）。",
+    "answer": "います",
+    "distractors": [
+      "あります",
+      "します",
+      "なります"
+    ],
+    "explanation": "사람이나 동물의 존재에는 いる를 씁니다.",
+    "source": null
+  },
+  "n5-grammar-3": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜へ",
+    "prompt": "あした東京（　）向かいます。",
+    "answer": "へ",
+    "distractors": [
+      "を",
+      "が",
+      "の"
+    ],
+    "explanation": "へ는 이동 방향을 나타냅니다.",
+    "source": null
+  },
+  "n5-grammar-4": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜から〜まで",
+    "prompt": "授業は午前九時から正午（　）です。",
+    "answer": "まで",
+    "distractors": [
+      "より",
+      "しか",
+      "ごろに"
+    ],
+    "explanation": "から와 まで는 시작점과 끝점을 나타냅니다.",
+    "source": null
+  },
+  "n5-grammar-5": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜てください",
+    "prompt": "ここに名前を書い（　）。",
+    "answer": "てください",
+    "distractors": [
+      "たです",
+      "くです",
+      "ますか"
+    ],
+    "explanation": "동사 て형 + ください는 정중한 요청입니다.",
+    "source": null
+  },
+  "n5-grammar-6": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜たい",
+    "prompt": "日本で働き（　）ので、日本語を勉強しています。",
+    "answer": "たい",
+    "distractors": [
+      "たく",
+      "たさ",
+      "ほしい"
+    ],
+    "explanation": "동사 ます형 어간 + たい는 하고 싶은 일을 나타냅니다.",
+    "source": null
+  },
+  "n5-grammar-7": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜ましょうか",
+    "prompt": "「荷物が重いですか。私が持ち（　）」「ありがとうございます。お願いします」",
+    "answer": "ましょうか",
+    "distractors": [
+      "ませんでした",
+      "ましたか",
+      "たくないです"
+    ],
+    "explanation": "〜ましょうか는 상대에게 도움을 제안할 때 쓸 수 있습니다.",
+    "source": null
+  },
+  "n5-grammar-8": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜に行く",
+    "prompt": "午後、郵便局へ切手を買い（　）行きます。",
+    "answer": "に",
+    "distractors": [
+      "を",
+      "が",
+      "で"
+    ],
+    "explanation": "동사 ます형 어간 + に + 이동 동사는 이동 목적을 나타냅니다.",
+    "source": null
+  },
+  "n5-grammar-9": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜のほうが",
+    "prompt": "バスより電車（　）速いです。",
+    "answer": "のほうが",
+    "distractors": [
+      "しか",
+      "から",
+      "まで"
+    ],
+    "explanation": "AよりBのほうが는 B가 A보다 더 어떻다는 비교 표현입니다.",
+    "source": null
+  },
+  "n5-grammar-10": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜くない",
+    "prompt": "今日は暖かいので、外は寒（　）です。",
+    "answer": "くない",
+    "distractors": [
+      "ではない",
+      "じゃない",
+      "になく"
+    ],
+    "explanation": "い형용사의 부정은 어미 い를 くない로 바꿉니다.",
+    "source": null
+  },
+  "n4-vocabulary-1": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "最近",
+    "prompt": "「最近」の読み方は？",
+    "answer": "さいきん",
+    "distractors": [
+      "さいぎん",
+      "さっきん",
+      "せいきん"
+    ],
+    "explanation": "최근",
+    "source": {
+      "label": "공식 문제집 제2집 N4 어휘 31번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N4V.pdf"
+    }
+  },
+  "n4-vocabulary-2": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "見学",
+    "prompt": "「見学」の読み方は？",
+    "answer": "けんがく",
+    "distractors": [
+      "けんかく",
+      "げんがく",
+      "けんがい"
+    ],
+    "explanation": "견학",
+    "source": {
+      "label": "공식 문제집 제2집 N4 어휘 33번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N4V.pdf"
+    }
+  },
+  "n4-vocabulary-3": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "連絡",
+    "prompt": "「連絡」の読み方は？",
+    "answer": "れんらく",
+    "distractors": [
+      "れんりゃく",
+      "れいらく",
+      "れんろく"
+    ],
+    "explanation": "연락",
+    "source": null
+  },
+  "n4-vocabulary-4": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "理由",
+    "prompt": "「理由」の読み方は？",
+    "answer": "りゆう",
+    "distractors": [
+      "りゅう",
+      "りゆ",
+      "りょう"
+    ],
+    "explanation": "이유",
+    "source": null
+  },
+  "n4-vocabulary-5": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "簡単",
+    "prompt": "「簡単」の読み方は？",
+    "answer": "かんたん",
+    "distractors": [
+      "かんだん",
+      "がんたん",
+      "けんたん"
+    ],
+    "explanation": "간단함",
+    "source": null
+  },
+  "n4-vocabulary-6": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "残念",
+    "prompt": "「残念」の読み方は？",
+    "answer": "ざんねん",
+    "distractors": [
+      "さんねん",
+      "ざいねん",
+      "ぜんねん"
+    ],
+    "explanation": "아쉬움",
+    "source": null
+  },
+  "n4-vocabulary-7": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "運ぶ",
+    "prompt": "「運ぶ」の読み方は？",
+    "answer": "はこぶ",
+    "distractors": [
+      "よぶ",
+      "えらぶ",
+      "まなぶ"
+    ],
+    "explanation": "나르다",
+    "source": null
+  },
+  "n4-vocabulary-8": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "間に合う",
+    "prompt": "「間に合う」の読み方は？",
+    "answer": "まにあう",
+    "distractors": [
+      "かんにあう",
+      "まにおう",
+      "あいにあう"
+    ],
+    "explanation": "시간에 맞추다",
+    "source": null
+  },
+  "n4-vocabulary-9": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "招待",
+    "prompt": "「招待」の読み方は？",
+    "answer": "しょうたい",
+    "distractors": [
+      "しょたい",
+      "じょうたい",
+      "しょうだい"
+    ],
+    "explanation": "초대",
+    "source": null
+  },
+  "n4-vocabulary-10": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "説明",
+    "prompt": "「説明」の読み方は？",
+    "answer": "せつめい",
+    "distractors": [
+      "せっめい",
+      "しつめい",
+      "せつみょう"
+    ],
+    "explanation": "설명",
+    "source": null
+  },
+  "n4-grammar-1": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜てもいい",
+    "prompt": "「このいすを使って（　）ですか」「はい、どうぞ」",
+    "answer": "もいい",
+    "distractors": [
+      "よりいい",
+      "ほうが",
+      "からです"
+    ],
+    "explanation": "〜てもいいですか는 허락을 구할 때 씁니다.",
+    "source": null
+  },
+  "n4-grammar-2": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜てはいけない",
+    "prompt": "ここは工事中です。中に入っ（　）。",
+    "answer": "てはいけません",
+    "distractors": [
+      "たいです",
+      "たことがあります",
+      "てください"
+    ],
+    "explanation": "〜てはいけない는 금지를 나타냅니다.",
+    "source": null
+  },
+  "n4-grammar-3": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜つもり",
+    "prompt": "来年、日本へ留学する（　）です。もう大学にも申し込みました。",
+    "answer": "つもり",
+    "distractors": [
+      "ところ",
+      "ばかり",
+      "まま"
+    ],
+    "explanation": "동사 사전형 + つもり는 의도를 나타냅니다.",
+    "source": null
+  },
+  "n4-grammar-4": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜と思う",
+    "prompt": "空が暗いので、もうすぐ雨が降る（　）。",
+    "answer": "と思います",
+    "distractors": [
+      "と作ります",
+      "にします",
+      "にあります"
+    ],
+    "explanation": "보통형 + と思う는 판단이나 생각을 나타냅니다.",
+    "source": null
+  },
+  "n4-grammar-5": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜たら",
+    "prompt": "駅に着い（　）、電話してください。",
+    "answer": "たら",
+    "distractors": [
+      "たり",
+      "ながら",
+      "ましょう"
+    ],
+    "explanation": "〜たら는 앞 동작이 끝난 뒤를 나타낼 수 있습니다.",
+    "source": null
+  },
+  "n4-grammar-6": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜たり〜たりする",
+    "prompt": "日曜日は本を読ん（　）、映画を見たりします。",
+    "answer": "だり",
+    "distractors": [
+      "でも",
+      "だら",
+      "だから"
+    ],
+    "explanation": "〜たり를 이어서 여러 행동의 예를 듭니다.",
+    "source": null
+  },
+  "n4-grammar-7": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜前に",
+    "prompt": "寝る（　）、歯を磨きます。",
+    "answer": "前に",
+    "distractors": [
+      "後で",
+      "ところが",
+      "ばかりに"
+    ],
+    "explanation": "동사 사전형 + 前に는 그 행동에 앞서 다른 행동을 한다는 뜻입니다.",
+    "source": null
+  },
+  "n4-grammar-8": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜すぎる",
+    "prompt": "夕食を食べ（　）、お腹が苦しいです。",
+    "answer": "すぎて",
+    "distractors": [
+      "やすくて",
+      "はじめて",
+      "つづけて"
+    ],
+    "explanation": "동사 ます형 어간 + すぎる는 지나치게 많이 함을 뜻합니다.",
+    "source": null
+  },
+  "n4-grammar-9": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜やすい",
+    "prompt": "この辞書は説明が簡単なので、初心者にも使い（　）です。",
+    "answer": "やすい",
+    "distractors": [
+      "すぎる",
+      "ながら",
+      "たら"
+    ],
+    "explanation": "동사 ます형 어간 + やすい는 행동하기 쉽다는 뜻입니다.",
+    "source": null
+  },
+  "n4-grammar-10": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜かもしれない",
+    "prompt": "財布が見つからない。電車に忘れた（　）。",
+    "answer": "かもしれない",
+    "distractors": [
+      "ほうがいい",
+      "つもりだ",
+      "ことにする"
+    ],
+    "explanation": "〜かもしれない는 가능성을 나타냅니다.",
+    "source": null
+  },
+  "n3-vocabulary-1": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "観客",
+    "prompt": "「観客」の読み方は？",
+    "answer": "かんきゃく",
+    "distractors": [
+      "かんきょく",
+      "かんきゃっく",
+      "かんがく"
+    ],
+    "explanation": "관객",
+    "source": {
+      "label": "공식 문제집 제2집 N3 어휘 1번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf"
+    }
+  },
+  "n3-vocabulary-2": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "到着",
+    "prompt": "「到着」の読み方は？",
+    "answer": "とうちゃく",
+    "distractors": [
+      "とうじゃく",
+      "とうたく",
+      "とっちゃく"
+    ],
+    "explanation": "도착",
+    "source": {
+      "label": "공식 문제집 제2집 N3 어휘 3번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf"
+    }
+  },
+  "n3-vocabulary-3": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "訓練",
+    "prompt": "「訓練」の読み方は？",
+    "answer": "くんれん",
+    "distractors": [
+      "くうれん",
+      "くんでん",
+      "くんれい"
+    ],
+    "explanation": "훈련",
+    "source": {
+      "label": "공식 문제집 제2집 N3 어휘 5번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf"
+    }
+  },
+  "n3-vocabulary-4": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "共通",
+    "prompt": "「共通」の読み方は？",
+    "answer": "きょうつう",
+    "distractors": [
+      "きょうずう",
+      "きょうとお",
+      "きゅうつう"
+    ],
+    "explanation": "공통",
+    "source": {
+      "label": "공식 문제집 제2집 N3 어휘 7번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf"
+    }
+  },
+  "n3-vocabulary-5": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "状況",
+    "prompt": "「状況」の読み方は？",
+    "answer": "じょうきょう",
+    "distractors": [
+      "じょうぎょう",
+      "じょきょう",
+      "じょうけい"
+    ],
+    "explanation": "상황",
+    "source": null
+  },
+  "n3-vocabulary-6": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "解決",
+    "prompt": "「解決」の読み方は？",
+    "answer": "かいけつ",
+    "distractors": [
+      "かいげつ",
+      "かいけい",
+      "がいけつ"
+    ],
+    "explanation": "해결",
+    "source": null
+  },
+  "n3-vocabulary-7": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "責任",
+    "prompt": "「責任」の読み方は？",
+    "answer": "せきにん",
+    "distractors": [
+      "せっにん",
+      "せきじん",
+      "せいにん"
+    ],
+    "explanation": "책임",
+    "source": null
+  },
+  "n3-vocabulary-8": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "実際",
+    "prompt": "「実際」の読み方は？",
+    "answer": "じっさい",
+    "distractors": [
+      "じつざい",
+      "じっせい",
+      "じさい"
+    ],
+    "explanation": "실제",
+    "source": null
+  },
+  "n3-vocabulary-9": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "断る",
+    "prompt": "「断る」の読み方は？",
+    "answer": "ことわる",
+    "distractors": [
+      "きまる",
+      "さわる",
+      "あやまる"
+    ],
+    "explanation": "거절하다",
+    "source": null
+  },
+  "n3-vocabulary-10": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "補う",
+    "prompt": "「補う」の読み方は？",
+    "answer": "おぎなう",
+    "distractors": [
+      "やしなう",
+      "ともなう",
+      "おこなう"
+    ],
+    "explanation": "보충하다",
+    "source": null
+  },
+  "n3-grammar-1": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜としたら",
+    "prompt": "もし一週間休める（　）、どこへ旅行したいですか。",
+    "answer": "としたら",
+    "distractors": [
+      "に沿って",
+      "ところを",
+      "にしては"
+    ],
+    "explanation": "〜としたら는 어떤 상황을 가정합니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N3 문법 2번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3G.pdf"
+    }
+  },
+  "n3-grammar-2": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜お〜ください",
+    "prompt": "（電話の保留前）担当者に確認いたしますので、少々（　）。",
+    "answer": "お待ちください",
+    "distractors": [
+      "お待ちします",
+      "お待ちしましょう",
+      "お待ちいただきました"
+    ],
+    "explanation": "お + 동사 어간 + ください는 고객에게 행동을 정중하게 요청하는 표현입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N3 문법 6번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3G.pdf"
+    }
+  },
+  "n3-grammar-3": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜うちに",
+    "prompt": "スープが冷めない（　）、どうぞ召し上がってください。",
+    "answer": "うちに",
+    "distractors": [
+      "あとで",
+      "せいで",
+      "ためか"
+    ],
+    "explanation": "〜ないうちに는 어떤 변화가 일어나기 전에라는 뜻입니다.",
+    "source": null
+  },
+  "n3-grammar-4": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜ことにする",
+    "prompt": "一人で悩んでも答えが出ないので、明日先生に相談する（　）。",
+    "answer": "ことにした",
+    "distractors": [
+      "ところだった",
+      "おそれがある",
+      "ことがある"
+    ],
+    "explanation": "〜ことにする는 스스로 결정했음을 나타냅니다.",
+    "source": null
+  },
+  "n3-grammar-5": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜てばかりいる",
+    "prompt": "弟は試験が近いのに、ゲームをして（　）。",
+    "answer": "ばかりいる",
+    "distractors": [
+      "はずがない",
+      "までもない",
+      "しかたがない"
+    ],
+    "explanation": "〜てばかりいる는 특정 행동만 되풀이한다는 뜻입니다.",
+    "source": null
+  },
+  "n3-grammar-6": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜ほど〜ない",
+    "prompt": "今日は寒いけれど、昨日（　）寒くない。",
+    "answer": "ほど",
+    "distractors": [
+      "までに",
+      "でも",
+      "などに"
+    ],
+    "explanation": "Aほど〜ない는 A와 같은 정도에 미치지 못한다는 뜻입니다.",
+    "source": null
+  },
+  "n3-grammar-7": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜によって",
+    "prompt": "国（　）、食事のマナーは異なります。",
+    "answer": "によって",
+    "distractors": [
+      "について",
+      "を通じて",
+      "に向かって"
+    ],
+    "explanation": "〜によって는 기준에 따른 차이를 나타냅니다.",
+    "source": null
+  },
+  "n3-grammar-8": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜ということだ",
+    "prompt": "ニュースによると、強風のため明日の船は出ない（　）。",
+    "answer": "ということだ",
+    "distractors": [
+      "わけがない",
+      "ことにしよう",
+      "にかぎる"
+    ],
+    "explanation": "〜ということだ는 들은 내용을 전달할 때 씁니다.",
+    "source": null
+  },
+  "n3-grammar-9": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜最中に",
+    "prompt": "会議の（　）急に停電し、説明が中断した。",
+    "answer": "最中に",
+    "distractors": [
+      "予定に",
+      "直後から",
+      "終了後に"
+    ],
+    "explanation": "〜最中に는 어떤 일이 진행되는 바로 그때를 나타냅니다.",
+    "source": null
+  },
+  "n3-grammar-10": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜ないで済む",
+    "prompt": "資料はメールで送れるので、わざわざ事務所まで行か（　）。",
+    "answer": "ないで済む",
+    "distractors": [
+      "ないでほしい",
+      "ないと困る",
+      "ないではいられない"
+    ],
+    "explanation": "〜ないで済む는 어떤 일을 하지 않아도 해결된다는 뜻입니다.",
+    "source": null
+  },
+  "n2-vocabulary-1": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "貴重",
+    "prompt": "「貴重」の読み方は？",
+    "answer": "きちょう",
+    "distractors": [
+      "ぎちょう",
+      "きしげ",
+      "きじょう"
+    ],
+    "explanation": "귀중함",
+    "source": {
+      "label": "공식 문제집 제2집 N2 어휘 1번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf"
+    }
+  },
+  "n2-vocabulary-2": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "怪しい",
+    "prompt": "「怪しい」の読み方は？",
+    "answer": "あやしい",
+    "distractors": [
+      "けわしい",
+      "はげしい",
+      "いやしい"
+    ],
+    "explanation": "수상하다",
+    "source": {
+      "label": "공식 문제집 제2집 N2 어휘 2번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf"
+    }
+  },
+  "n2-vocabulary-3": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "容姿",
+    "prompt": "「容姿」の読み方は？",
+    "answer": "ようし",
+    "distractors": [
+      "ようじ",
+      "ようたい",
+      "しょうし"
+    ],
+    "explanation": "용모",
+    "source": {
+      "label": "공식 문제집 제2집 N2 어휘 3번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf"
+    }
+  },
+  "n2-vocabulary-4": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "伴う",
+    "prompt": "「伴う」の読み方は？",
+    "answer": "ともなう",
+    "distractors": [
+      "したがう",
+      "うしなう",
+      "あつかう"
+    ],
+    "explanation": "동반하다",
+    "source": {
+      "label": "공식 문제집 제2집 N2 어휘 4번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf"
+    }
+  },
+  "n2-vocabulary-5": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "維持",
+    "prompt": "「維持」の読み方は？",
+    "answer": "いじ",
+    "distractors": [
+      "いち",
+      "ゆいじ",
+      "いし"
+    ],
+    "explanation": "유지",
+    "source": null
+  },
+  "n2-vocabulary-6": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "妥協",
+    "prompt": "「妥協」の読み方は？",
+    "answer": "だきょう",
+    "distractors": [
+      "だぎょう",
+      "たきょう",
+      "だきょ"
+    ],
+    "explanation": "타협",
+    "source": null
+  },
+  "n2-vocabulary-7": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "蓄える",
+    "prompt": "「蓄える」の読み方は？",
+    "answer": "たくわえる",
+    "distractors": [
+      "たとえる",
+      "たえる",
+      "そなえる"
+    ],
+    "explanation": "저축하다, 비축하다",
+    "source": null
+  },
+  "n2-vocabulary-8": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "促す",
+    "prompt": "「促す」の読み方は？",
+    "answer": "うながす",
+    "distractors": [
+      "うるおす",
+      "ためす",
+      "ゆるす"
+    ],
+    "explanation": "촉진하다, 재촉하다",
+    "source": null
+  },
+  "n2-vocabulary-9": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "負担",
+    "prompt": "「負担」の読み方は？",
+    "answer": "ふたん",
+    "distractors": [
+      "ふだん",
+      "ふてん",
+      "ぶたん"
+    ],
+    "explanation": "부담",
+    "source": null
+  },
+  "n2-vocabulary-10": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "効率",
+    "prompt": "「効率」の読み方は？",
+    "answer": "こうりつ",
+    "distractors": [
+      "こうれつ",
+      "こりつ",
+      "ごうりつ"
+    ],
+    "explanation": "효율",
+    "source": null
+  },
+  "n2-grammar-1": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜そうにない",
+    "prompt": "激しい雨が続いている。屋外の試合はしばらく始まり（　）。",
+    "answer": "そうにない",
+    "distractors": [
+      "をかけた",
+      "がちだ",
+      "だらけだ"
+    ],
+    "explanation": "동사 ます형 어간 + そうにない는 상황을 보고 가능성이 낮다고 판단할 때 씁니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N2 문법 43번",
+      "url": "https://ns2.jlpt.jp/samples/sample2018/pdf/N2G.pdf"
+    }
+  },
+  "n2-grammar-2": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜うえで",
+    "prompt": "この資格を取る（　）必要な手続きを教えてください。",
+    "answer": "うえで",
+    "distractors": [
+      "ままに",
+      "ところから",
+      "だけでは"
+    ],
+    "explanation": "〜うえで는 목적을 달성하는 과정이나 관점을 제시합니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N2 문법 45번",
+      "url": "https://ns2.jlpt.jp/samples/sample2018/pdf/N2G.pdf"
+    }
+  },
+  "n2-grammar-3": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜だけなら",
+    "prompt": "資料を読む（　）すぐできるが、内容をまとめるには時間がかかる。",
+    "answer": "だけなら",
+    "distractors": [
+      "ばかりに",
+      "しかなく",
+      "ところまで"
+    ],
+    "explanation": "〜だけなら는 조건을 한 가지 일로 한정합니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N2 문법 40번",
+      "url": "https://ns2.jlpt.jp/samples/sample2018/pdf/N2G.pdf"
+    }
+  },
+  "n2-grammar-4": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜に伴って",
+    "prompt": "利用者数の増加（　）、問い合わせの件数も増えている。",
+    "answer": "に伴って",
+    "distractors": [
+      "を除いて",
+      "に反して",
+      "を皮切りに"
+    ],
+    "explanation": "〜に伴って는 한 변화와 함께 다른 변화도 일어남을 나타냅니다.",
+    "source": null
+  },
+  "n2-grammar-5": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜に先立って",
+    "prompt": "正式な開会（　）、参加者に資料が配られた。その十分後に式が始まった。",
+    "answer": "に先立って",
+    "distractors": [
+      "を経て",
+      "に引き続き",
+      "の終了後に"
+    ],
+    "explanation": "〜に先立って는 중요한 일에 앞서 준비나 별도 행동이 이루어짐을 뜻합니다.",
+    "source": null
+  },
+  "n2-grammar-6": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜に反して",
+    "prompt": "専門家の予想（　）、商品の売れ行きは好調だった。予想では売れないはずだった。",
+    "answer": "に反して",
+    "distractors": [
+      "に沿って",
+      "に基づいて",
+      "を裏づけるように"
+    ],
+    "explanation": "〜に反して는 예상이나 기대와 반대되는 결과를 나타냅니다.",
+    "source": null
+  },
+  "n2-grammar-7": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜に限り",
+    "prompt": "本日（　）、閉店時間を二時間延長します。明日からは通常どおりです。",
+    "answer": "に限り",
+    "distractors": [
+      "にわたり",
+      "にかけて",
+      "を機に"
+    ],
+    "explanation": "〜に限り는 적용 범위를 특정 조건으로 한정합니다.",
+    "source": null
+  },
+  "n2-grammar-8": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜ざるを得ない",
+    "prompt": "橋が崩れ、ほかに道もないので、引き返さ（　）。",
+    "answer": "ざるを得ない",
+    "distractors": [
+      "ないではいられない",
+      "ないことはない",
+      "ないことにした"
+    ],
+    "explanation": "〜ざるを得ない는 상황 때문에 선택의 여지가 없음을 나타냅니다.",
+    "source": null
+  },
+  "n2-grammar-9": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜にすぎない",
+    "prompt": "この数字は推計に（　）。確定した結果ではない。",
+    "answer": "すぎない",
+    "distractors": [
+      "ほかならない",
+      "違いない",
+      "決まっている"
+    ],
+    "explanation": "〜にすぎない는 그 정도에 불과함을 나타냅니다.",
+    "source": null
+  },
+  "n2-grammar-10": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜つつある",
+    "prompt": "工事が進み、この辺りの風景は今も少しずつ変わり（　）。",
+    "answer": "つつある",
+    "distractors": [
+      "きった",
+      "かねない",
+      "ようがない"
+    ],
+    "explanation": "〜つつある는 변화가 점진적으로 진행 중임을 나타냅니다.",
+    "source": null
+  },
+  "n1-vocabulary-1": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "人脈",
+    "prompt": "「人脈」の読み方は？",
+    "answer": "じんみゃく",
+    "distractors": [
+      "じんみゃっく",
+      "じんばく",
+      "にんばく"
+    ],
+    "explanation": "인맥",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 1번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-vocabulary-2": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "多岐",
+    "prompt": "「多岐」の読み方は？",
+    "answer": "たき",
+    "distractors": [
+      "たしき",
+      "たけい",
+      "たっき"
+    ],
+    "explanation": "여러 갈래",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 4번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-vocabulary-3": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "廃れる",
+    "prompt": "「廃れる」の読み方は？",
+    "answer": "すたれる",
+    "distractors": [
+      "くたびれる",
+      "こわれる",
+      "むくわれる"
+    ],
+    "explanation": "쇠퇴하다",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 5번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-vocabulary-4": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "相場",
+    "prompt": "「相場」の読み方は？",
+    "answer": "そうば",
+    "distractors": [
+      "そうは",
+      "そうじょう",
+      "あいば"
+    ],
+    "explanation": "시세",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 6번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-vocabulary-5": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "一掃",
+    "prompt": "「一掃」の読み方は？",
+    "answer": "いっそう",
+    "distractors": [
+      "いっしょう",
+      "いちしょう",
+      "いっぞう"
+    ],
+    "explanation": "일소, 한꺼번에 없앰",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 10번",
+      "url": "https://ns.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-vocabulary-6": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "愛着",
+    "prompt": "「愛着」の読み方は？",
+    "answer": "あいちゃく",
+    "distractors": [
+      "あいじゃく",
+      "あちゃく",
+      "あいちょう"
+    ],
+    "explanation": "애착",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 12번",
+      "url": "https://ns.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-vocabulary-7": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "拙い",
+    "prompt": "「拙い」の読み方は？",
+    "answer": "つたない",
+    "distractors": [
+      "おさない",
+      "はかない",
+      "あどけない"
+    ],
+    "explanation": "서투르다",
+    "source": null
+  },
+  "n1-vocabulary-8": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "阻む",
+    "prompt": "「阻む」の読み方は？",
+    "answer": "はばむ",
+    "distractors": [
+      "にらむ",
+      "いどむ",
+      "くやむ"
+    ],
+    "explanation": "가로막다",
+    "source": null
+  },
+  "n1-vocabulary-9": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "覆す",
+    "prompt": "「覆す」の読み方は？",
+    "answer": "くつがえす",
+    "distractors": [
+      "おおいかぶす",
+      "かえす",
+      "ひっくりかえす"
+    ],
+    "explanation": "뒤엎다",
+    "source": null
+  },
+  "n1-vocabulary-10": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "疎い",
+    "prompt": "「疎い」の読み方は？",
+    "answer": "うとい",
+    "distractors": [
+      "うすい",
+      "とおい",
+      "にぶい"
+    ],
+    "explanation": "잘 모르다, 서먹하다",
+    "source": null
+  },
+  "n1-grammar-1": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜に越したことはない",
+    "prompt": "締め切りまでは余裕があるが、提出は早い（　）。",
+    "answer": "に越したことはない",
+    "distractors": [
+      "にたえない",
+      "にほかならない",
+      "に及ばない"
+    ],
+    "explanation": "〜に越したことはない는 가능한 선택 중 해당 조건이 가장 바람직함을 나타냅니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 문법 문제 5 (책자 6쪽)",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1G.pdf"
+    }
+  },
+  "n1-grammar-2": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜次第では",
+    "prompt": "今後の天候（　）、撮影の日程を変更する可能性がある。",
+    "answer": "次第では",
+    "distractors": [
+      "次第と",
+      "次第まで",
+      "次第から"
+    ],
+    "explanation": "명사 + 次第では는 그 조건에 따라 다른 결과가 생길 수 있음을 나타냅니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 문법 문제 5 (책자 6쪽)",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1G.pdf"
+    }
+  },
+  "n1-grammar-3": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜もしないで",
+    "prompt": "報告書を（　）もしないで、その内容を批判するのは無責任だ。",
+    "answer": "読み",
+    "distractors": [
+      "読んで",
+      "読んだ",
+      "読まない"
+    ],
+    "explanation": "동사 ます형 어간 + もしないで는 최소한의 행동조차 하지 않았음을 강조합니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 문법 문제 5 (책자 6쪽)",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1G.pdf"
+    }
+  },
+  "n1-grammar-4": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜をもって",
+    "prompt": "当店は本日（　）閉店いたします。長らくご愛顧いただき、ありがとうございました。",
+    "answer": "をもちまして",
+    "distractors": [
+      "に至りまして",
+      "と相まって",
+      "にかこつけまして"
+    ],
+    "explanation": "시점을 나타내는 명사 + をもって는 시한이나 종료 시점을 격식 있게 알립니다.",
+    "source": null
+  },
+  "n1-grammar-5": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜に至るまで",
+    "prompt": "原材料の産地から包装の方法（　）、製造の全工程を公開している。",
+    "answer": "に至るまで",
+    "distractors": [
+      "に先立って",
+      "にひきかえ",
+      "を機に"
+    ],
+    "explanation": "AからBに至るまでは 세부 항목까지 포함하는 범위를 드러냅니다.",
+    "source": null
+  },
+  "n1-grammar-6": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜と相まって",
+    "prompt": "駅前の再開発と新路線の開通が（　）、周辺の地価が上昇した。",
+    "answer": "相まって",
+    "distractors": [
+      "立ち至って",
+      "相次ぐことなく",
+      "かけ離れて"
+    ],
+    "explanation": "相まって는 두 가지 요인이 어우러져 하나의 결과를 가져올 때 씁니다.",
+    "source": null
+  },
+  "n1-grammar-7": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜ずにはおかない",
+    "prompt": "主演俳優の熱演は、見る人を感動させ（　）。",
+    "answer": "ずにはおかない",
+    "distractors": [
+      "しかない",
+      "ないままでいる",
+      "るには及ばない"
+    ],
+    "explanation": "〜ずにはおかない는 반드시 어떤 반응이나 결과를 불러일으킴을 나타냅니다.",
+    "source": null
+  },
+  "n1-grammar-8": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜といえども",
+    "prompt": "いかに熟練した職人（　）、初めて扱う素材には慎重になるものだ。",
+    "answer": "といえども",
+    "distractors": [
+      "とあれば",
+      "にしてからが",
+      "ともあろう"
+    ],
+    "explanation": "〜といえども는 해당 조건에 있는 사람이나 사물에도 예외가 없음을 나타냅니다.",
+    "source": null
+  },
+  "n1-grammar-9": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜が早いか",
+    "prompt": "犬は玄関のドアが開く（　）、庭へ飛び出した。",
+    "answer": "が早いか",
+    "distractors": [
+      "にひきかえ",
+      "ほどではないが",
+      "というものの"
+    ],
+    "explanation": "동사 사전형 + が早いか는 앞 동작과 거의 동시에 다음 일이 일어남을 나타냅니다.",
+    "source": null
+  },
+  "n1-grammar-10": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜べく",
+    "prompt": "原因を究明す（　）、専門家による調査委員会が設置された。",
+    "answer": "べく",
+    "distractors": [
+      "だに",
+      "まじき",
+      "ともなく"
+    ],
+    "explanation": "〜べく는 격식 있는 문장에서 목적을 나타냅니다. する는 すべく 또는 するべく 형태로 씁니다.",
+    "source": null
+  },
+  "n5-4-sentence-1": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜に",
+    "prompt": "駅で先生（　）会いました。",
+    "answer": "に",
+    "distractors": [
+      "を",
+      "の",
+      "で"
+    ],
+    "explanation": "会う에서 만난 상대는 に로 나타냅니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N5 문법 4번",
+      "url": "https://pop.jlpt.jp/samples/sample2018/pdf/N5G.pdf"
+    }
+  },
+  "n5-4-sentence-2": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜に",
+    "prompt": "昨日、スーパーで友達（　）会いました。",
+    "answer": "に",
+    "distractors": [
+      "を",
+      "の",
+      "で"
+    ],
+    "explanation": "会う에서 만난 상대는 に로 나타냅니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N5 문법 4번",
+      "url": "https://pop.jlpt.jp/samples/sample2018/pdf/N5G.pdf"
+    }
+  },
+  "n5-5-sentence-1": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜を",
+    "prompt": "毎朝、牛乳（　）飲みます。",
+    "answer": "を",
+    "distractors": [
+      "に",
+      "で",
+      "へ"
+    ],
+    "explanation": "食べる의 목적어에는 を를 씁니다.",
+    "source": null
+  },
+  "n5-5-sentence-2": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜を",
+    "prompt": "日曜日に映画（　）見ます。",
+    "answer": "を",
+    "distractors": [
+      "に",
+      "で",
+      "へ"
+    ],
+    "explanation": "食べる의 목적어에는 を를 씁니다.",
+    "source": null
+  },
+  "n5-6-sentence-1": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜ませんでした",
+    "prompt": "昨日は疲れていたので、宿題をし（　）。",
+    "answer": "ませんでした",
+    "distractors": [
+      "ませんか",
+      "ましょう",
+      "たいです"
+    ],
+    "explanation": "과거의 부정은 ませんでした로 표현합니다.",
+    "source": null
+  },
+  "n5-6-sentence-2": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜ませんでした",
+    "prompt": "先週は忙しかったので、テレビを見（　）。",
+    "answer": "ませんでした",
+    "distractors": [
+      "ませんか",
+      "ましょう",
+      "たいです"
+    ],
+    "explanation": "과거의 부정은 ませんでした로 표현합니다.",
+    "source": null
+  },
+  "n5-grammar-1-sentence-1": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜がある",
+    "prompt": "かばんの中に財布（　）あります。",
+    "answer": "が",
+    "distractors": [
+      "を",
+      "で",
+      "へ"
+    ],
+    "explanation": "사물의 존재를 나타내는 ある에서 존재하는 대상은 が로 표시합니다.",
+    "source": null
+  },
+  "n5-grammar-1-sentence-2": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜がある",
+    "prompt": "教室の後ろに時計（　）あります。",
+    "answer": "が",
+    "distractors": [
+      "を",
+      "で",
+      "へ"
+    ],
+    "explanation": "사물의 존재를 나타내는 ある에서 존재하는 대상은 が로 표시합니다.",
+    "source": null
+  },
+  "n5-grammar-2-sentence-1": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜がいる",
+    "prompt": "池に魚が（　）。",
+    "answer": "います",
+    "distractors": [
+      "あります",
+      "します",
+      "なります"
+    ],
+    "explanation": "사람이나 동물의 존재에는 いる를 씁니다.",
+    "source": null
+  },
+  "n5-grammar-2-sentence-2": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜がいる",
+    "prompt": "あの木の下に犬が（　）。",
+    "answer": "います",
+    "distractors": [
+      "あります",
+      "します",
+      "なります"
+    ],
+    "explanation": "사람이나 동물의 존재에는 いる를 씁니다.",
+    "source": null
+  },
+  "n5-grammar-3-sentence-1": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜へ",
+    "prompt": "明日、南（　）向かいます。",
+    "answer": "へ",
+    "distractors": [
+      "を",
+      "が",
+      "の"
+    ],
+    "explanation": "へ는 이동 방향을 나타냅니다.",
+    "source": null
+  },
+  "n5-grammar-3-sentence-2": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜へ",
+    "prompt": "来月、父は大阪（　）向かいます。",
+    "answer": "へ",
+    "distractors": [
+      "を",
+      "が",
+      "の"
+    ],
+    "explanation": "へ는 이동 방향을 나타냅니다.",
+    "source": null
+  },
+  "n5-grammar-4-sentence-1": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜から〜まで",
+    "prompt": "店は朝十時から夜八時（　）です。",
+    "answer": "まで",
+    "distractors": [
+      "より",
+      "しか",
+      "ごろに"
+    ],
+    "explanation": "から와 まで는 시작점과 끝점을 나타냅니다.",
+    "source": null
+  },
+  "n5-grammar-4-sentence-2": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜から〜まで",
+    "prompt": "休みは月曜日から水曜日（　）です。木曜日に仕事に戻ります。",
+    "answer": "まで",
+    "distractors": [
+      "より",
+      "しか",
+      "ごろに"
+    ],
+    "explanation": "から와 まで는 시작점과 끝점을 나타냅니다.",
+    "source": null
+  },
+  "n5-grammar-5-sentence-1": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜てください",
+    "prompt": "この漢字を読んでから、ノートに書い（　）。",
+    "answer": "てください",
+    "distractors": [
+      "たです",
+      "くです",
+      "ますか"
+    ],
+    "explanation": "동사 て형 + ください는 정중한 요청입니다.",
+    "source": null
+  },
+  "n5-grammar-5-sentence-2": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜てください",
+    "prompt": "申込書に電話番号を書い（　）。",
+    "answer": "てください",
+    "distractors": [
+      "たです",
+      "くです",
+      "ますか"
+    ],
+    "explanation": "동사 て형 + ください는 정중한 요청입니다.",
+    "source": null
+  },
+  "n5-grammar-6-sentence-1": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜たい",
+    "prompt": "帰りにアイスを買い（　）ので、コンビニに寄ります。",
+    "answer": "たい",
+    "distractors": [
+      "たく",
+      "たさ",
+      "ほしい"
+    ],
+    "explanation": "동사 ます형 어간 + たい는 하고 싶은 일을 나타냅니다.",
+    "source": null
+  },
+  "n5-grammar-6-sentence-2": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜たい",
+    "prompt": "春休みに沖縄へ行き（　）ので、お金をためています。",
+    "answer": "たい",
+    "distractors": [
+      "たく",
+      "たさ",
+      "ほしい"
+    ],
+    "explanation": "동사 ます형 어간 + たい는 하고 싶은 일을 나타냅니다.",
+    "source": null
+  },
+  "n5-grammar-7-sentence-1": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜ましょうか",
+    "prompt": "「荷物が多いですね。私が持ち（　）」「本当ですか。助かります」",
+    "answer": "ましょうか",
+    "distractors": [
+      "ませんでした",
+      "ましたか",
+      "たくないです"
+    ],
+    "explanation": "〜ましょうか는 상대에게 도움을 제안할 때 쓸 수 있습니다.",
+    "source": null
+  },
+  "n5-grammar-7-sentence-2": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜ましょうか",
+    "prompt": "「手がふさがっていますね。私がその箱を持ち（　）」「ええ、お願いします」",
+    "answer": "ましょうか",
+    "distractors": [
+      "ませんでした",
+      "ましたか",
+      "たくないです"
+    ],
+    "explanation": "〜ましょうか는 상대에게 도움을 제안할 때 쓸 수 있습니다.",
+    "source": null
+  },
+  "n5-grammar-8-sentence-1": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜に行く",
+    "prompt": "市場へ魚を買い（　）行きました。",
+    "answer": "に",
+    "distractors": [
+      "を",
+      "が",
+      "で"
+    ],
+    "explanation": "동사 ます형 어간 + に + 이동 동사는 이동 목적을 나타냅니다.",
+    "source": null
+  },
+  "n5-grammar-8-sentence-2": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜に行く",
+    "prompt": "公園へ桜を見（　）行きます。",
+    "answer": "に",
+    "distractors": [
+      "を",
+      "が",
+      "で"
+    ],
+    "explanation": "동사 ます형 어간 + に + 이동 동사는 이동 목적을 나타냅니다.",
+    "source": null
+  },
+  "n5-grammar-9-sentence-1": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜のほうが",
+    "prompt": "兄より姉（　）背が高いです。",
+    "answer": "のほうが",
+    "distractors": [
+      "しか",
+      "から",
+      "まで"
+    ],
+    "explanation": "AよりBのほうが는 B가 A보다 더 어떻다는 비교 표현입니다.",
+    "source": null
+  },
+  "n5-grammar-9-sentence-2": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜のほうが",
+    "prompt": "紅茶よりコーヒー（　）好きです。",
+    "answer": "のほうが",
+    "distractors": [
+      "しか",
+      "から",
+      "まで"
+    ],
+    "explanation": "AよりBのほうが는 B가 A보다 더 어떻다는 비교 표현입니다.",
+    "source": null
+  },
+  "n5-grammar-10-sentence-1": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜くない",
+    "prompt": "小さい店ですが、このかばんは高（　）です。",
+    "answer": "くない",
+    "distractors": [
+      "ではない",
+      "じゃない",
+      "になく"
+    ],
+    "explanation": "い형용사의 부정은 어미 い를 くない로 바꿉니다.",
+    "source": null
+  },
+  "n5-grammar-10-sentence-2": {
+    "level": "N5",
+    "section": "grammar",
+    "target": "〜くない",
+    "prompt": "よく晴れていますが、風があるので暑（　）です。",
+    "answer": "くない",
+    "distractors": [
+      "ではない",
+      "じゃない",
+      "になく"
+    ],
+    "explanation": "い형용사의 부정은 어미 い를 くない로 바꿉니다.",
+    "source": null
+  },
+  "n5-1-meaning": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "新聞",
+    "prompt": "「新聞」의 뜻은?",
+    "answer": "신문",
+    "distractors": [
+      "아침",
+      "선생님",
+      "역"
+    ],
+    "explanation": "新聞（しんぶん）는 ‘신문’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N5 문법 13번에 나온 어휘",
+      "url": "https://pop.jlpt.jp/samples/sample2018/pdf/N5G.pdf"
+    }
+  },
+  "n5-1-kanji": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "新聞",
+    "prompt": "「しんぶん」에 해당하는 한자는?",
+    "answer": "新聞",
+    "distractors": [
+      "朝",
+      "先生",
+      "駅"
+    ],
+    "explanation": "新聞（しんぶん） · 신문",
+    "source": {
+      "label": "공식 문제집 제2집 N5 문법 13번에 나온 어휘",
+      "url": "https://pop.jlpt.jp/samples/sample2018/pdf/N5G.pdf"
+    }
+  },
+  "n5-2-meaning": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "毎日",
+    "prompt": "「毎日」의 뜻은?",
+    "answer": "매일",
+    "distractors": [
+      "친구",
+      "영화",
+      "시간"
+    ],
+    "explanation": "毎日（まいにち）는 ‘매일’이라는 뜻입니다.",
+    "source": null
+  },
+  "n5-2-kanji": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "毎日",
+    "prompt": "「まいにち」에 해당하는 한자는?",
+    "answer": "毎日",
+    "distractors": [
+      "友達",
+      "映画",
+      "時間"
+    ],
+    "explanation": "毎日（まいにち） · 매일",
+    "source": null
+  },
+  "n5-3-meaning": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "水",
+    "prompt": "「水」의 뜻은?",
+    "answer": "물",
+    "distractors": [
+      "전철",
+      "하얗다",
+      "병원"
+    ],
+    "explanation": "水（みず）는 ‘물’이라는 뜻입니다.",
+    "source": null
+  },
+  "n5-3-kanji": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "水",
+    "prompt": "「みず」에 해당하는 한자는?",
+    "answer": "水",
+    "distractors": [
+      "電車",
+      "白い",
+      "病院"
+    ],
+    "explanation": "水（みず） · 물",
+    "source": null
+  },
+  "n5-vocabulary-1-meaning": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "朝",
+    "prompt": "「朝」의 뜻은?",
+    "answer": "아침",
+    "distractors": [
+      "선생님",
+      "사다",
+      "신문"
+    ],
+    "explanation": "朝（あさ）는 ‘아침’이라는 뜻입니다.",
+    "source": null
+  },
+  "n5-vocabulary-1-kanji": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "朝",
+    "prompt": "「あさ」에 해당하는 한자는?",
+    "answer": "朝",
+    "distractors": [
+      "先生",
+      "買う",
+      "新聞"
+    ],
+    "explanation": "朝（あさ） · 아침",
+    "source": null
+  },
+  "n5-vocabulary-2-meaning": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "友達",
+    "prompt": "「友達」의 뜻은?",
+    "answer": "친구",
+    "distractors": [
+      "영화",
+      "역",
+      "매일"
+    ],
+    "explanation": "友達（ともだち）는 ‘친구’이라는 뜻입니다.",
+    "source": null
+  },
+  "n5-vocabulary-2-kanji": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "友達",
+    "prompt": "「ともだち」에 해당하는 한자는?",
+    "answer": "友達",
+    "distractors": [
+      "映画",
+      "駅",
+      "毎日"
+    ],
+    "explanation": "友達（ともだち） · 친구",
+    "source": null
+  },
+  "n5-vocabulary-3-meaning": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "電車",
+    "prompt": "「電車」의 뜻은?",
+    "answer": "전철",
+    "distractors": [
+      "하얗다",
+      "시간",
+      "물"
+    ],
+    "explanation": "電車（でんしゃ）는 ‘전철’이라는 뜻입니다.",
+    "source": null
+  },
+  "n5-vocabulary-3-kanji": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "電車",
+    "prompt": "「でんしゃ」에 해당하는 한자는?",
+    "answer": "電車",
+    "distractors": [
+      "白い",
+      "時間",
+      "水"
+    ],
+    "explanation": "電車（でんしゃ） · 전철",
+    "source": null
+  },
+  "n5-vocabulary-4-meaning": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "先生",
+    "prompt": "「先生」의 뜻은?",
+    "answer": "선생님",
+    "distractors": [
+      "사다",
+      "병원",
+      "아침"
+    ],
+    "explanation": "先生（せんせい）는 ‘선생님’이라는 뜻입니다.",
+    "source": null
+  },
+  "n5-vocabulary-4-kanji": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "先生",
+    "prompt": "「せんせい」에 해당하는 한자는?",
+    "answer": "先生",
+    "distractors": [
+      "買う",
+      "病院",
+      "朝"
+    ],
+    "explanation": "先生（せんせい） · 선생님",
+    "source": null
+  },
+  "n5-vocabulary-5-meaning": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "映画",
+    "prompt": "「映画」의 뜻은?",
+    "answer": "영화",
+    "distractors": [
+      "역",
+      "신문",
+      "친구"
+    ],
+    "explanation": "映画（えいが）는 ‘영화’이라는 뜻입니다.",
+    "source": null
+  },
+  "n5-vocabulary-5-kanji": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "映画",
+    "prompt": "「えいが」에 해당하는 한자는?",
+    "answer": "映画",
+    "distractors": [
+      "駅",
+      "新聞",
+      "友達"
+    ],
+    "explanation": "映画（えいが） · 영화",
+    "source": null
+  },
+  "n5-vocabulary-6-meaning": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "白い",
+    "prompt": "「白い」의 뜻은?",
+    "answer": "하얗다",
+    "distractors": [
+      "시간",
+      "매일",
+      "전철"
+    ],
+    "explanation": "白い（しろい）는 ‘하얗다’이라는 뜻입니다.",
+    "source": null
+  },
+  "n5-vocabulary-6-kanji": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "白い",
+    "prompt": "「しろい」에 해당하는 한자는?",
+    "answer": "白い",
+    "distractors": [
+      "時間",
+      "毎日",
+      "電車"
+    ],
+    "explanation": "白い（しろい） · 하얗다",
+    "source": null
+  },
+  "n5-vocabulary-7-meaning": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "買う",
+    "prompt": "「買う」의 뜻은?",
+    "answer": "사다",
+    "distractors": [
+      "병원",
+      "물",
+      "선생님"
+    ],
+    "explanation": "買う（かう）는 ‘사다’이라는 뜻입니다.",
+    "source": null
+  },
+  "n5-vocabulary-7-kanji": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "買う",
+    "prompt": "「かう」에 해당하는 한자는?",
+    "answer": "買う",
+    "distractors": [
+      "病院",
+      "水",
+      "先生"
+    ],
+    "explanation": "買う（かう） · 사다",
+    "source": null
+  },
+  "n5-vocabulary-8-meaning": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "駅",
+    "prompt": "「駅」의 뜻은?",
+    "answer": "역",
+    "distractors": [
+      "신문",
+      "아침",
+      "영화"
+    ],
+    "explanation": "駅（えき）는 ‘역’이라는 뜻입니다.",
+    "source": null
+  },
+  "n5-vocabulary-8-kanji": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "駅",
+    "prompt": "「えき」에 해당하는 한자는?",
+    "answer": "駅",
+    "distractors": [
+      "新聞",
+      "朝",
+      "映画"
+    ],
+    "explanation": "駅（えき） · 역",
+    "source": null
+  },
+  "n5-vocabulary-9-meaning": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "時間",
+    "prompt": "「時間」의 뜻은?",
+    "answer": "시간",
+    "distractors": [
+      "매일",
+      "친구",
+      "하얗다"
+    ],
+    "explanation": "時間（じかん）는 ‘시간’이라는 뜻입니다.",
+    "source": null
+  },
+  "n5-vocabulary-9-kanji": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "時間",
+    "prompt": "「じかん」에 해당하는 한자는?",
+    "answer": "時間",
+    "distractors": [
+      "毎日",
+      "友達",
+      "白い"
+    ],
+    "explanation": "時間（じかん） · 시간",
+    "source": null
+  },
+  "n5-vocabulary-10-meaning": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "病院",
+    "prompt": "「病院」의 뜻은?",
+    "answer": "병원",
+    "distractors": [
+      "물",
+      "전철",
+      "사다"
+    ],
+    "explanation": "病院（びょういん）는 ‘병원’이라는 뜻입니다.",
+    "source": null
+  },
+  "n5-vocabulary-10-kanji": {
+    "level": "N5",
+    "section": "vocabulary",
+    "target": "病院",
+    "prompt": "「びょういん」에 해당하는 한자는?",
+    "answer": "病院",
+    "distractors": [
+      "水",
+      "電車",
+      "買う"
+    ],
+    "explanation": "病院（びょういん） · 병원",
+    "source": null
+  },
+  "n4-4-sentence-1": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜たことがある",
+    "prompt": "外国で一人暮らしをした（　）があります。",
+    "answer": "こと",
+    "distractors": [
+      "もの",
+      "ほう",
+      "ため"
+    ],
+    "explanation": "동사 과거형 + ことがある는 경험을 나타냅니다.",
+    "source": null
+  },
+  "n4-4-sentence-2": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜たことがある",
+    "prompt": "この山には前にも登った（　）があります。",
+    "answer": "こと",
+    "distractors": [
+      "もの",
+      "ほう",
+      "ため"
+    ],
+    "explanation": "동사 과거형 + ことがある는 경험을 나타냅니다.",
+    "source": null
+  },
+  "n4-5-sentence-1": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜ながら",
+    "prompt": "ラジオを聞き（　）、料理を作りました。",
+    "answer": "ながら",
+    "distractors": [
+      "まで",
+      "より",
+      "だけ"
+    ],
+    "explanation": "동사 ます형 어간 + ながら는 두 동작의 동시 진행을 나타냅니다.",
+    "source": null
+  },
+  "n4-5-sentence-2": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜ながら",
+    "prompt": "説明を聞き（　）、大事な点をメモしました。",
+    "answer": "ながら",
+    "distractors": [
+      "まで",
+      "より",
+      "だけ"
+    ],
+    "explanation": "동사 ます형 어간 + ながら는 두 동작의 동시 진행을 나타냅니다.",
+    "source": null
+  },
+  "n4-6-sentence-1": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜なければならない",
+    "prompt": "鍵をなくしたので、管理人に連絡し（　）なりません。",
+    "answer": "なければ",
+    "distractors": [
+      "なくても",
+      "なかったら",
+      "ないほど"
+    ],
+    "explanation": "なければならない는 의무를 나타냅니다.",
+    "source": {
+      "label": "공식 문제집 2012년판 N4 독해 28번 지문에 나온 문형",
+      "url": "https://ns.jlpt.jp/samples/sample2012/pdf/N4R.pdf"
+    }
+  },
+  "n4-6-sentence-2": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜なければならない",
+    "prompt": "薬は毎日飲ま（　）なりません。",
+    "answer": "なければ",
+    "distractors": [
+      "なくても",
+      "なかったら",
+      "ないほど"
+    ],
+    "explanation": "なければならない는 의무를 나타냅니다.",
+    "source": {
+      "label": "공식 문제집 2012년판 N4 독해 28번 지문에 나온 문형",
+      "url": "https://ns.jlpt.jp/samples/sample2012/pdf/N4R.pdf"
+    }
+  },
+  "n4-grammar-1-sentence-1": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜てもいい",
+    "prompt": "「ここに荷物を置いて（　）ですか」「はい、大丈夫です」",
+    "answer": "もいい",
+    "distractors": [
+      "よりいい",
+      "ほうが",
+      "からです"
+    ],
+    "explanation": "〜てもいいですか는 허락을 구할 때 씁니다.",
+    "source": null
+  },
+  "n4-grammar-1-sentence-2": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜てもいい",
+    "prompt": "「窓を開けて（　）ですか」「もちろんです」",
+    "answer": "もいい",
+    "distractors": [
+      "よりいい",
+      "ほうが",
+      "からです"
+    ],
+    "explanation": "〜てもいいですか는 허락을 구할 때 씁니다.",
+    "source": null
+  },
+  "n4-grammar-2-sentence-1": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜てはいけない",
+    "prompt": "この薬は子どもが触れる所に置い（　）。",
+    "answer": "てはいけません",
+    "distractors": [
+      "たいです",
+      "たことがあります",
+      "てください"
+    ],
+    "explanation": "〜てはいけない는 금지를 나타냅니다.",
+    "source": null
+  },
+  "n4-grammar-2-sentence-2": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜てはいけない",
+    "prompt": "この先は立入禁止です。入っ（　）。",
+    "answer": "てはいけません",
+    "distractors": [
+      "たいです",
+      "たことがあります",
+      "てください"
+    ],
+    "explanation": "〜てはいけない는 금지를 나타냅니다.",
+    "source": null
+  },
+  "n4-grammar-3-sentence-1": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜つもり",
+    "prompt": "週末は家でゆっくり過ごす（　）です。",
+    "answer": "つもり",
+    "distractors": [
+      "ところ",
+      "ばかり",
+      "まま"
+    ],
+    "explanation": "동사 사전형 + つもり는 의도를 나타냅니다.",
+    "source": null
+  },
+  "n4-grammar-3-sentence-2": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜つもり",
+    "prompt": "大学を卒業したら、地元に戻る（　）です。",
+    "answer": "つもり",
+    "distractors": [
+      "ところ",
+      "ばかり",
+      "まま"
+    ],
+    "explanation": "동사 사전형 + つもり는 의도를 나타냅니다.",
+    "source": null
+  },
+  "n4-grammar-4-sentence-1": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜と思う",
+    "prompt": "最近よく練習しているので、彼は試合で勝てる（　）。",
+    "answer": "と思います",
+    "distractors": [
+      "と作ります",
+      "にします",
+      "にあります"
+    ],
+    "explanation": "보통형 + と思う는 판단이나 생각을 나타냅니다.",
+    "source": null
+  },
+  "n4-grammar-4-sentence-2": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜と思う",
+    "prompt": "この色はあなたによく似合う（　）。",
+    "answer": "と思います",
+    "distractors": [
+      "と作ります",
+      "にします",
+      "にあります"
+    ],
+    "explanation": "보통형 + と思う는 판단이나 생각을 나타냅니다.",
+    "source": null
+  },
+  "n4-grammar-5-sentence-1": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜たら",
+    "prompt": "空港に着い（　）、短いメッセージを送ってください。",
+    "answer": "たら",
+    "distractors": [
+      "たり",
+      "ながら",
+      "ましょう"
+    ],
+    "explanation": "〜たら는 앞 동작이 끝난 뒤를 나타낼 수 있습니다.",
+    "source": null
+  },
+  "n4-grammar-5-sentence-2": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜たら",
+    "prompt": "家に着い（　）、まず冷蔵庫にケーキを入れてください。",
+    "answer": "たら",
+    "distractors": [
+      "たり",
+      "ながら",
+      "ましょう"
+    ],
+    "explanation": "〜たら는 앞 동작이 끝난 뒤를 나타낼 수 있습니다.",
+    "source": null
+  },
+  "n4-grammar-6-sentence-1": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜たり〜たりする",
+    "prompt": "休日は散歩したり、本を読ん（　）して過ごします。",
+    "answer": "だり",
+    "distractors": [
+      "でも",
+      "だら",
+      "だから"
+    ],
+    "explanation": "〜たり를 이어서 여러 행동의 예를 듭니다.",
+    "source": null
+  },
+  "n4-grammar-6-sentence-2": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜たり〜たりする",
+    "prompt": "旅行中は海で泳い（　）、市場を見たりしました。",
+    "answer": "だり",
+    "distractors": [
+      "でも",
+      "だら",
+      "だから"
+    ],
+    "explanation": "〜たり를 이어서 여러 행동의 예를 듭니다.",
+    "source": null
+  },
+  "n4-grammar-7-sentence-1": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜前に",
+    "prompt": "家を出る（　）、まだ家の中にいる間に、窓の鍵をかけます。",
+    "answer": "前に",
+    "distractors": [
+      "後で",
+      "ところが",
+      "ばかりに"
+    ],
+    "explanation": "동사 사전형 + 前に는 그 행동에 앞서 다른 행동을 한다는 뜻입니다.",
+    "source": null
+  },
+  "n4-grammar-7-sentence-2": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜前に",
+    "prompt": "教室に入る（　）、外で先生の説明を聞きました。",
+    "answer": "前に",
+    "distractors": [
+      "後で",
+      "ところが",
+      "ばかりに"
+    ],
+    "explanation": "동사 사전형 + 前に는 그 행동에 앞서 다른 행동을 한다는 뜻입니다.",
+    "source": null
+  },
+  "n4-grammar-8-sentence-1": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜すぎる",
+    "prompt": "昨日はお菓子を食べ（　）、気分が悪くなりました。",
+    "answer": "すぎて",
+    "distractors": [
+      "やすくて",
+      "はじめて",
+      "つづけて"
+    ],
+    "explanation": "동사 ます형 어간 + すぎる는 지나치게 많이 함을 뜻합니다.",
+    "source": null
+  },
+  "n4-grammar-8-sentence-2": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜すぎる",
+    "prompt": "昼に食べ（　）、夕方になってもお腹が空きません。",
+    "answer": "すぎて",
+    "distractors": [
+      "やすくて",
+      "はじめて",
+      "つづけて"
+    ],
+    "explanation": "동사 ます형 어간 + すぎる는 지나치게 많이 함을 뜻합니다.",
+    "source": null
+  },
+  "n4-grammar-9-sentence-1": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜やすい",
+    "prompt": "このコップは取っ手が大きくて、使い（　）です。",
+    "answer": "やすい",
+    "distractors": [
+      "すぎる",
+      "ながら",
+      "たら"
+    ],
+    "explanation": "동사 ます형 어간 + やすい는 행동하기 쉽다는 뜻입니다.",
+    "source": null
+  },
+  "n4-grammar-9-sentence-2": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜やすい",
+    "prompt": "このかばんは口が広いので、毎日使い（　）です。",
+    "answer": "やすい",
+    "distractors": [
+      "すぎる",
+      "ながら",
+      "たら"
+    ],
+    "explanation": "동사 ます형 어간 + やすい는 행동하기 쉽다는 뜻입니다.",
+    "source": null
+  },
+  "n4-grammar-10-sentence-1": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜かもしれない",
+    "prompt": "山の上は、夏でも寒い（　）。上着を持っていこう。",
+    "answer": "かもしれない",
+    "distractors": [
+      "ほうがいい",
+      "つもりだ",
+      "ことにする"
+    ],
+    "explanation": "〜かもしれない는 가능성을 나타냅니다.",
+    "source": null
+  },
+  "n4-grammar-10-sentence-2": {
+    "level": "N4",
+    "section": "grammar",
+    "target": "〜かもしれない",
+    "prompt": "駅前にはいなかった。もう帰った（　）。",
+    "answer": "かもしれない",
+    "distractors": [
+      "ほうがいい",
+      "つもりだ",
+      "ことにする"
+    ],
+    "explanation": "〜かもしれない는 가능성을 나타냅니다.",
+    "source": null
+  },
+  "n4-1-meaning": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "準備",
+    "prompt": "「準備」의 뜻은?",
+    "answer": "준비",
+    "distractors": [
+      "최근",
+      "이유",
+      "시간에 맞추다"
+    ],
+    "explanation": "準備（じゅんび）는 ‘준비’이라는 뜻입니다.",
+    "source": null
+  },
+  "n4-1-kanji": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "準備",
+    "prompt": "「じゅんび」에 해당하는 한자는?",
+    "answer": "準備",
+    "distractors": [
+      "最近",
+      "理由",
+      "間に合う"
+    ],
+    "explanation": "準備（じゅんび） · 준비",
+    "source": null
+  },
+  "n4-2-meaning": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "特別",
+    "prompt": "「特別」의 뜻은?",
+    "answer": "특별",
+    "distractors": [
+      "견학",
+      "간단함",
+      "초대"
+    ],
+    "explanation": "特別（とくべつ）는 ‘특별’이라는 뜻입니다.",
+    "source": null
+  },
+  "n4-2-kanji": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "特別",
+    "prompt": "「とくべつ」에 해당하는 한자는?",
+    "answer": "特別",
+    "distractors": [
+      "見学",
+      "簡単",
+      "招待"
+    ],
+    "explanation": "特別（とくべつ） · 특별",
+    "source": null
+  },
+  "n4-3-meaning": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "約束",
+    "prompt": "「約束」의 뜻은?",
+    "answer": "약속",
+    "distractors": [
+      "연락",
+      "아쉬움",
+      "설명"
+    ],
+    "explanation": "約束（やくそく）는 ‘약속’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 2012년판 N4 독해 28번에 나온 어휘",
+      "url": "https://ns.jlpt.jp/samples/sample2012/pdf/N4R.pdf"
+    }
+  },
+  "n4-3-kanji": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "約束",
+    "prompt": "「やくそく」에 해당하는 한자는?",
+    "answer": "約束",
+    "distractors": [
+      "連絡",
+      "残念",
+      "説明"
+    ],
+    "explanation": "約束（やくそく） · 약속",
+    "source": {
+      "label": "공식 문제집 2012년판 N4 독해 28번에 나온 어휘",
+      "url": "https://ns.jlpt.jp/samples/sample2012/pdf/N4R.pdf"
+    }
+  },
+  "n4-vocabulary-1-meaning": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "最近",
+    "prompt": "「最近」의 뜻은?",
+    "answer": "최근",
+    "distractors": [
+      "이유",
+      "나르다",
+      "준비"
+    ],
+    "explanation": "最近（さいきん）는 ‘최근’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N4 어휘 31번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N4V.pdf"
+    }
+  },
+  "n4-vocabulary-1-kanji": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "最近",
+    "prompt": "「さいきん」에 해당하는 한자는?",
+    "answer": "最近",
+    "distractors": [
+      "理由",
+      "運ぶ",
+      "準備"
+    ],
+    "explanation": "最近（さいきん） · 최근",
+    "source": {
+      "label": "공식 문제집 제2집 N4 어휘 31번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N4V.pdf"
+    }
+  },
+  "n4-vocabulary-2-meaning": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "見学",
+    "prompt": "「見学」의 뜻은?",
+    "answer": "견학",
+    "distractors": [
+      "간단함",
+      "시간에 맞추다",
+      "특별"
+    ],
+    "explanation": "見学（けんがく）는 ‘견학’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N4 어휘 33번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N4V.pdf"
+    }
+  },
+  "n4-vocabulary-2-kanji": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "見学",
+    "prompt": "「けんがく」에 해당하는 한자는?",
+    "answer": "見学",
+    "distractors": [
+      "簡単",
+      "間に合う",
+      "特別"
+    ],
+    "explanation": "見学（けんがく） · 견학",
+    "source": {
+      "label": "공식 문제집 제2집 N4 어휘 33번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N4V.pdf"
+    }
+  },
+  "n4-vocabulary-3-meaning": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "連絡",
+    "prompt": "「連絡」의 뜻은?",
+    "answer": "연락",
+    "distractors": [
+      "아쉬움",
+      "초대",
+      "약속"
+    ],
+    "explanation": "連絡（れんらく）는 ‘연락’이라는 뜻입니다.",
+    "source": null
+  },
+  "n4-vocabulary-3-kanji": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "連絡",
+    "prompt": "「れんらく」에 해당하는 한자는?",
+    "answer": "連絡",
+    "distractors": [
+      "残念",
+      "招待",
+      "約束"
+    ],
+    "explanation": "連絡（れんらく） · 연락",
+    "source": null
+  },
+  "n4-vocabulary-4-meaning": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "理由",
+    "prompt": "「理由」의 뜻은?",
+    "answer": "이유",
+    "distractors": [
+      "나르다",
+      "설명",
+      "최근"
+    ],
+    "explanation": "理由（りゆう）는 ‘이유’이라는 뜻입니다.",
+    "source": null
+  },
+  "n4-vocabulary-4-kanji": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "理由",
+    "prompt": "「りゆう」에 해당하는 한자는?",
+    "answer": "理由",
+    "distractors": [
+      "運ぶ",
+      "説明",
+      "最近"
+    ],
+    "explanation": "理由（りゆう） · 이유",
+    "source": null
+  },
+  "n4-vocabulary-5-meaning": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "簡単",
+    "prompt": "「簡単」의 뜻은?",
+    "answer": "간단함",
+    "distractors": [
+      "시간에 맞추다",
+      "준비",
+      "견학"
+    ],
+    "explanation": "簡単（かんたん）는 ‘간단함’이라는 뜻입니다.",
+    "source": null
+  },
+  "n4-vocabulary-5-kanji": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "簡単",
+    "prompt": "「かんたん」에 해당하는 한자는?",
+    "answer": "簡単",
+    "distractors": [
+      "間に合う",
+      "準備",
+      "見学"
+    ],
+    "explanation": "簡単（かんたん） · 간단함",
+    "source": null
+  },
+  "n4-vocabulary-6-meaning": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "残念",
+    "prompt": "「残念」의 뜻은?",
+    "answer": "아쉬움",
+    "distractors": [
+      "초대",
+      "특별",
+      "연락"
+    ],
+    "explanation": "残念（ざんねん）는 ‘아쉬움’이라는 뜻입니다.",
+    "source": null
+  },
+  "n4-vocabulary-6-kanji": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "残念",
+    "prompt": "「ざんねん」에 해당하는 한자는?",
+    "answer": "残念",
+    "distractors": [
+      "招待",
+      "特別",
+      "連絡"
+    ],
+    "explanation": "残念（ざんねん） · 아쉬움",
+    "source": null
+  },
+  "n4-vocabulary-7-meaning": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "運ぶ",
+    "prompt": "「運ぶ」의 뜻은?",
+    "answer": "나르다",
+    "distractors": [
+      "설명",
+      "약속",
+      "이유"
+    ],
+    "explanation": "運ぶ（はこぶ）는 ‘나르다’이라는 뜻입니다.",
+    "source": null
+  },
+  "n4-vocabulary-7-kanji": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "運ぶ",
+    "prompt": "「はこぶ」에 해당하는 한자는?",
+    "answer": "運ぶ",
+    "distractors": [
+      "説明",
+      "約束",
+      "理由"
+    ],
+    "explanation": "運ぶ（はこぶ） · 나르다",
+    "source": null
+  },
+  "n4-vocabulary-8-meaning": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "間に合う",
+    "prompt": "「間に合う」의 뜻은?",
+    "answer": "시간에 맞추다",
+    "distractors": [
+      "준비",
+      "최근",
+      "간단함"
+    ],
+    "explanation": "間に合う（まにあう）는 ‘시간에 맞추다’이라는 뜻입니다.",
+    "source": null
+  },
+  "n4-vocabulary-8-kanji": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "間に合う",
+    "prompt": "「まにあう」에 해당하는 한자는?",
+    "answer": "間に合う",
+    "distractors": [
+      "準備",
+      "最近",
+      "簡単"
+    ],
+    "explanation": "間に合う（まにあう） · 시간에 맞추다",
+    "source": null
+  },
+  "n4-vocabulary-9-meaning": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "招待",
+    "prompt": "「招待」의 뜻은?",
+    "answer": "초대",
+    "distractors": [
+      "특별",
+      "견학",
+      "아쉬움"
+    ],
+    "explanation": "招待（しょうたい）는 ‘초대’이라는 뜻입니다.",
+    "source": null
+  },
+  "n4-vocabulary-9-kanji": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "招待",
+    "prompt": "「しょうたい」에 해당하는 한자는?",
+    "answer": "招待",
+    "distractors": [
+      "特別",
+      "見学",
+      "残念"
+    ],
+    "explanation": "招待（しょうたい） · 초대",
+    "source": null
+  },
+  "n4-vocabulary-10-meaning": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "説明",
+    "prompt": "「説明」의 뜻은?",
+    "answer": "설명",
+    "distractors": [
+      "약속",
+      "연락",
+      "나르다"
+    ],
+    "explanation": "説明（せつめい）는 ‘설명’이라는 뜻입니다.",
+    "source": null
+  },
+  "n4-vocabulary-10-kanji": {
+    "level": "N4",
+    "section": "vocabulary",
+    "target": "説明",
+    "prompt": "「せつめい」에 해당하는 한자는?",
+    "answer": "説明",
+    "distractors": [
+      "約束",
+      "連絡",
+      "運ぶ"
+    ],
+    "explanation": "説明（せつめい） · 설명",
+    "source": null
+  },
+  "n3-4-sentence-1": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜として",
+    "prompt": "彼女は医師（　）、長年この地域で働いてきた。",
+    "answer": "として",
+    "distractors": [
+      "に比べて",
+      "を通じて",
+      "に向けて"
+    ],
+    "explanation": "명사 + として는 신분, 자격 또는 역할을 나타냅니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N3 문법 1번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3G.pdf"
+    }
+  },
+  "n3-4-sentence-2": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜として",
+    "prompt": "私も一人の住民（　）、この問題について意見を伝えたい。",
+    "answer": "として",
+    "distractors": [
+      "に比べて",
+      "を通じて",
+      "に向けて"
+    ],
+    "explanation": "명사 + として는 신분, 자격 또는 역할을 나타냅니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N3 문법 1번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3G.pdf"
+    }
+  },
+  "n3-5-sentence-1": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜わけではない",
+    "prompt": "たくさん練習したが、もう完璧にできる（　）。まだ苦手なところがある。",
+    "answer": "わけではない",
+    "distractors": [
+      "ことになっている",
+      "に違いない",
+      "ほうがいい"
+    ],
+    "explanation": "わけではない는 앞 상황에서 예상할 수 있는 결론을 부정합니다.",
+    "source": null
+  },
+  "n3-5-sentence-2": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜わけではない",
+    "prompt": "仕事で英語を使うが、語学が得意な（　）。話すときはいつも緊張する。",
+    "answer": "わけではない",
+    "distractors": [
+      "ことになっている",
+      "に違いない",
+      "ほうがいい"
+    ],
+    "explanation": "わけではない는 앞 상황에서 예상할 수 있는 결론을 부정합니다.",
+    "source": null
+  },
+  "n3-6-sentence-1": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜たびに",
+    "prompt": "この曲を聞く（　）、高校の文化祭を思い出す。",
+    "answer": "たびに",
+    "distractors": [
+      "ために",
+      "ばかりで",
+      "ところを"
+    ],
+    "explanation": "동사 사전형 + たびに는 ‘~할 때마다’라는 뜻입니다.",
+    "source": null
+  },
+  "n3-6-sentence-2": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜たびに",
+    "prompt": "駅前を通る（　）、そこにあった小さな本屋のことを思い出す。",
+    "answer": "たびに",
+    "distractors": [
+      "ために",
+      "ばかりで",
+      "ところを"
+    ],
+    "explanation": "동사 사전형 + たびに는 ‘~할 때마다’라는 뜻입니다.",
+    "source": null
+  },
+  "n3-grammar-1-sentence-1": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜としたら",
+    "prompt": "もし一日だけ昔に戻れる（　）、何歳の頃に戻りたいですか。",
+    "answer": "としたら",
+    "distractors": [
+      "に沿って",
+      "ところを",
+      "にしては"
+    ],
+    "explanation": "〜としたら는 어떤 상황을 가정합니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N3 문법 2번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3G.pdf"
+    }
+  },
+  "n3-grammar-1-sentence-2": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜としたら",
+    "prompt": "仮に来月から海外で働く（　）、何を準備しますか。",
+    "answer": "としたら",
+    "distractors": [
+      "に沿って",
+      "ところを",
+      "にしては"
+    ],
+    "explanation": "〜としたら는 어떤 상황을 가정합니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N3 문법 2번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3G.pdf"
+    }
+  },
+  "n3-grammar-2-sentence-1": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜お〜ください",
+    "prompt": "（電話の保留前）ただいまお調べしますので、少々（　）。",
+    "answer": "お待ちください",
+    "distractors": [
+      "お待ちします",
+      "お待ちしましょう",
+      "お待ちいただきました"
+    ],
+    "explanation": "お + 동사 어간 + ください는 고객에게 행동을 정중하게 요청하는 표현입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N3 문법 6번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3G.pdf"
+    }
+  },
+  "n3-grammar-2-sentence-2": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜お〜ください",
+    "prompt": "（電話で）係におつなぎします。切らずにそのまま（　）。",
+    "answer": "お待ちください",
+    "distractors": [
+      "お待ちします",
+      "お待ちしましょう",
+      "お待ちいただきました"
+    ],
+    "explanation": "お + 동사 어간 + ください는 고객에게 행동을 정중하게 요청하는 표현입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N3 문법 6번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3G.pdf"
+    }
+  },
+  "n3-grammar-3-sentence-1": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜うちに",
+    "prompt": "日が暮れない（　）、山を下りよう。",
+    "answer": "うちに",
+    "distractors": [
+      "あとで",
+      "せいで",
+      "ためか"
+    ],
+    "explanation": "〜ないうちに는 어떤 변화가 일어나기 전에라는 뜻입니다.",
+    "source": null
+  },
+  "n3-grammar-3-sentence-2": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜うちに",
+    "prompt": "道が混まない（　）、早めに出発しましょう。",
+    "answer": "うちに",
+    "distractors": [
+      "あとで",
+      "せいで",
+      "ためか"
+    ],
+    "explanation": "〜ないうちに는 어떤 변화가 일어나기 전에라는 뜻입니다.",
+    "source": null
+  },
+  "n3-grammar-4-sentence-1": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜ことにする",
+    "prompt": "今の仕事をしばらく続ける（　）。私はまだ転職しないと決めた。",
+    "answer": "ことにした",
+    "distractors": [
+      "ところだった",
+      "おそれがある",
+      "ことがある"
+    ],
+    "explanation": "〜ことにする는 스스로 결정했음을 나타냅니다.",
+    "source": null
+  },
+  "n3-grammar-4-sentence-2": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜ことにする",
+    "prompt": "話し合いの結果、私たちは今月から家賃を折半する（　）。",
+    "answer": "ことにした",
+    "distractors": [
+      "ところだった",
+      "おそれがある",
+      "ことがある"
+    ],
+    "explanation": "〜ことにする는 스스로 결정했음을 나타냅니다.",
+    "source": null
+  },
+  "n3-grammar-5-sentence-1": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜てばかりいる",
+    "prompt": "外はよく晴れているのに、子どもたちは部屋で動画を見て（　）。",
+    "answer": "ばかりいる",
+    "distractors": [
+      "はずがない",
+      "までもない",
+      "しかたがない"
+    ],
+    "explanation": "〜てばかりいる는 특정 행동만 되풀이한다는 뜻입니다.",
+    "source": null
+  },
+  "n3-grammar-5-sentence-2": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜てばかりいる",
+    "prompt": "彼は会議で人の意見に反対して（　）。自分の案はめったに出さない。",
+    "answer": "ばかりいる",
+    "distractors": [
+      "はずがない",
+      "までもない",
+      "しかたがない"
+    ],
+    "explanation": "〜てばかりいる는 특정 행동만 되풀이한다는 뜻입니다.",
+    "source": null
+  },
+  "n3-grammar-6-sentence-1": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜ほど〜ない",
+    "prompt": "このかばんは、見た目（　）重くない。",
+    "answer": "ほど",
+    "distractors": [
+      "までに",
+      "でも",
+      "などに"
+    ],
+    "explanation": "Aほど〜ない는 A와 같은 정도에 미치지 못한다는 뜻입니다.",
+    "source": null
+  },
+  "n3-grammar-6-sentence-2": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜ほど〜ない",
+    "prompt": "駅前の店は、前に来たとき（　）混んでいなかった。",
+    "answer": "ほど",
+    "distractors": [
+      "までに",
+      "でも",
+      "などに"
+    ],
+    "explanation": "Aほど〜ない는 A와 같은 정도에 미치지 못한다는 뜻입니다.",
+    "source": null
+  },
+  "n3-grammar-7-sentence-1": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜によって",
+    "prompt": "季節（　）、この道に咲く花の種類が変わる。",
+    "answer": "によって",
+    "distractors": [
+      "について",
+      "を通じて",
+      "に向かって"
+    ],
+    "explanation": "〜によって는 기준에 따른 차이를 나타냅니다.",
+    "source": null
+  },
+  "n3-grammar-7-sentence-2": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜によって",
+    "prompt": "使う材料（　）、料理の味や色が変わる。",
+    "answer": "によって",
+    "distractors": [
+      "について",
+      "を通じて",
+      "に向かって"
+    ],
+    "explanation": "〜によって는 기준에 따른 차이를 나타냅니다.",
+    "source": null
+  },
+  "n3-grammar-8-sentence-1": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜ということだ",
+    "prompt": "市の発表によると、駅前の図書館は来月から改修で休館する（　）。",
+    "answer": "ということだ",
+    "distractors": [
+      "わけがない",
+      "ことにしよう",
+      "にかぎる"
+    ],
+    "explanation": "〜ということだ는 들은 내용을 전달할 때 씁니다.",
+    "source": null
+  },
+  "n3-grammar-8-sentence-2": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜ということだ",
+    "prompt": "ラジオの交通情報によると、事故で高速道路の一部が通れない（　）。",
+    "answer": "ということだ",
+    "distractors": [
+      "わけがない",
+      "ことにしよう",
+      "にかぎる"
+    ],
+    "explanation": "〜ということだ는 들은 내용을 전달할 때 씁니다.",
+    "source": null
+  },
+  "n3-grammar-9-sentence-1": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜最中に",
+    "prompt": "試合の（　）雨が降り出し、一時中断となった。",
+    "answer": "最中に",
+    "distractors": [
+      "予定に",
+      "直後から",
+      "終了後に"
+    ],
+    "explanation": "〜最中に는 어떤 일이 진행되는 바로 그때를 나타냅니다.",
+    "source": null
+  },
+  "n3-grammar-9-sentence-2": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜最中に",
+    "prompt": "引っ越し作業の（　）電話が鳴り、持っていた箱をいったん置いた。",
+    "answer": "最中に",
+    "distractors": [
+      "予定に",
+      "直後から",
+      "終了後に"
+    ],
+    "explanation": "〜最中に는 어떤 일이 진행되는 바로 그때를 나타냅니다.",
+    "source": null
+  },
+  "n3-grammar-10-sentence-1": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜ないで済む",
+    "prompt": "オンラインで手続きできるので、役所まで行か（　）。",
+    "answer": "ないで済む",
+    "distractors": [
+      "ないでほしい",
+      "ないと困る",
+      "ないではいられない"
+    ],
+    "explanation": "〜ないで済む는 어떤 일을 하지 않아도 해결된다는 뜻입니다.",
+    "source": null
+  },
+  "n3-grammar-10-sentence-2": {
+    "level": "N3",
+    "section": "grammar",
+    "target": "〜ないで済む",
+    "prompt": "担当者が配達してくれるそうなので、受け取りに行か（　）。",
+    "answer": "ないで済む",
+    "distractors": [
+      "ないでほしい",
+      "ないと困る",
+      "ないではいられない"
+    ],
+    "explanation": "〜ないで済む는 어떤 일을 하지 않아도 해결된다는 뜻입니다.",
+    "source": null
+  },
+  "n3-1-meaning": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "税金",
+    "prompt": "「税金」의 뜻은?",
+    "answer": "세금",
+    "distractors": [
+      "관객",
+      "공통",
+      "실제"
+    ],
+    "explanation": "税金（ぜいきん）는 ‘세금’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N3 어휘 8번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf"
+    }
+  },
+  "n3-1-kanji": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "税金",
+    "prompt": "「ぜいきん」에 해당하는 한자는?",
+    "answer": "税金",
+    "distractors": [
+      "観客",
+      "共通",
+      "実際"
+    ],
+    "explanation": "税金（ぜいきん） · 세금",
+    "source": {
+      "label": "공식 문제집 제2집 N3 어휘 8번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf"
+    }
+  },
+  "n3-2-meaning": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "提案",
+    "prompt": "「提案」의 뜻은?",
+    "answer": "제안",
+    "distractors": [
+      "도착",
+      "상황",
+      "거절하다"
+    ],
+    "explanation": "提案（ていあん）는 ‘제안’이라는 뜻입니다.",
+    "source": null
+  },
+  "n3-2-kanji": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "提案",
+    "prompt": "「ていあん」에 해당하는 한자는?",
+    "answer": "提案",
+    "distractors": [
+      "到着",
+      "状況",
+      "断る"
+    ],
+    "explanation": "提案（ていあん） · 제안",
+    "source": null
+  },
+  "n3-3-meaning": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "判断",
+    "prompt": "「判断」의 뜻은?",
+    "answer": "판단",
+    "distractors": [
+      "훈련",
+      "해결",
+      "보충하다"
+    ],
+    "explanation": "判断（はんだん）는 ‘판단’이라는 뜻입니다.",
+    "source": null
+  },
+  "n3-3-kanji": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "判断",
+    "prompt": "「はんだん」에 해당하는 한자는?",
+    "answer": "判断",
+    "distractors": [
+      "訓練",
+      "解決",
+      "補う"
+    ],
+    "explanation": "判断（はんだん） · 판단",
+    "source": null
+  },
+  "n3-vocabulary-1-meaning": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "観客",
+    "prompt": "「観客」의 뜻은?",
+    "answer": "관객",
+    "distractors": [
+      "공통",
+      "책임",
+      "세금"
+    ],
+    "explanation": "観客（かんきゃく）는 ‘관객’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N3 어휘 1번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf"
+    }
+  },
+  "n3-vocabulary-1-kanji": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "観客",
+    "prompt": "「かんきゃく」에 해당하는 한자는?",
+    "answer": "観客",
+    "distractors": [
+      "共通",
+      "責任",
+      "税金"
+    ],
+    "explanation": "観客（かんきゃく） · 관객",
+    "source": {
+      "label": "공식 문제집 제2집 N3 어휘 1번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf"
+    }
+  },
+  "n3-vocabulary-2-meaning": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "到着",
+    "prompt": "「到着」의 뜻은?",
+    "answer": "도착",
+    "distractors": [
+      "상황",
+      "실제",
+      "제안"
+    ],
+    "explanation": "到着（とうちゃく）는 ‘도착’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N3 어휘 3번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf"
+    }
+  },
+  "n3-vocabulary-2-kanji": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "到着",
+    "prompt": "「とうちゃく」에 해당하는 한자는?",
+    "answer": "到着",
+    "distractors": [
+      "状況",
+      "実際",
+      "提案"
+    ],
+    "explanation": "到着（とうちゃく） · 도착",
+    "source": {
+      "label": "공식 문제집 제2집 N3 어휘 3번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf"
+    }
+  },
+  "n3-vocabulary-3-meaning": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "訓練",
+    "prompt": "「訓練」의 뜻은?",
+    "answer": "훈련",
+    "distractors": [
+      "해결",
+      "거절하다",
+      "판단"
+    ],
+    "explanation": "訓練（くんれん）는 ‘훈련’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N3 어휘 5번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf"
+    }
+  },
+  "n3-vocabulary-3-kanji": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "訓練",
+    "prompt": "「くんれん」에 해당하는 한자는?",
+    "answer": "訓練",
+    "distractors": [
+      "解決",
+      "断る",
+      "判断"
+    ],
+    "explanation": "訓練（くんれん） · 훈련",
+    "source": {
+      "label": "공식 문제집 제2집 N3 어휘 5번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf"
+    }
+  },
+  "n3-vocabulary-4-meaning": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "共通",
+    "prompt": "「共通」의 뜻은?",
+    "answer": "공통",
+    "distractors": [
+      "책임",
+      "보충하다",
+      "관객"
+    ],
+    "explanation": "共通（きょうつう）는 ‘공통’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N3 어휘 7번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf"
+    }
+  },
+  "n3-vocabulary-4-kanji": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "共通",
+    "prompt": "「きょうつう」에 해당하는 한자는?",
+    "answer": "共通",
+    "distractors": [
+      "責任",
+      "補う",
+      "観客"
+    ],
+    "explanation": "共通（きょうつう） · 공통",
+    "source": {
+      "label": "공식 문제집 제2집 N3 어휘 7번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf"
+    }
+  },
+  "n3-vocabulary-5-meaning": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "状況",
+    "prompt": "「状況」의 뜻은?",
+    "answer": "상황",
+    "distractors": [
+      "실제",
+      "세금",
+      "도착"
+    ],
+    "explanation": "状況（じょうきょう）는 ‘상황’이라는 뜻입니다.",
+    "source": null
+  },
+  "n3-vocabulary-5-kanji": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "状況",
+    "prompt": "「じょうきょう」에 해당하는 한자는?",
+    "answer": "状況",
+    "distractors": [
+      "実際",
+      "税金",
+      "到着"
+    ],
+    "explanation": "状況（じょうきょう） · 상황",
+    "source": null
+  },
+  "n3-vocabulary-6-meaning": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "解決",
+    "prompt": "「解決」의 뜻은?",
+    "answer": "해결",
+    "distractors": [
+      "거절하다",
+      "제안",
+      "훈련"
+    ],
+    "explanation": "解決（かいけつ）는 ‘해결’이라는 뜻입니다.",
+    "source": null
+  },
+  "n3-vocabulary-6-kanji": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "解決",
+    "prompt": "「かいけつ」에 해당하는 한자는?",
+    "answer": "解決",
+    "distractors": [
+      "断る",
+      "提案",
+      "訓練"
+    ],
+    "explanation": "解決（かいけつ） · 해결",
+    "source": null
+  },
+  "n3-vocabulary-7-meaning": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "責任",
+    "prompt": "「責任」의 뜻은?",
+    "answer": "책임",
+    "distractors": [
+      "보충하다",
+      "판단",
+      "공통"
+    ],
+    "explanation": "責任（せきにん）는 ‘책임’이라는 뜻입니다.",
+    "source": null
+  },
+  "n3-vocabulary-7-kanji": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "責任",
+    "prompt": "「せきにん」에 해당하는 한자는?",
+    "answer": "責任",
+    "distractors": [
+      "補う",
+      "判断",
+      "共通"
+    ],
+    "explanation": "責任（せきにん） · 책임",
+    "source": null
+  },
+  "n3-vocabulary-8-meaning": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "実際",
+    "prompt": "「実際」의 뜻은?",
+    "answer": "실제",
+    "distractors": [
+      "세금",
+      "관객",
+      "상황"
+    ],
+    "explanation": "実際（じっさい）는 ‘실제’이라는 뜻입니다.",
+    "source": null
+  },
+  "n3-vocabulary-8-kanji": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "実際",
+    "prompt": "「じっさい」에 해당하는 한자는?",
+    "answer": "実際",
+    "distractors": [
+      "税金",
+      "観客",
+      "状況"
+    ],
+    "explanation": "実際（じっさい） · 실제",
+    "source": null
+  },
+  "n3-vocabulary-9-meaning": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "断る",
+    "prompt": "「断る」의 뜻은?",
+    "answer": "거절하다",
+    "distractors": [
+      "제안",
+      "도착",
+      "해결"
+    ],
+    "explanation": "断る（ことわる）는 ‘거절하다’이라는 뜻입니다.",
+    "source": null
+  },
+  "n3-vocabulary-9-kanji": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "断る",
+    "prompt": "「ことわる」에 해당하는 한자는?",
+    "answer": "断る",
+    "distractors": [
+      "提案",
+      "到着",
+      "解決"
+    ],
+    "explanation": "断る（ことわる） · 거절하다",
+    "source": null
+  },
+  "n3-vocabulary-10-meaning": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "補う",
+    "prompt": "「補う」의 뜻은?",
+    "answer": "보충하다",
+    "distractors": [
+      "판단",
+      "훈련",
+      "책임"
+    ],
+    "explanation": "補う（おぎなう）는 ‘보충하다’이라는 뜻입니다.",
+    "source": null
+  },
+  "n3-vocabulary-10-kanji": {
+    "level": "N3",
+    "section": "vocabulary",
+    "target": "補う",
+    "prompt": "「おぎなう」에 해당하는 한자는?",
+    "answer": "補う",
+    "distractors": [
+      "判断",
+      "訓練",
+      "責任"
+    ],
+    "explanation": "補う（おぎなう） · 보충하다",
+    "source": null
+  },
+  "n2-4-sentence-1": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜て以来",
+    "prompt": "新しい部署に移っ（　）、毎週金曜日に勉強会を開いている。",
+    "answer": "て以来",
+    "distractors": [
+      "たところで",
+      "てまで",
+      "つつも"
+    ],
+    "explanation": "〜て以来는 어떤 일이 일어난 뒤로 같은 상태나 습관이 계속됨을 나타냅니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N2 문법 46번",
+      "url": "https://ns2.jlpt.jp/samples/sample2018/pdf/N2G.pdf"
+    }
+  },
+  "n2-4-sentence-2": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜て以来",
+    "prompt": "この店で働き始め（　）、毎日閉店まで店に立っている。",
+    "answer": "て以来",
+    "distractors": [
+      "たところで",
+      "てまで",
+      "つつも"
+    ],
+    "explanation": "〜て以来는 어떤 일이 일어난 뒤로 같은 상태나 습관이 계속됨을 나타냅니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N2 문법 46번",
+      "url": "https://ns2.jlpt.jp/samples/sample2018/pdf/N2G.pdf"
+    }
+  },
+  "n2-5-sentence-1": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜にかかわらず",
+    "prompt": "経験の有無（　）、全員が研修に参加できます。",
+    "answer": "にかかわらず",
+    "distractors": [
+      "に限り",
+      "に比べて",
+      "に先立って"
+    ],
+    "explanation": "にかかわらず는 조건과 관계없음을 나타냅니다.",
+    "source": null
+  },
+  "n2-5-sentence-2": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜にかかわらず",
+    "prompt": "天候（　）、説明会は予定どおり屋内で開催します。",
+    "answer": "にかかわらず",
+    "distractors": [
+      "に限り",
+      "に比べて",
+      "に先立って"
+    ],
+    "explanation": "にかかわらず는 조건과 관계없음을 나타냅니다.",
+    "source": null
+  },
+  "n2-6-sentence-1": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜かねる",
+    "prompt": "ご事情は承知しましたが、ご要望にはお応えし（　）。",
+    "answer": "かねます",
+    "distractors": [
+      "つつあります",
+      "きれます",
+      "がちです"
+    ],
+    "explanation": "かねる는 요청을 받아들이기 어렵다고 정중하게 표현할 때 씁니다.",
+    "source": null
+  },
+  "n2-6-sentence-2": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜かねる",
+    "prompt": "申し訳ありませんが、その質問にはお答えし（　）。",
+    "answer": "かねます",
+    "distractors": [
+      "つつあります",
+      "きれます",
+      "がちです"
+    ],
+    "explanation": "かねる는 요청을 받아들이기 어렵다고 정중하게 표현할 때 씁니다.",
+    "source": null
+  },
+  "n2-grammar-1-sentence-1": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜そうにない",
+    "prompt": "雨がまだ強いので、花火大会は時間どおり始まり（　）。",
+    "answer": "そうにない",
+    "distractors": [
+      "をかけた",
+      "がちだ",
+      "だらけだ"
+    ],
+    "explanation": "동사 ます형 어간 + そうにない는 상황을 보고 가능성이 낮다고 판단할 때 씁니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N2 문법 43번",
+      "url": "https://ns2.jlpt.jp/samples/sample2018/pdf/N2G.pdf"
+    }
+  },
+  "n2-grammar-1-sentence-2": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜そうにない",
+    "prompt": "開始時刻を過ぎても照明が消えず、上映はすぐには始まり（　）。",
+    "answer": "そうにない",
+    "distractors": [
+      "をかけた",
+      "がちだ",
+      "だらけだ"
+    ],
+    "explanation": "동사 ます형 어간 + そうにない는 상황을 보고 가능성이 낮다고 판단할 때 씁니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N2 문법 43번",
+      "url": "https://ns2.jlpt.jp/samples/sample2018/pdf/N2G.pdf"
+    }
+  },
+  "n2-grammar-2-sentence-1": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜うえで",
+    "prompt": "契約を結ぶ（　）注意すべき点を説明します。",
+    "answer": "うえで",
+    "distractors": [
+      "ままに",
+      "ところから",
+      "だけでは"
+    ],
+    "explanation": "〜うえで는 목적을 달성하는 과정이나 관점을 제시합니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N2 문법 45번",
+      "url": "https://ns2.jlpt.jp/samples/sample2018/pdf/N2G.pdf"
+    }
+  },
+  "n2-grammar-2-sentence-2": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜うえで",
+    "prompt": "海外で事業を始める（　）必要な許可を調べています。",
+    "answer": "うえで",
+    "distractors": [
+      "ままに",
+      "ところから",
+      "だけでは"
+    ],
+    "explanation": "〜うえで는 목적을 달성하는 과정이나 관점을 제시합니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N2 문법 45번",
+      "url": "https://ns2.jlpt.jp/samples/sample2018/pdf/N2G.pdf"
+    }
+  },
+  "n2-grammar-3-sentence-1": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜だけなら",
+    "prompt": "説明書を読む（　）簡単ですが、実際に組み立てるには慣れが必要です。",
+    "answer": "だけなら",
+    "distractors": [
+      "ばかりに",
+      "しかなく",
+      "ところまで"
+    ],
+    "explanation": "〜だけなら는 조건을 한 가지 일로 한정합니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N2 문법 40번",
+      "url": "https://ns2.jlpt.jp/samples/sample2018/pdf/N2G.pdf"
+    }
+  },
+  "n2-grammar-3-sentence-2": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜だけなら",
+    "prompt": "議事録を読む（　）短時間で済むが、関連資料まで確認するには半日かかる。",
+    "answer": "だけなら",
+    "distractors": [
+      "ばかりに",
+      "しかなく",
+      "ところまで"
+    ],
+    "explanation": "〜だけなら는 조건을 한 가지 일로 한정합니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N2 문법 40번",
+      "url": "https://ns2.jlpt.jp/samples/sample2018/pdf/N2G.pdf"
+    }
+  },
+  "n2-grammar-4-sentence-1": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜に伴って",
+    "prompt": "交通量の増加（　）、道路の維持費も増えてきた。",
+    "answer": "に伴って",
+    "distractors": [
+      "を除いて",
+      "に反して",
+      "を皮切りに"
+    ],
+    "explanation": "〜に伴って는 한 변화와 함께 다른 변화도 일어남을 나타냅니다.",
+    "source": null
+  },
+  "n2-grammar-4-sentence-2": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜に伴って",
+    "prompt": "経験年数の増加（　）、任される業務の範囲も広がる。",
+    "answer": "に伴って",
+    "distractors": [
+      "を除いて",
+      "に反して",
+      "を皮切りに"
+    ],
+    "explanation": "〜に伴って는 한 변화와 함께 다른 변화도 일어남을 나타냅니다.",
+    "source": null
+  },
+  "n2-grammar-5-sentence-1": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜に先立って",
+    "prompt": "式典の開会（　）、参加者全員が席に着いた。",
+    "answer": "に先立って",
+    "distractors": [
+      "を経て",
+      "に引き続き",
+      "の終了後に"
+    ],
+    "explanation": "〜に先立って는 중요한 일에 앞서 준비나 별도 행동이 이루어짐을 뜻합니다.",
+    "source": null
+  },
+  "n2-grammar-5-sentence-2": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜に先立って",
+    "prompt": "会議の開会（　）、司会者が席順を確認した。",
+    "answer": "に先立って",
+    "distractors": [
+      "を経て",
+      "に引き続き",
+      "の終了後に"
+    ],
+    "explanation": "〜に先立って는 중요한 일에 앞서 준비나 별도 행동이 이루어짐을 뜻합니다.",
+    "source": null
+  },
+  "n2-grammar-6-sentence-1": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜に反して",
+    "prompt": "周囲の期待（　）、新製品の売り上げは初月から伸び悩んだ。期待は大きかっただけに落胆も大きかった。",
+    "answer": "に反して",
+    "distractors": [
+      "に沿って",
+      "に基づいて",
+      "を裏づけるように"
+    ],
+    "explanation": "〜に反して는 예상이나 기대와 반대되는 결과를 나타냅니다.",
+    "source": null
+  },
+  "n2-grammar-6-sentence-2": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜に反して",
+    "prompt": "監督の予想（　）、試合の前半は一方的な展開になった。接戦を想定していたという。",
+    "answer": "に反して",
+    "distractors": [
+      "に沿って",
+      "に基づいて",
+      "を裏づけるように"
+    ],
+    "explanation": "〜に反して는 예상이나 기대와 반대되는 결과를 나타냅니다.",
+    "source": null
+  },
+  "n2-grammar-7-sentence-1": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜に限り",
+    "prompt": "今週（　）、通常より一時間早く開館します。来週には元に戻ります。",
+    "answer": "に限り",
+    "distractors": [
+      "にわたり",
+      "にかけて",
+      "を機に"
+    ],
+    "explanation": "〜に限り는 적용 범위를 특정 조건으로 한정합니다.",
+    "source": null
+  },
+  "n2-grammar-7-sentence-2": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜に限り",
+    "prompt": "初回（　）、購入の際に割引が適用されます。二回目からは定価です。",
+    "answer": "に限り",
+    "distractors": [
+      "にわたり",
+      "にかけて",
+      "を機に"
+    ],
+    "explanation": "〜に限り는 적용 범위를 특정 조건으로 한정합니다.",
+    "source": null
+  },
+  "n2-grammar-8-sentence-1": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜ざるを得ない",
+    "prompt": "危険が大きく、それでも進むわけにはいかないので、引き返さ（　）。",
+    "answer": "ざるを得ない",
+    "distractors": [
+      "ないではいられない",
+      "ないことはない",
+      "ないことにした"
+    ],
+    "explanation": "〜ざるを得ない는 상황 때문에 선택의 여지가 없음을 나타냅니다.",
+    "source": null
+  },
+  "n2-grammar-8-sentence-2": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜ざるを得ない",
+    "prompt": "前の道も横道も土砂でふさがれていたため、元来た道へ引き返さ（　）。",
+    "answer": "ざるを得ない",
+    "distractors": [
+      "ないではいられない",
+      "ないことはない",
+      "ないことにした"
+    ],
+    "explanation": "〜ざるを得ない는 상황 때문에 선택의 여지가 없음을 나타냅니다.",
+    "source": null
+  },
+  "n2-grammar-9-sentence-1": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜にすぎない",
+    "prompt": "この結果は一つの目安に（　）。絶対的な基準として考えるべきではない。",
+    "answer": "すぎない",
+    "distractors": [
+      "ほかならない",
+      "違いない",
+      "決まっている"
+    ],
+    "explanation": "〜にすぎない는 그 정도에 불과함을 나타냅니다.",
+    "source": null
+  },
+  "n2-grammar-9-sentence-2": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜にすぎない",
+    "prompt": "彼の話は推測に（　）。証拠はまだ示されていない。",
+    "answer": "すぎない",
+    "distractors": [
+      "ほかならない",
+      "違いない",
+      "決まっている"
+    ],
+    "explanation": "〜にすぎない는 그 정도에 불과함을 나타냅니다.",
+    "source": null
+  },
+  "n2-grammar-10-sentence-1": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜つつある",
+    "prompt": "再開発が進むにつれ、駅前の景色は少しずつ変わり（　）。",
+    "answer": "つつある",
+    "distractors": [
+      "きった",
+      "かねない",
+      "ようがない"
+    ],
+    "explanation": "〜つつある는 변화가 점진적으로 진행 중임을 나타냅니다.",
+    "source": null
+  },
+  "n2-grammar-10-sentence-2": {
+    "level": "N2",
+    "section": "grammar",
+    "target": "〜つつある",
+    "prompt": "新しい世代が加わり、チームの仕事の進め方も徐々に変わり（　）。",
+    "answer": "つつある",
+    "distractors": [
+      "きった",
+      "かねない",
+      "ようがない"
+    ],
+    "explanation": "〜つつある는 변화가 점진적으로 진행 중임을 나타냅니다.",
+    "source": null
+  },
+  "n2-1-meaning": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "願望",
+    "prompt": "「願望」의 뜻은?",
+    "answer": "간절히 바라는 마음, 소망",
+    "distractors": [
+      "귀중함",
+      "동반하다",
+      "촉진하다, 재촉하다"
+    ],
+    "explanation": "願望（がんぼう）는 ‘간절히 바라는 마음, 소망’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N2 어휘 5번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf"
+    }
+  },
+  "n2-1-kanji": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "願望",
+    "prompt": "「がんぼう」에 해당하는 한자는?",
+    "answer": "願望",
+    "distractors": [
+      "貴重",
+      "伴う",
+      "促す"
+    ],
+    "explanation": "願望（がんぼう） · 간절히 바라는 마음, 소망",
+    "source": {
+      "label": "공식 문제집 제2집 N2 어휘 5번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf"
+    }
+  },
+  "n2-2-meaning": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "著しい",
+    "prompt": "「著しい」의 뜻은?",
+    "answer": "현저하다, 두드러지다",
+    "distractors": [
+      "수상하다",
+      "유지",
+      "부담"
+    ],
+    "explanation": "著しい（いちじるしい）는 ‘현저하다, 두드러지다’이라는 뜻입니다.",
+    "source": null
+  },
+  "n2-2-kanji": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "著しい",
+    "prompt": "「いちじるしい」에 해당하는 한자는?",
+    "answer": "著しい",
+    "distractors": [
+      "怪しい",
+      "維持",
+      "負担"
+    ],
+    "explanation": "著しい（いちじるしい） · 현저하다, 두드러지다",
+    "source": null
+  },
+  "n2-3-meaning": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "慎重",
+    "prompt": "「慎重」의 뜻은?",
+    "answer": "신중",
+    "distractors": [
+      "용모",
+      "타협",
+      "효율"
+    ],
+    "explanation": "慎重（しんちょう）는 ‘신중’이라는 뜻입니다.",
+    "source": null
+  },
+  "n2-3-kanji": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "慎重",
+    "prompt": "「しんちょう」에 해당하는 한자는?",
+    "answer": "慎重",
+    "distractors": [
+      "容姿",
+      "妥協",
+      "効率"
+    ],
+    "explanation": "慎重（しんちょう） · 신중",
+    "source": null
+  },
+  "n2-vocabulary-1-meaning": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "貴重",
+    "prompt": "「貴重」의 뜻은?",
+    "answer": "귀중함",
+    "distractors": [
+      "동반하다",
+      "저축하다, 비축하다",
+      "간절히 바라는 마음, 소망"
+    ],
+    "explanation": "貴重（きちょう）는 ‘귀중함’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N2 어휘 1번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf"
+    }
+  },
+  "n2-vocabulary-1-kanji": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "貴重",
+    "prompt": "「きちょう」에 해당하는 한자는?",
+    "answer": "貴重",
+    "distractors": [
+      "伴う",
+      "蓄える",
+      "願望"
+    ],
+    "explanation": "貴重（きちょう） · 귀중함",
+    "source": {
+      "label": "공식 문제집 제2집 N2 어휘 1번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf"
+    }
+  },
+  "n2-vocabulary-2-meaning": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "怪しい",
+    "prompt": "「怪しい」의 뜻은?",
+    "answer": "수상하다",
+    "distractors": [
+      "유지",
+      "촉진하다, 재촉하다",
+      "현저하다, 두드러지다"
+    ],
+    "explanation": "怪しい（あやしい）는 ‘수상하다’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N2 어휘 2번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf"
+    }
+  },
+  "n2-vocabulary-2-kanji": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "怪しい",
+    "prompt": "「あやしい」에 해당하는 한자는?",
+    "answer": "怪しい",
+    "distractors": [
+      "維持",
+      "促す",
+      "著しい"
+    ],
+    "explanation": "怪しい（あやしい） · 수상하다",
+    "source": {
+      "label": "공식 문제집 제2집 N2 어휘 2번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf"
+    }
+  },
+  "n2-vocabulary-3-meaning": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "容姿",
+    "prompt": "「容姿」의 뜻은?",
+    "answer": "용모",
+    "distractors": [
+      "타협",
+      "부담",
+      "신중"
+    ],
+    "explanation": "容姿（ようし）는 ‘용모’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N2 어휘 3번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf"
+    }
+  },
+  "n2-vocabulary-3-kanji": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "容姿",
+    "prompt": "「ようし」에 해당하는 한자는?",
+    "answer": "容姿",
+    "distractors": [
+      "妥協",
+      "負担",
+      "慎重"
+    ],
+    "explanation": "容姿（ようし） · 용모",
+    "source": {
+      "label": "공식 문제집 제2집 N2 어휘 3번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf"
+    }
+  },
+  "n2-vocabulary-4-meaning": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "伴う",
+    "prompt": "「伴う」의 뜻은?",
+    "answer": "동반하다",
+    "distractors": [
+      "저축하다, 비축하다",
+      "효율",
+      "귀중함"
+    ],
+    "explanation": "伴う（ともなう）는 ‘동반하다’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N2 어휘 4번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf"
+    }
+  },
+  "n2-vocabulary-4-kanji": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "伴う",
+    "prompt": "「ともなう」에 해당하는 한자는?",
+    "answer": "伴う",
+    "distractors": [
+      "蓄える",
+      "効率",
+      "貴重"
+    ],
+    "explanation": "伴う（ともなう） · 동반하다",
+    "source": {
+      "label": "공식 문제집 제2집 N2 어휘 4번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf"
+    }
+  },
+  "n2-vocabulary-5-meaning": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "維持",
+    "prompt": "「維持」의 뜻은?",
+    "answer": "유지",
+    "distractors": [
+      "촉진하다, 재촉하다",
+      "간절히 바라는 마음, 소망",
+      "수상하다"
+    ],
+    "explanation": "維持（いじ）는 ‘유지’이라는 뜻입니다.",
+    "source": null
+  },
+  "n2-vocabulary-5-kanji": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "維持",
+    "prompt": "「いじ」에 해당하는 한자는?",
+    "answer": "維持",
+    "distractors": [
+      "促す",
+      "願望",
+      "怪しい"
+    ],
+    "explanation": "維持（いじ） · 유지",
+    "source": null
+  },
+  "n2-vocabulary-6-meaning": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "妥協",
+    "prompt": "「妥協」의 뜻은?",
+    "answer": "타협",
+    "distractors": [
+      "부담",
+      "현저하다, 두드러지다",
+      "용모"
+    ],
+    "explanation": "妥協（だきょう）는 ‘타협’이라는 뜻입니다.",
+    "source": null
+  },
+  "n2-vocabulary-6-kanji": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "妥協",
+    "prompt": "「だきょう」에 해당하는 한자는?",
+    "answer": "妥協",
+    "distractors": [
+      "負担",
+      "著しい",
+      "容姿"
+    ],
+    "explanation": "妥協（だきょう） · 타협",
+    "source": null
+  },
+  "n2-vocabulary-7-meaning": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "蓄える",
+    "prompt": "「蓄える」의 뜻은?",
+    "answer": "저축하다, 비축하다",
+    "distractors": [
+      "효율",
+      "신중",
+      "동반하다"
+    ],
+    "explanation": "蓄える（たくわえる）는 ‘저축하다, 비축하다’이라는 뜻입니다.",
+    "source": null
+  },
+  "n2-vocabulary-7-kanji": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "蓄える",
+    "prompt": "「たくわえる」에 해당하는 한자는?",
+    "answer": "蓄える",
+    "distractors": [
+      "効率",
+      "慎重",
+      "伴う"
+    ],
+    "explanation": "蓄える（たくわえる） · 저축하다, 비축하다",
+    "source": null
+  },
+  "n2-vocabulary-8-meaning": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "促す",
+    "prompt": "「促す」의 뜻은?",
+    "answer": "촉진하다, 재촉하다",
+    "distractors": [
+      "간절히 바라는 마음, 소망",
+      "귀중함",
+      "유지"
+    ],
+    "explanation": "促す（うながす）는 ‘촉진하다, 재촉하다’이라는 뜻입니다.",
+    "source": null
+  },
+  "n2-vocabulary-8-kanji": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "促す",
+    "prompt": "「うながす」에 해당하는 한자는?",
+    "answer": "促す",
+    "distractors": [
+      "願望",
+      "貴重",
+      "維持"
+    ],
+    "explanation": "促す（うながす） · 촉진하다, 재촉하다",
+    "source": null
+  },
+  "n2-vocabulary-9-meaning": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "負担",
+    "prompt": "「負担」의 뜻은?",
+    "answer": "부담",
+    "distractors": [
+      "현저하다, 두드러지다",
+      "수상하다",
+      "타협"
+    ],
+    "explanation": "負担（ふたん）는 ‘부담’이라는 뜻입니다.",
+    "source": null
+  },
+  "n2-vocabulary-9-kanji": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "負担",
+    "prompt": "「ふたん」에 해당하는 한자는?",
+    "answer": "負担",
+    "distractors": [
+      "著しい",
+      "怪しい",
+      "妥協"
+    ],
+    "explanation": "負担（ふたん） · 부담",
+    "source": null
+  },
+  "n2-vocabulary-10-meaning": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "効率",
+    "prompt": "「効率」의 뜻은?",
+    "answer": "효율",
+    "distractors": [
+      "신중",
+      "용모",
+      "저축하다, 비축하다"
+    ],
+    "explanation": "効率（こうりつ）는 ‘효율’이라는 뜻입니다.",
+    "source": null
+  },
+  "n2-vocabulary-10-kanji": {
+    "level": "N2",
+    "section": "vocabulary",
+    "target": "効率",
+    "prompt": "「こうりつ」에 해당하는 한자는?",
+    "answer": "効率",
+    "distractors": [
+      "慎重",
+      "容姿",
+      "蓄える"
+    ],
+    "explanation": "効率（こうりつ） · 효율",
+    "source": null
+  },
+  "n1-4-sentence-1": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜をよそに",
+    "prompt": "周囲の心配（　）、彼女は一人で遠い山へ向かった。",
+    "answer": "をよそに",
+    "distractors": [
+      "にこたえて",
+      "を機に",
+      "に先駆けて"
+    ],
+    "explanation": "〜をよそには 주변의 반응이나 상황을 아랑곳하지 않고 행동한다는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 문법 문제 5 (책자 6쪽)",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1G.pdf"
+    }
+  },
+  "n1-4-sentence-2": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜をよそに",
+    "prompt": "家族の反対（　）、彼は危険な計画を強行した。",
+    "answer": "をよそに",
+    "distractors": [
+      "にこたえて",
+      "を機に",
+      "に先駆けて"
+    ],
+    "explanation": "〜をよそには 주변의 반응이나 상황을 아랑곳하지 않고 행동한다는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 문법 문제 5 (책자 6쪽)",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1G.pdf"
+    }
+  },
+  "n1-5-sentence-1": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜に堪えない",
+    "prompt": "私の手違いでご迷惑をおかけし、誠に恐縮（　）。",
+    "answer": "に堪えません",
+    "distractors": [
+      "には及びません",
+      "にほかなりません",
+      "をものともしません"
+    ],
+    "explanation": "恐縮に堪えない는 대단히 송구하다는 격식 있는 표현입니다.",
+    "source": null
+  },
+  "n1-5-sentence-2": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜に堪えない",
+    "prompt": "長らくご足労をおかけしましたこと、恐縮（　）。",
+    "answer": "に堪えません",
+    "distractors": [
+      "には及びません",
+      "にほかなりません",
+      "をものともしません"
+    ],
+    "explanation": "恐縮に堪えない는 대단히 송구하다는 격식 있는 표현입니다.",
+    "source": null
+  },
+  "n1-6-sentence-1": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜までもない",
+    "prompt": "最寄り駅から徒歩五分だ。タクシーを呼ぶ（　）。",
+    "answer": "までもない",
+    "distractors": [
+      "べくもない",
+      "きらいがある",
+      "にたえない"
+    ],
+    "explanation": "までもない는 굳이 그 정도까지 할 필요가 없음을 나타냅니다.",
+    "source": null
+  },
+  "n1-6-sentence-2": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜までもない",
+    "prompt": "説明は冒頭に明記されている。わざわざ問い合わせる（　）。",
+    "answer": "までもない",
+    "distractors": [
+      "べくもない",
+      "きらいがある",
+      "にたえない"
+    ],
+    "explanation": "までもない는 굳이 그 정도까지 할 필요가 없음을 나타냅니다.",
+    "source": null
+  },
+  "n1-grammar-1-sentence-1": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜に越したことはない",
+    "prompt": "急ぎの案件ではないが、返事は早い（　）。",
+    "answer": "に越したことはない",
+    "distractors": [
+      "にたえない",
+      "にほかならない",
+      "に及ばない"
+    ],
+    "explanation": "〜に越したことはない는 가능한 선택 중 해당 조건이 가장 바람직함을 나타냅니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 문법 문제 5 (책자 6쪽)",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1G.pdf"
+    }
+  },
+  "n1-grammar-1-sentence-2": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜に越したことはない",
+    "prompt": "選ぶなら中古でも構わないが、年式は新しい（　）。",
+    "answer": "に越したことはない",
+    "distractors": [
+      "にたえない",
+      "にほかならない",
+      "に及ばない"
+    ],
+    "explanation": "〜に越したことはない는 가능한 선택 중 해당 조건이 가장 바람직함을 나타냅니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 문법 문제 5 (책자 6쪽)",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1G.pdf"
+    }
+  },
+  "n1-grammar-2-sentence-1": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜次第では",
+    "prompt": "調査結果（　）、事業計画を見直すこともあり得る。",
+    "answer": "次第では",
+    "distractors": [
+      "次第と",
+      "次第まで",
+      "次第から"
+    ],
+    "explanation": "명사 + 次第では는 그 조건에 따라 다른 결과가 생길 수 있음을 나타냅니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 문법 문제 5 (책자 6쪽)",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1G.pdf"
+    }
+  },
+  "n1-grammar-2-sentence-2": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜次第では",
+    "prompt": "道路の復旧状況（　）、バスの運休が長引く可能性があります。",
+    "answer": "次第では",
+    "distractors": [
+      "次第と",
+      "次第まで",
+      "次第から"
+    ],
+    "explanation": "명사 + 次第では는 그 조건에 따라 다른 결과가 생길 수 있음을 나타냅니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 문법 문제 5 (책자 6쪽)",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1G.pdf"
+    }
+  },
+  "n1-grammar-3-sentence-1": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜もしないで",
+    "prompt": "利用規約を（　）もしないで、勝手に違反だと決めつけないでほしい。",
+    "answer": "読み",
+    "distractors": [
+      "読んで",
+      "読んだ",
+      "読まない"
+    ],
+    "explanation": "동사 ます형 어간 + もしないで는 최소한의 행동조차 하지 않았음을 강조합니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 문법 문제 5 (책자 6쪽)",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1G.pdf"
+    }
+  },
+  "n1-grammar-3-sentence-2": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜もしないで",
+    "prompt": "記事を（　）もしないで、見出しだけで判断するのは早計だ。",
+    "answer": "読み",
+    "distractors": [
+      "読んで",
+      "読んだ",
+      "読まない"
+    ],
+    "explanation": "동사 ます형 어간 + もしないで는 최소한의 행동조차 하지 않았음을 강조합니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 문법 문제 5 (책자 6쪽)",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1G.pdf"
+    }
+  },
+  "n1-grammar-4-sentence-1": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜をもって",
+    "prompt": "当サービスは今月末（　）終了いたします。",
+    "answer": "をもちまして",
+    "distractors": [
+      "に至りまして",
+      "と相まって",
+      "にかこつけまして"
+    ],
+    "explanation": "시점을 나타내는 명사 + をもって는 시한이나 종료 시점을 격식 있게 알립니다.",
+    "source": null
+  },
+  "n1-grammar-4-sentence-2": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜をもって",
+    "prompt": "今週金曜日（　）窓口業務を終了いたします。",
+    "answer": "をもちまして",
+    "distractors": [
+      "に至りまして",
+      "と相まって",
+      "にかこつけまして"
+    ],
+    "explanation": "시점을 나타내는 명사 + をもって는 시한이나 종료 시점을 격식 있게 알립니다.",
+    "source": null
+  },
+  "n1-grammar-5-sentence-1": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜に至るまで",
+    "prompt": "展示作品の選定から会場の照明（　）、あらゆる点に工夫が見られる。",
+    "answer": "に至るまで",
+    "distractors": [
+      "に先立って",
+      "にひきかえ",
+      "を機に"
+    ],
+    "explanation": "AからBに至るまでは 세부 항목까지 포함하는 범위를 드러냅니다.",
+    "source": null
+  },
+  "n1-grammar-5-sentence-2": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜に至るまで",
+    "prompt": "字の大きさから余白（　）、この本の装丁には細やかな配慮がある。",
+    "answer": "に至るまで",
+    "distractors": [
+      "に先立って",
+      "にひきかえ",
+      "を機に"
+    ],
+    "explanation": "AからBに至るまでは 세부 항목까지 포함하는 범위를 드러냅니다.",
+    "source": null
+  },
+  "n1-grammar-6-sentence-1": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜と相まって",
+    "prompt": "物価上昇と天候不順が（　）、飲食店の負担が増えた。",
+    "answer": "相まって",
+    "distractors": [
+      "立ち至って",
+      "相次ぐことなく",
+      "かけ離れて"
+    ],
+    "explanation": "相まって는 두 가지 요인이 어우러져 하나의 결과를 가져올 때 씁니다.",
+    "source": null
+  },
+  "n1-grammar-6-sentence-2": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜と相まって",
+    "prompt": "技術上の改良と価格の低下が（　）、新製品が急速に普及した。",
+    "answer": "相まって",
+    "distractors": [
+      "立ち至って",
+      "相次ぐことなく",
+      "かけ離れて"
+    ],
+    "explanation": "相まって는 두 가지 요인이 어우러져 하나의 결과를 가져올 때 씁니다.",
+    "source": null
+  },
+  "n1-grammar-7-sentence-1": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜ずにはおかない",
+    "prompt": "この映像は、見た人を深く感動させ（　）。",
+    "answer": "ずにはおかない",
+    "distractors": [
+      "しかない",
+      "ないままでいる",
+      "るには及ばない"
+    ],
+    "explanation": "〜ずにはおかない는 반드시 어떤 반응이나 결과를 불러일으킴을 나타냅니다.",
+    "source": null
+  },
+  "n1-grammar-7-sentence-2": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜ずにはおかない",
+    "prompt": "彼女の力強い演奏は、会場の聴衆を感動させ（　）。",
+    "answer": "ずにはおかない",
+    "distractors": [
+      "しかない",
+      "ないままでいる",
+      "るには及ばない"
+    ],
+    "explanation": "〜ずにはおかない는 반드시 어떤 반응이나 결과를 불러일으킴을 나타냅니다.",
+    "source": null
+  },
+  "n1-grammar-8-sentence-1": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜といえども",
+    "prompt": "いかに経験豊富な医師（　）、すべての病気を一人で判断できるわけではない。",
+    "answer": "といえども",
+    "distractors": [
+      "とあれば",
+      "にしてからが",
+      "ともあろう"
+    ],
+    "explanation": "〜といえども는 해당 조건에 있는 사람이나 사물에도 예외가 없음을 나타냅니다.",
+    "source": null
+  },
+  "n1-grammar-8-sentence-2": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜といえども",
+    "prompt": "いかなる専門家（　）、十分な根拠なしに結論を出してはいけない。",
+    "answer": "といえども",
+    "distractors": [
+      "とあれば",
+      "にしてからが",
+      "ともあろう"
+    ],
+    "explanation": "〜といえども는 해당 조건에 있는 사람이나 사물에도 예외가 없음을 나타냅니다.",
+    "source": null
+  },
+  "n1-grammar-9-sentence-1": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜が早いか",
+    "prompt": "店のシャッターが開く（　）、客が一斉に中へ入った。",
+    "answer": "が早いか",
+    "distractors": [
+      "にひきかえ",
+      "ほどではないが",
+      "というものの"
+    ],
+    "explanation": "동사 사전형 + が早いか는 앞 동작과 거의 동시에 다음 일이 일어남을 나타냅니다.",
+    "source": null
+  },
+  "n1-grammar-9-sentence-2": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜が早いか",
+    "prompt": "手のひらが開く（　）、小鳥は勢いよく飛び立った。",
+    "answer": "が早いか",
+    "distractors": [
+      "にひきかえ",
+      "ほどではないが",
+      "というものの"
+    ],
+    "explanation": "동사 사전형 + が早いか는 앞 동작과 거의 동시에 다음 일이 일어남을 나타냅니다.",
+    "source": null
+  },
+  "n1-grammar-10-sentence-1": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜べく",
+    "prompt": "真相を究明す（　）、第三者委員会が関係者から聞き取りを始めた。",
+    "answer": "べく",
+    "distractors": [
+      "だに",
+      "まじき",
+      "ともなく"
+    ],
+    "explanation": "〜べく는 격식 있는 문장에서 목적을 나타냅니다. する는 すべく 또는 するべく 형태로 씁니다.",
+    "source": null
+  },
+  "n1-grammar-10-sentence-2": {
+    "level": "N1",
+    "section": "grammar",
+    "target": "〜べく",
+    "prompt": "事故の原因を究明す（　）、技術者たちが現場に集められた。",
+    "answer": "べく",
+    "distractors": [
+      "だに",
+      "まじき",
+      "ともなく"
+    ],
+    "explanation": "〜べく는 격식 있는 문장에서 목적을 나타냅니다. する는 すべく 또는 するべく 형태로 씁니다.",
+    "source": null
+  },
+  "n1-1-meaning": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "顕著",
+    "prompt": "「顕著」의 뜻은?",
+    "answer": "현저함",
+    "distractors": [
+      "인맥",
+      "시세",
+      "가로막다"
+    ],
+    "explanation": "顕著（けんちょ）는 ‘현저함’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 3번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-1-kanji": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "顕著",
+    "prompt": "「けんちょ」에 해당하는 한자는?",
+    "answer": "顕著",
+    "distractors": [
+      "人脈",
+      "相場",
+      "阻む"
+    ],
+    "explanation": "顕著（けんちょ） · 현저함",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 3번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-2-meaning": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "施す",
+    "prompt": "「施す」의 뜻은?",
+    "answer": "베풀다, 조치를 취하다",
+    "distractors": [
+      "여러 갈래",
+      "일소, 한꺼번에 없앰",
+      "뒤엎다"
+    ],
+    "explanation": "施す（ほどこす）는 ‘베풀다, 조치를 취하다’이라는 뜻입니다.",
+    "source": null
+  },
+  "n1-2-kanji": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "施す",
+    "prompt": "「ほどこす」에 해당하는 한자는?",
+    "answer": "施す",
+    "distractors": [
+      "多岐",
+      "一掃",
+      "覆す"
+    ],
+    "explanation": "施す（ほどこす） · 베풀다, 조치를 취하다",
+    "source": null
+  },
+  "n1-3-meaning": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "踏襲",
+    "prompt": "「踏襲」의 뜻은?",
+    "answer": "기존 방식이나 전통을 그대로 따름",
+    "distractors": [
+      "쇠퇴하다",
+      "애착",
+      "잘 모르다, 서먹하다"
+    ],
+    "explanation": "踏襲（とうしゅう）는 ‘기존 방식이나 전통을 그대로 따름’이라는 뜻입니다.",
+    "source": null
+  },
+  "n1-3-kanji": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "踏襲",
+    "prompt": "「とうしゅう」에 해당하는 한자는?",
+    "answer": "踏襲",
+    "distractors": [
+      "廃れる",
+      "愛着",
+      "疎い"
+    ],
+    "explanation": "踏襲（とうしゅう） · 기존 방식이나 전통을 그대로 따름",
+    "source": null
+  },
+  "n1-vocabulary-1-meaning": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "人脈",
+    "prompt": "「人脈」의 뜻은?",
+    "answer": "인맥",
+    "distractors": [
+      "시세",
+      "서투르다",
+      "현저함"
+    ],
+    "explanation": "人脈（じんみゃく）는 ‘인맥’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 1번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-vocabulary-1-kanji": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "人脈",
+    "prompt": "「じんみゃく」에 해당하는 한자는?",
+    "answer": "人脈",
+    "distractors": [
+      "相場",
+      "拙い",
+      "顕著"
+    ],
+    "explanation": "人脈（じんみゃく） · 인맥",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 1번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-vocabulary-2-meaning": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "多岐",
+    "prompt": "「多岐」의 뜻은?",
+    "answer": "여러 갈래",
+    "distractors": [
+      "일소, 한꺼번에 없앰",
+      "가로막다",
+      "베풀다, 조치를 취하다"
+    ],
+    "explanation": "多岐（たき）는 ‘여러 갈래’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 4번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-vocabulary-2-kanji": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "多岐",
+    "prompt": "「たき」에 해당하는 한자는?",
+    "answer": "多岐",
+    "distractors": [
+      "一掃",
+      "阻む",
+      "施す"
+    ],
+    "explanation": "多岐（たき） · 여러 갈래",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 4번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-vocabulary-3-meaning": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "廃れる",
+    "prompt": "「廃れる」의 뜻은?",
+    "answer": "쇠퇴하다",
+    "distractors": [
+      "애착",
+      "뒤엎다",
+      "기존 방식이나 전통을 그대로 따름"
+    ],
+    "explanation": "廃れる（すたれる）는 ‘쇠퇴하다’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 5번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-vocabulary-3-kanji": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "廃れる",
+    "prompt": "「すたれる」에 해당하는 한자는?",
+    "answer": "廃れる",
+    "distractors": [
+      "愛着",
+      "覆す",
+      "踏襲"
+    ],
+    "explanation": "廃れる（すたれる） · 쇠퇴하다",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 5번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-vocabulary-4-meaning": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "相場",
+    "prompt": "「相場」의 뜻은?",
+    "answer": "시세",
+    "distractors": [
+      "서투르다",
+      "잘 모르다, 서먹하다",
+      "인맥"
+    ],
+    "explanation": "相場（そうば）는 ‘시세’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 6번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-vocabulary-4-kanji": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "相場",
+    "prompt": "「そうば」에 해당하는 한자는?",
+    "answer": "相場",
+    "distractors": [
+      "拙い",
+      "疎い",
+      "人脈"
+    ],
+    "explanation": "相場（そうば） · 시세",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 6번",
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-vocabulary-5-meaning": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "一掃",
+    "prompt": "「一掃」의 뜻은?",
+    "answer": "일소, 한꺼번에 없앰",
+    "distractors": [
+      "가로막다",
+      "현저함",
+      "여러 갈래"
+    ],
+    "explanation": "一掃（いっそう）는 ‘일소, 한꺼번에 없앰’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 10번",
+      "url": "https://ns.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-vocabulary-5-kanji": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "一掃",
+    "prompt": "「いっそう」에 해당하는 한자는?",
+    "answer": "一掃",
+    "distractors": [
+      "阻む",
+      "顕著",
+      "多岐"
+    ],
+    "explanation": "一掃（いっそう） · 일소, 한꺼번에 없앰",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 10번",
+      "url": "https://ns.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-vocabulary-6-meaning": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "愛着",
+    "prompt": "「愛着」의 뜻은?",
+    "answer": "애착",
+    "distractors": [
+      "뒤엎다",
+      "베풀다, 조치를 취하다",
+      "쇠퇴하다"
+    ],
+    "explanation": "愛着（あいちゃく）는 ‘애착’이라는 뜻입니다.",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 12번",
+      "url": "https://ns.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-vocabulary-6-kanji": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "愛着",
+    "prompt": "「あいちゃく」에 해당하는 한자는?",
+    "answer": "愛着",
+    "distractors": [
+      "覆す",
+      "施す",
+      "廃れる"
+    ],
+    "explanation": "愛着（あいちゃく） · 애착",
+    "source": {
+      "label": "공식 문제집 제2집 N1 어휘 12번",
+      "url": "https://ns.jlpt.jp/samples/sample2018/pdf/N1V.pdf"
+    }
+  },
+  "n1-vocabulary-7-meaning": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "拙い",
+    "prompt": "「拙い」의 뜻은?",
+    "answer": "서투르다",
+    "distractors": [
+      "잘 모르다, 서먹하다",
+      "기존 방식이나 전통을 그대로 따름",
+      "시세"
+    ],
+    "explanation": "拙い（つたない）는 ‘서투르다’이라는 뜻입니다.",
+    "source": null
+  },
+  "n1-vocabulary-7-kanji": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "拙い",
+    "prompt": "「つたない」에 해당하는 한자는?",
+    "answer": "拙い",
+    "distractors": [
+      "疎い",
+      "踏襲",
+      "相場"
+    ],
+    "explanation": "拙い（つたない） · 서투르다",
+    "source": null
+  },
+  "n1-vocabulary-8-meaning": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "阻む",
+    "prompt": "「阻む」의 뜻은?",
+    "answer": "가로막다",
+    "distractors": [
+      "현저함",
+      "인맥",
+      "일소, 한꺼번에 없앰"
+    ],
+    "explanation": "阻む（はばむ）는 ‘가로막다’이라는 뜻입니다.",
+    "source": null
+  },
+  "n1-vocabulary-8-kanji": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "阻む",
+    "prompt": "「はばむ」에 해당하는 한자는?",
+    "answer": "阻む",
+    "distractors": [
+      "顕著",
+      "人脈",
+      "一掃"
+    ],
+    "explanation": "阻む（はばむ） · 가로막다",
+    "source": null
+  },
+  "n1-vocabulary-9-meaning": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "覆す",
+    "prompt": "「覆す」의 뜻은?",
+    "answer": "뒤엎다",
+    "distractors": [
+      "베풀다, 조치를 취하다",
+      "여러 갈래",
+      "애착"
+    ],
+    "explanation": "覆す（くつがえす）는 ‘뒤엎다’이라는 뜻입니다.",
+    "source": null
+  },
+  "n1-vocabulary-9-kanji": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "覆す",
+    "prompt": "「くつがえす」에 해당하는 한자는?",
+    "answer": "覆す",
+    "distractors": [
+      "施す",
+      "多岐",
+      "愛着"
+    ],
+    "explanation": "覆す（くつがえす） · 뒤엎다",
+    "source": null
+  },
+  "n1-vocabulary-10-meaning": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "疎い",
+    "prompt": "「疎い」의 뜻은?",
+    "answer": "잘 모르다, 서먹하다",
+    "distractors": [
+      "기존 방식이나 전통을 그대로 따름",
+      "쇠퇴하다",
+      "서투르다"
+    ],
+    "explanation": "疎い（うとい）는 ‘잘 모르다, 서먹하다’이라는 뜻입니다.",
+    "source": null
+  },
+  "n1-vocabulary-10-kanji": {
+    "level": "N1",
+    "section": "vocabulary",
+    "target": "疎い",
+    "prompt": "「うとい」에 해당하는 한자는?",
+    "answer": "疎い",
+    "distractors": [
+      "踏襲",
+      "廃れる",
+      "拙い"
+    ],
+    "explanation": "疎い（うとい） · 잘 모르다, 서먹하다",
+    "source": null
+  }
+}

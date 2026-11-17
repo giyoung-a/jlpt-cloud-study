@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JLPT 모의고사</title>
+<style>
+:root { font: 16px/1.55 Inter, system-ui, sans-serif; color: #192b24; background: #eef3ef; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1000px; margin: auto; padding: clamp(16px, 4vw, 42px); }
+h1 { margin: 0 0 12px; font-size: clamp(24px, 5vw, 34px); }
+h2, h3 { margin: 0; }
+nav,.row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.study-nav { padding-bottom: 10px; margin-bottom: 16px; border-bottom: 1px solid #cfddd3; }
+a { color: #194b37; }
+.study-nav a { padding: 7px 12px; border-radius: 8px; text-decoration: none; }
+.study-nav [aria-current="page"], .primary { color: white; background: #194b37; }
+section { margin: 14px 0; padding: clamp(14px, 3vw, 24px); border: 1px solid #d7e2db; border-radius: 14px; background: white; }
+button, input, select { font: inherit; color: inherit; border: 1px solid #9cb1a4; border-radius: 8px; background: white; padding: 7px 12px; }
+button:not(:disabled) { cursor: pointer; }
+button[aria-pressed="true"] { background: #d9eddf; border-color: #194b37; }
+button:disabled { opacity: .55; }
+#slots, #choices, #history { display: grid; gap: 8px; margin: 12px 0; }
+#choices button, #history button { text-align: left; }
+#sample, #audio { max-width: 100%; }
+#clock { margin-left: auto; font-size: 1.4rem; font-variant-numeric: tabular-nums; font-weight: 700; }
+#passage { background: #f4f7f4; padding: 15px; border-radius: 8px; white-space: pre-line; }
+#prompt { font-size: 1.15rem; }
+#progress, .muted { color: #52675d; }
+#resultList { padding-left: 20px; }
+#finishSection { margin-left: auto; }
+#error { color: #8e3021; }
+#exam .row { justify-content: space-between; }
+#totalMargin { font-weight: 700; }
+[data-risk="high"] { color: #8e3021; }
+[data-risk="close"] { color: #785414; }
+[data-risk="clear"] { color: #194b37; }
+.review-actions { margin-top: 14px; }
+#review { margin-top: 18px; border-top: 1px solid #d7e2db; padding-top: 16px; }
+#reviewGroups { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+#reviewGroups p { margin: 0; padding: 8px 12px; border-radius: 8px; background: #f0f4f0; }
+#reviewList details { margin: 10px 0; padding: 10px 12px; border: 1px solid #d7e2db; border-radius: 8px; }
+#reviewList summary { cursor: pointer; font-weight: 650; }
+#reviewList :is(p, li) { white-space: pre-line; overflow-wrap: anywhere; }
+#reviewList .review-text { background: #f4f7f4; border-radius: 8px; padding: 10px; }
+@media (max-width: 600px) {
+  button, select, input[type="date"] { min-height: 44px; }
+  #exam > header { position: sticky; top: 0; z-index: 1; background: white; padding: 8px 0; }
+  #clock { font-size: 1.15rem; }
+  #sectionTitle { font-size: 1.02rem; }
+  #finishSection { margin-left: 0; }
+}
+</style>
+</head>
+<body>
+<main>
+<h1>JLPT 모의고사</h1>
+<nav class="study-nav" aria-label="학습 메뉴">
+<a href="/">일일 테스트</a><a href="/vocabulary">단어 암기</a><a href="/grammar">문법 암기</a><a href="/reading">독해 연습</a><a href="/mock" aria-current="page">모의고사</a>
+</nav>
+<section id="schedule">
+<h2>응시 날짜와 급수</h2>
+<p id="limit"></p>
+<div class="row">
+<label>날짜 <input id="date" type="date"></label>
+<label>급수 <select id="level"><option>N5</option><option>N4</option><option>N3</option><option>N2</option><option>N1</option></select></label>
+</div>
+<p id="plan" class="muted"></p>
+<div id="slots"></div>
+<details>
+<summary>청해 음량 확인</summary>
+<p>일본어 합성 음성입니다. 청해 문제에서는 음성이 한 번만 재생됩니다.</p>
+<audio id="sample" controls preload="none" src="/api/mock/preview"></audio>
+</details>
+</section>
+<p id="error" role="status"></p>
+<section id="break" hidden>
+<h2 id="breakTitle"></h2>
+<p id="breakDescription"></p>
+<button id="advance" class="primary" type="button">다음 교시 시작</button>
+</section>
+<section id="exam" hidden>
+<header class="row"><h2 id="sectionTitle"></h2><span id="clock" role="timer"></span></header>
+<p id="progress"></p>
+<p id="passage" lang="ja" hidden></p>
+<h3 id="prompt"></h3>
+<p><button id="listen" type="button" hidden>청해 음성 재생</button></p>
+<div id="choices"></div>
+<div class="row">
+<button id="previous" type="button">이전 문항</button><button id="next" type="button">다음 문항</button>
+<button id="finishSection" type="button">교시 제출</button>
+</div>
+</section>
+<section id="result" hidden>
+<h2 id="verdict"></h2>
+<p id="total"></p>
+<ul id="resultList"></ul>
+<p id="reason"></p>
+<p class="muted">정답률을 180점 만점으로 환산한 모의 점수입니다. 공식 JLPT는 척도 점수를 사용합니다.</p>
+<div id="assessment">
+  <p id="totalMargin"></p>
+  <p class="muted">과락 기준과 5점 이내, 총점 합격선과 10점 이내면 ‘아슬아슬’로 표시합니다.</p>
+</div>
+<div class="row review-actions">
+  <button id="openReview" type="button" class="primary" aria-expanded="false">오답·미응답 해설 보기</button>
+</div>
+<div id="review" hidden>
+  <h3>영역별 오답 분석</h3>
+  <div id="reviewGroups"></div>
+  <p id="reviewStatus" role="status"></p>
+  <div class="row">
+    <label>문항 필터 <select id="reviewFilter">
+      <option value="all">전체</option><option value="vocabulary">어휘</option>
+      <option value="grammar">문법</option><option value="reading">독해</option><option value="listening">청해</option>
+    </select></label>
+    <button id="expandReview" type="button">모두 펼치기</button>
+  </div>
+  <div id="reviewList"></div>
+</div>
+</section>
+<section>
+<h2>날짜별 성적</h2>
+<div id="history"></div>
+</section>
+<p class="muted"><a href="https://www.jlpt.jp/e/guideline/testsections.html">공식 시험 시간</a> · <a href="https://www.jlpt.jp/e/guideline/results.html">공식 과락·합격 기준</a></p>
+</main>
+<script>
+const get = id => document.getElementById(id);
+const date = get("date");
+const level = get("level");
+const error = get("error");
+const audio = new Audio();
+const dayFormat = new Intl.DateTimeFormat("sv-SE", {timeZone: "Asia/Seoul"});
+date.value = date.max = dayFormat.format(new Date());
+const initialLevel = new URLSearchParams(location.search).get("level");
+if (/^N[1-5]$/.test(initialLevel)) level.value = initialLevel;
+let roster;
+let current;
+let cursor = 0;
+let clockOffset = 0;
+let busy = false;
+let playing = false;
+let audioUrl;
+let audioId;
+let retryTime = 0;
+
+function button(label, action) {
+  const node = document.createElement("button");
+  node.type = "button";
+  node.textContent = label;
+  node.addEventListener("click", action);
+  return node;
+}
+
+async function request(path, body, binary = false) {
+  const options = body ? {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(body)} : undefined;
+  const response = await fetch(path, options);
+  if (!response.ok) throw new Error((await response.json()).error);
+  return binary ? response.blob() : response.json();
+}
+
+function lock(value) {
+  busy = value;
+  date.disabled = level.disabled = value;
+  get("advance").disabled = value;
+  renderControls();
+}
+
+async function run(action) {
+  if (busy || playing) return;
+  lock(true);
+  error.textContent = "";
+  try { return await action(); }
+  catch (failure) { error.textContent = failure.message; }
+  finally { lock(false); }
+}
+
+function renderSchedule() {
+  if (!roster) return;
+  get("limit").textContent = "하루 최대 " + roster.attempts.length + "회 · 한국 시간 기준 · 11월 29일부터 하루 3회";
+  const names = roster.profiles[level.value].minutes.length === 2
+    ? ["어휘·문법·독해", "청해"] : ["어휘", "문법·독해", "청해"];
+  get("plan").textContent = level.value + " · " + roster.profiles[level.value].minutes
+    .map((minutes, i) => names[i] + " " + minutes + "분").join(" / ");
+  get("slots").replaceChildren();
+  for (const item of roster.attempts) {
+    const label = item.slot + "회차 · " + (item.result ? item.level + " · " + item.result.total + "점 · 결과 보기"
+      : item.level ? item.level + " · 이어서 응시" : "시작");
+    const control = button(label, () => run(async () => {
+      if (item.level) await loadDay(item.slot);
+      else {
+        const attempt = await request("/api/mock/start", {date: date.value, slot: item.slot, level: level.value});
+        roster.attempts[item.slot - 1] = attempt;
+        renderSchedule();
+        showAttempt(attempt);
+      }
+    }));
+    control.disabled = busy || playing || (!item.level && roster.date !== roster.today);
+    get("slots").append(control);
+  }
+  get("history").replaceChildren();
+  for (const item of roster.history) {
+    const label = item.date + " · " + item.level + " · " + item.slot + "회차 · " + item.result.total
+      + "점 · " + (item.result.passed ? "합격" : "불합격");
+    const control = button(label, () => run(async () => {
+      date.value = item.date;
+      await loadDay(item.slot);
+    }));
+    control.disabled = busy || playing;
+    get("history").append(control);
+  }
+  if (!roster.history.length) get("history").textContent = "아직 제출한 모의고사가 없습니다.";
+}
+
+function clearAudio() {
+  audio.pause();
+  if (audioUrl) URL.revokeObjectURL(audioUrl);
+  audioUrl = audioId = undefined;
+  playing = false;
+}
+
+async function loadDay(slot) {
+  const nextRoster = await request("/api/mock?" + new URLSearchParams({date: date.value}));
+  const preferred = nextRoster.attempts.find(item => item.slot === slot && item.level)
+    ?? nextRoster.attempts.find(item => item.level && !item.result)
+    ?? nextRoster.attempts.find(item => item.result);
+  roster = nextRoster;
+  date.max = roster.today;
+  renderSchedule();
+  showAttempt(preferred);
+}
+
+function showAttempt(attempt) {
+  clearAudio();
+  current = attempt;
+  resetReview();
+  get("break").hidden = get("exam").hidden = get("result").hidden = true;
+  if (!attempt) return;
+  clockOffset = attempt.serverTime - Date.now();
+  if (attempt.result) {
+    showResult(attempt);
+    return;
+  }
+  const section = attempt.setup[attempt.section];
+  if (attempt.deadline === null) {
+    get("breakTitle").textContent = "다음 교시 · " + section.label;
+    get("breakDescription").textContent = section.minutes + "분 · " + section.count + "문항. 시작하면 시간이 흐릅니다.";
+    get("break").hidden = false;
+    return;
+  }
+  const unanswered = attempt.questions.findIndex(item => !item.choice);
+  cursor = unanswered === -1 ? 0 : unanswered;
+  get("sectionTitle").textContent = attempt.level + " " + attempt.slot + "회차 · " + section.label;
+  get("exam").hidden = false;
+  showQuestion();
+  tick();
+}
+
+function showResult(attempt) {
+  const result = attempt.result;
+  get("verdict").textContent = attempt.date + " · " + attempt.level + " · " + attempt.slot + "회차 · " + (result.passed ? "합격" : "불합격");
+  get("total").textContent = result.total + " / 180점 · 합격선 " + result.passMark + "점";
+  get("reason").textContent = result.belowMinimum ? "과락 · 기준점 미달 영역이 있습니다."
+    : result.total < result.passMark ? "과락 없음 · 총점이 합격선에 미달했습니다." : "과락 없음 · 총점과 영역별 기준을 모두 충족했습니다.";
+  const totalMargin = marginStatus(result.total, result.passMark, 10, "total");
+  get("totalMargin").textContent = "총점 진단 · " + totalMargin.text;
+  get("totalMargin").dataset.risk = totalMargin.kind;
+  get("resultList").replaceChildren();
+  for (const section of result.sections) {
+    const item = document.createElement("li");
+    const risk = marginStatus(section.score, section.minimum, 5, "section");
+    item.dataset.risk = risk.kind;
+    item.textContent = section.label + " " + section.score + " / " + section.max + "점 · 기준 " + section.minimum
+      + "점 · " + section.correct + " / " + section.count + "문항 정답 · " + risk.text;
+    get("resultList").append(item);
+  }
+  get("result").hidden = false;
+}
+
+function payload(values = {}) {
+  return {date: current.date, slot: current.slot, section: current.section, ...values};
+}
+
+function showQuestion() {
+  const q = current.questions[cursor];
+  get("progress").textContent = (cursor + 1) + " / " + current.questions.length + " · " + q.kind + " · "
+    + current.questions.filter(item => item.choice).length + "개 답안 저장";
+  get("prompt").textContent = q.prompt;
+  const passage = get("passage");
+  passage.hidden = !q.passage;
+  passage.textContent = q.passage ?? "";
+  const listen = get("listen");
+  listen.hidden = !q.listening;
+  listen.textContent = q.played && audioId !== q.id ? "재생 완료" : "청해 음성 재생";
+  const choices = get("choices");
+  choices.replaceChildren();
+  for (const choice of q.choices) {
+    const control = button(choice, () => run(async () => {
+      const answer = await request("/api/mock/answer", payload({id: q.id, choice}));
+      q.choice = answer.choice;
+      showQuestion();
+    }));
+    control.setAttribute("aria-pressed", choice === q.choice);
+    choices.append(control);
+  }
+  renderControls();
+}
+
+function renderControls() {
+  date.disabled = level.disabled = busy || playing;
+  renderSchedule();
+  if (!current?.questions || get("exam").hidden) return;
+  const q = current.questions[cursor];
+  const disabled = busy || playing;
+  get("previous").disabled = disabled || cursor === 0;
+  get("next").disabled = disabled || cursor + 1 === current.questions.length;
+  get("finishSection").disabled = disabled;
+  get("listen").disabled = disabled || (q.played && audioId !== q.id);
+  for (const control of get("choices").children) control.disabled = disabled || (q.listening && !q.played);
+}
+
+function tick() {
+  if (!current?.deadline || get("exam").hidden) return;
+  const now = Date.now();
+  const seconds = Math.max(0, Math.ceil((current.deadline - now - clockOffset) / 1000));
+  get("clock").textContent = String(Math.floor(seconds / 60)).padStart(2, "0") + ":" + String(seconds % 60).padStart(2, "0");
+  if (!seconds && !busy && now >= retryTime) {
+    retryTime = now + 2000;
+    clearAudio();
+    run(() => loadDay(current.slot));
+  }
+}
+
+get("listen").addEventListener("click", () => run(async () => {
+  const q = current.questions[cursor];
+  if (audioId !== q.id) {
+    const blob = await request("/api/mock/listen", payload({id: q.id}), true);
+    audioUrl = URL.createObjectURL(blob);
+    audioId = q.id;
+    audio.src = audioUrl;
+  }
+  playing = true;
+  renderControls();
+  try {
+    await audio.play();
+    q.played = true;
+  } catch {
+    playing = false;
+    error.textContent = "재생을 시작하지 못했습니다. 청해 음성 재생을 다시 눌러 주세요.";
+  }
+}));
+audio.addEventListener("ended", () => {
+  clearAudio();
+  showQuestion();
+});
+audio.addEventListener("error", () => {
+  if (!playing) return;
+  playing = false;
+  error.textContent = "음성을 재생하지 못했습니다. 다시 눌러 주세요.";
+  renderControls();
+});
+get("previous").addEventListener("click", () => { clearAudio(); cursor--; showQuestion(); });
+get("next").addEventListener("click", () => { clearAudio(); cursor++; showQuestion(); });
+get("advance").addEventListener("click", () => run(async () => {
+  showAttempt(await request("/api/mock/advance", payload()));
+}));
+get("finishSection").addEventListener("click", () => {
+  const remaining = current.questions.filter(item => !item.choice).length;
+  const message = remaining ? remaining + "문항을 아직 풀지 않았습니다. 이 교시를 제출할까요?" : "이 교시를 제출할까요?";
+  if (!confirm(message)) return;
+  run(async () => {
+    await request("/api/mock/submit", payload());
+    await loadDay(current.slot);
+  });
+});
+date.addEventListener("change", () => run(() => loadDay()));
+level.addEventListener("change", renderSchedule);
+let reviewData;
+let reviewRequest = 0;
+
+function marginStatus(score, minimum, close, type) {
+  const margin = score - minimum;
+  const threshold = type === "total" ? "합격선" : "과락 기준";
+  if (margin < 0) {
+    return {kind: "high", text: (type === "total" ? "총점 미달" : "과락") + " · " + threshold + "까지 " + (-margin) + "점 부족"};
+  }
+  const message = margin === 0 ? threshold + "과 같은 점수" : threshold + "보다 " + margin + "점 높음";
+  return {kind: margin <= close ? "close" : "clear",
+    text: (margin <= close ? "아슬아슬" : "기준 충족") + " · " + message};
+}
+
+function resetReview() {
+  reviewRequest++;
+  reviewData = undefined;
+  get("review").hidden = true;
+  const control = get("openReview");
+  control.textContent = "오답·미응답 해설 보기";
+  control.disabled = false;
+  control.setAttribute("aria-expanded", "false");
+  get("reviewFilter").value = "all";
+  get("reviewList").replaceChildren();
+  get("reviewGroups").replaceChildren();
+  get("reviewStatus").textContent = "";
+}
+
+function reviewText(parent, tag, text, lang) {
+  const node = document.createElement(tag);
+  node.textContent = text;
+  if (lang) node.lang = lang;
+  parent.append(node);
+  return node;
+}
+
+function reviewParagraph(parent, label, value, lang) {
+  if (!value) return;
+  const paragraph = document.createElement("p");
+  paragraph.className = "review-text";
+  reviewText(paragraph, "strong", label + "\n");
+  reviewText(paragraph, "span", value, lang);
+  parent.append(paragraph);
+}
+
+function reviewCard(item) {
+  const panel = document.createElement("details");
+  reviewText(panel, "summary", item.kind + " " + item.number + "번 · " + (item.selected === null ? "미응답" : "오답"));
+  reviewParagraph(panel, "문제", item.prompt, /[가-힣]/.test(item.prompt) ? "ko" : "ja");
+  reviewParagraph(panel, item.transcript ? "청해 대본" : "독해 지문", item.transcript ?? item.passage, "ja");
+  reviewParagraph(panel, "질문 해석", item.questionTranslation);
+  reviewParagraph(panel, "완성 문장", item.completedSentence, "ja");
+  reviewParagraph(panel, "한국어 해석", item.translation);
+  const choices = document.createElement("ol");
+  for (const option of item.choices) {
+    const row = document.createElement("li");
+    const correct = option.value === item.answer;
+    const selected = option.value === item.selected;
+    if (correct) reviewText(row, "strong", "정답 · ");
+    if (selected) reviewText(row, "strong", "내 답 · ");
+    reviewText(row, "span", option.value, /[가-힣]/.test(option.value) ? "ko" : "ja");
+    if (option.translation) reviewText(row, "span", " — " + option.translation, "ko");
+    choices.append(row);
+  }
+  panel.append(choices);
+  reviewParagraph(panel, "정답 근거", item.reason);
+  if (item.source) {
+    const link = reviewText(panel, "a", item.source.label);
+    link.href = item.source.url;
+  }
+  return panel;
+}
+
+function renderReviewList() {
+  if (!reviewData) return;
+  const filter = get("reviewFilter").value;
+  const items = reviewData.mistakes.filter(item => filter === "all" || filter === item.category);
+  get("reviewList").replaceChildren(...items.map(reviewCard));
+  get("reviewStatus").textContent = items.length
+    ? "오답 " + items.filter(item => item.selected !== null).length + "개 · 미응답 "
+      + items.filter(item => item.selected === null).length + "개"
+    : "선택한 영역에 오답이나 미응답이 없습니다.";
+  get("expandReview").disabled = !items.length;
+  get("expandReview").textContent = "모두 펼치기";
+}
+
+get("openReview").addEventListener("click", async () => {
+  const control = get("openReview");
+  const panel = get("review");
+  if (!panel.hidden) {
+    panel.hidden = true;
+    control.setAttribute("aria-expanded", "false");
+    control.textContent = "오답·미응답 해설 보기";
+    return;
+  }
+  if (reviewData) {
+    panel.hidden = false;
+    control.setAttribute("aria-expanded", "true");
+    control.textContent = "해설 접기";
+    return;
+  }
+  if (!current?.result) return;
+  const id = ++reviewRequest;
+  const params = new URLSearchParams({date: current.date, slot: current.slot});
+  control.disabled = true;
+  control.textContent = "해설 불러오는 중";
+  error.textContent = "";
+  try {
+    const data = await request("/api/mock/review?" + params);
+    if (id !== reviewRequest) return;
+    reviewData = data;
+    const groups = get("reviewGroups");
+    groups.replaceChildren();
+    for (const group of data.groups) {
+      reviewText(groups, "p", group.label + " · " + group.correct + "/" + group.total
+        + " 정답 · " + group.wrong + " 오답 · " + group.blank + " 미응답");
+    }
+    renderReviewList();
+    panel.hidden = false;
+    control.setAttribute("aria-expanded", "true");
+    control.textContent = "해설 접기";
+  } catch (failure) {
+    if (id !== reviewRequest) return;
+    error.textContent = failure.message || "해설을 불러오지 못했습니다.";
+    control.textContent = "해설 다시 불러오기";
+  } finally {
+    if (id === reviewRequest) control.disabled = false;
+  }
+});
+get("reviewFilter").addEventListener("change", renderReviewList);
+get("expandReview").addEventListener("click", () => {
+  const panels = [...get("reviewList").querySelectorAll("details")];
+  const open = panels.some(panel => !panel.open);
+  panels.forEach(panel => panel.open = open);
+  get("expandReview").textContent = open ? "모두 접기" : "모두 펼치기";
+});
+setInterval(tick, 250);
+run(() => loadDay());
+</script>
+</body>
+</html>

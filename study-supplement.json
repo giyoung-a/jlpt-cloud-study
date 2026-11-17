@@ -1,0 +1,6706 @@
+{
+  "vocabulary": [
+    {
+      "level": "N5",
+      "target": "青い",
+      "reading": "あおい",
+      "meaning": "파랗다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "開ける",
+      "reading": "あける",
+      "meaning": "열다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "遊ぶ",
+      "reading": "あそぶ",
+      "meaning": "놀다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "暑い",
+      "reading": "あつい",
+      "meaning": "덥다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "姉",
+      "reading": "あね",
+      "meaning": "언니, 누나",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "あまり",
+      "reading": "あまり",
+      "meaning": "별로",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "歩く",
+      "reading": "あるく",
+      "meaning": "걷다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "いくつ",
+      "reading": "いくつ",
+      "meaning": "몇 개",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "忙しい",
+      "reading": "いそがしい",
+      "meaning": "바쁘다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "いつ",
+      "reading": "いつ",
+      "meaning": "언제",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "意味",
+      "reading": "いみ",
+      "meaning": "뜻",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "要る",
+      "reading": "いる",
+      "meaning": "필요하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "薄い",
+      "reading": "うすい",
+      "meaning": "얇다, 옅다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "上着",
+      "reading": "うわぎ",
+      "meaning": "겉옷",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "エレベーター",
+      "reading": "エレベーター",
+      "meaning": "엘리베이터",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "お母さん",
+      "reading": "おかあさん",
+      "meaning": "어머니",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "お酒",
+      "reading": "おさけ",
+      "meaning": "술",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "遅い",
+      "reading": "おそい",
+      "meaning": "늦다, 느리다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "男の子",
+      "reading": "おとこのこ",
+      "meaning": "남자아이",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "同じ",
+      "reading": "おなじ",
+      "meaning": "같다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "おはよう",
+      "reading": "おはよう",
+      "meaning": "좋은 아침, 아침 인사",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "おもしろい",
+      "reading": "おもしろい",
+      "meaning": "재미있다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "女",
+      "reading": "おんな",
+      "meaning": "여자",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "買い物",
+      "reading": "かいもの",
+      "meaning": "장보기",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "貸す",
+      "reading": "かす",
+      "meaning": "빌려주다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "カップ",
+      "reading": "カップ",
+      "meaning": "컵",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "カメラ",
+      "reading": "カメラ",
+      "meaning": "카메라",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "カレー",
+      "reading": "カレー",
+      "meaning": "카레",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "黄色",
+      "reading": "きいろ",
+      "meaning": "노란색",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "喫茶店",
+      "reading": "きっさてん",
+      "meaning": "찻집",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "兄弟",
+      "reading": "きょうだい",
+      "meaning": "형제자매",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "キロ",
+      "reading": "キロ",
+      "meaning": "킬로미터, 킬로그램의 줄임말",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "靴",
+      "reading": "くつ",
+      "meaning": "신발",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "暗い",
+      "reading": "くらい",
+      "meaning": "어둡다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "警官",
+      "reading": "けいかん",
+      "meaning": "경찰관",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "玄関",
+      "reading": "げんかん",
+      "meaning": "현관",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "紅茶",
+      "reading": "こうちゃ",
+      "meaning": "홍차",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "午後",
+      "reading": "ごご",
+      "meaning": "오후",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "こちら",
+      "reading": "こちら",
+      "meaning": "이쪽, 이분",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "子供",
+      "reading": "こども",
+      "meaning": "아이",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "これ",
+      "reading": "これ",
+      "meaning": "이것",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "今晩",
+      "reading": "こんばん",
+      "meaning": "오늘 저녁",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "作文",
+      "reading": "さくぶん",
+      "meaning": "작문",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "再来年",
+      "reading": "さらいねん",
+      "meaning": "내후년",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "しかし",
+      "reading": "しかし",
+      "meaning": "그러나",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "質問",
+      "reading": "しつもん",
+      "meaning": "질문",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "閉まる",
+      "reading": "しまる",
+      "meaning": "닫히다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "シャツ",
+      "reading": "シャツ",
+      "meaning": "셔츠",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "丈夫",
+      "reading": "じょうぶ",
+      "meaning": "튼튼하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "吸う",
+      "reading": "すう",
+      "meaning": "들이마시다, 담배를 피우다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "すぐに",
+      "reading": "すぐに",
+      "meaning": "즉시",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "ズボン",
+      "reading": "ズボン",
+      "meaning": "바지",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "座る",
+      "reading": "すわる",
+      "meaning": "앉다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "狭い",
+      "reading": "せまい",
+      "meaning": "좁다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "全部",
+      "reading": "ぜんぶ",
+      "meaning": "전부",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "そっち",
+      "reading": "そっち",
+      "meaning": "그쪽",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "それでは",
+      "reading": "それでは",
+      "meaning": "그렇다면",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "台所",
+      "reading": "だいどころ",
+      "meaning": "부엌",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "立つ",
+      "reading": "たつ",
+      "meaning": "서다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "たぶん",
+      "reading": "たぶん",
+      "meaning": "아마",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "近い",
+      "reading": "ちかい",
+      "meaning": "가깝다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "茶色",
+      "reading": "ちゃいろ",
+      "meaning": "갈색",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "次",
+      "reading": "つぎ",
+      "meaning": "다음",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "つまらない",
+      "reading": "つまらない",
+      "meaning": "시시하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "テープレコーダー",
+      "reading": "テープレコーダー",
+      "meaning": "녹음기",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "では",
+      "reading": "では",
+      "meaning": "그럼, 그렇다면",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "電気",
+      "reading": "でんき",
+      "meaning": "전기, 전등",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "どうして",
+      "reading": "どうして",
+      "meaning": "왜",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "十日",
+      "reading": "とおか",
+      "meaning": "열흘, 10일",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "年",
+      "reading": "とし",
+      "meaning": "해, 년",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "隣",
+      "reading": "となり",
+      "meaning": "옆, 이웃",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "鶏肉",
+      "reading": "とりにく",
+      "meaning": "닭고기",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "中",
+      "reading": "なか",
+      "meaning": "안, 가운데",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "夏休み",
+      "reading": "なつやすみ",
+      "meaning": "여름방학",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "並ぶ",
+      "reading": "ならぶ",
+      "meaning": "줄을 서다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "西",
+      "reading": "にし",
+      "meaning": "서쪽",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "温い",
+      "reading": "ぬるい",
+      "meaning": "미지근하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "飲み物",
+      "reading": "のみもの",
+      "meaning": "마실 것, 음료",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "入る",
+      "reading": "はいる",
+      "meaning": "들어가다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "始まる",
+      "reading": "はじまる",
+      "meaning": "시작되다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "バス",
+      "reading": "バス",
+      "meaning": "버스",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "花",
+      "reading": "はな",
+      "meaning": "꽃",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "貼る",
+      "reading": "はる",
+      "meaning": "붙이다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "パン",
+      "reading": "パン",
+      "meaning": "빵",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "引く",
+      "reading": "ひく",
+      "meaning": "당기다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "人",
+      "reading": "ひと",
+      "meaning": "사람",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "病気",
+      "reading": "びょうき",
+      "meaning": "병, 질병",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "プール",
+      "reading": "プール",
+      "meaning": "수영장",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "豚肉",
+      "reading": "ぶたにく",
+      "meaning": "돼지고기",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "ふろ",
+      "reading": "ふろ",
+      "meaning": "목욕, 욕실",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "部屋",
+      "reading": "へや",
+      "meaning": "방",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "帽子",
+      "reading": "ぼうし",
+      "meaning": "모자",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "細い",
+      "reading": "ほそい",
+      "meaning": "가늘다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "毎月",
+      "reading": "まいげつ",
+      "meaning": "매달",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "曲る",
+      "reading": "まがる",
+      "meaning": "돌다, 방향을 바꾸다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "まっすぐ",
+      "reading": "まっすぐ",
+      "meaning": "똑바로",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "万年筆",
+      "reading": "まんねんひつ",
+      "meaning": "만년필",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "道",
+      "reading": "みち",
+      "meaning": "길",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "耳",
+      "reading": "みみ",
+      "meaning": "귀",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "六つ",
+      "reading": "むっつ",
+      "meaning": "여섯 개",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "もう一度",
+      "reading": "もういちど",
+      "meaning": "다시 한번",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "問題",
+      "reading": "もんだい",
+      "meaning": "문제",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "八つ",
+      "reading": "やっつ",
+      "meaning": "여덟 개",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "有名",
+      "reading": "ゆうめい",
+      "meaning": "유명함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "四日",
+      "reading": "よっか",
+      "meaning": "나흘, 4일",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "弱い",
+      "reading": "よわい",
+      "meaning": "약하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "りっぱ",
+      "reading": "りっぱ",
+      "meaning": "훌륭함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "零",
+      "reading": "れい",
+      "meaning": "영, 0",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "六",
+      "reading": "ろく",
+      "meaning": "육, 6",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "渡す",
+      "reading": "わたす",
+      "meaning": "건네다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "あいさつする",
+      "reading": "あいさつする",
+      "meaning": "인사하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "赤ん坊",
+      "reading": "あかんぼう",
+      "meaning": "아기",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "明日",
+      "reading": "あす",
+      "meaning": "내일",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "アメリカ",
+      "reading": "アメリカ",
+      "meaning": "미국",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "あんな",
+      "reading": "あんな",
+      "meaning": "저런",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "意見",
+      "reading": "いけん",
+      "meaning": "의견",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "いただく",
+      "reading": "いただく",
+      "meaning": "받다의 겸양어",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "以内",
+      "reading": "いない",
+      "meaning": "이내",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "受ける",
+      "reading": "うける",
+      "meaning": "받다, 응시하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "美しい",
+      "reading": "うつくしい",
+      "meaning": "아름답다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "裏",
+      "reading": "うら",
+      "meaning": "뒷면",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "運動",
+      "reading": "うんどう",
+      "meaning": "운동",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "お祝い",
+      "reading": "おいわい",
+      "meaning": "축하",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "億",
+      "reading": "おく",
+      "meaning": "억",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "怒る",
+      "reading": "おこる",
+      "meaning": "화를 내다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "おっしゃる",
+      "reading": "おっしゃる",
+      "meaning": "말하다의 존경어",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "踊り",
+      "reading": "おどり",
+      "meaning": "춤",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "思い出す",
+      "reading": "おもいだす",
+      "meaning": "떠올리다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "泳ぎ方",
+      "reading": "およぎかた",
+      "meaning": "수영하는 법",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "終わり",
+      "reading": "おわり",
+      "meaning": "끝",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "帰り",
+      "reading": "かえり",
+      "meaning": "돌아오는 길",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "火事",
+      "reading": "かじ",
+      "meaning": "화재",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "形",
+      "reading": "かたち",
+      "meaning": "모양",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "必ず",
+      "reading": "かならず",
+      "meaning": "반드시",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "噛む",
+      "reading": "かむ",
+      "meaning": "깨물다, 씹다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "代わり",
+      "reading": "かわり",
+      "meaning": "대신",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "機会",
+      "reading": "きかい",
+      "meaning": "기회",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "規則",
+      "reading": "きそく",
+      "meaning": "규칙",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "決まる",
+      "reading": "きまる",
+      "meaning": "정해지다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "急行",
+      "reading": "きゅうこう",
+      "meaning": "급행",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "近所",
+      "reading": "きんじょ",
+      "meaning": "근처",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "くださる",
+      "reading": "くださる",
+      "meaning": "주다의 존경어",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "計画",
+      "reading": "けいかく",
+      "meaning": "계획",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "消しゴム",
+      "reading": "けしゴム",
+      "meaning": "지우개",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "けんかする",
+      "reading": "けんかする",
+      "meaning": "다투다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "郊外",
+      "reading": "こうがい",
+      "meaning": "교외",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "工場",
+      "reading": "こうじょう",
+      "meaning": "공장",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "公務員",
+      "reading": "こうむいん",
+      "meaning": "공무원",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "答",
+      "reading": "こたえ",
+      "meaning": "답",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "このごろ",
+      "reading": "このごろ",
+      "meaning": "요즘",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "ごらんになる",
+      "reading": "ごらんになる",
+      "meaning": "보다의 존경어",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "コンピュータ",
+      "reading": "コンピュータ",
+      "meaning": "컴퓨터",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "探す",
+      "reading": "さがす",
+      "meaning": "찾다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "さっき",
+      "reading": "さっき",
+      "meaning": "아까",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "触る",
+      "reading": "さわる",
+      "meaning": "만지다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "字",
+      "reading": "じ",
+      "meaning": "글자",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "地震",
+      "reading": "じしん",
+      "meaning": "지진",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "辞典",
+      "reading": "じてん",
+      "meaning": "사전",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "事務所",
+      "reading": "じむしょ",
+      "meaning": "사무실",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "自由",
+      "reading": "じゆう",
+      "meaning": "자유",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "趣味",
+      "reading": "しゅみ",
+      "meaning": "취미",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "将来",
+      "reading": "しょうらい",
+      "meaning": "장래",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "人口",
+      "reading": "じんこう",
+      "meaning": "인구",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "水道",
+      "reading": "すいどう",
+      "meaning": "수도, 상수도",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "過ぎる",
+      "reading": "すぎる",
+      "meaning": "지나다, 지나치다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "すっかり",
+      "reading": "すっかり",
+      "meaning": "완전히",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "砂",
+      "reading": "すな",
+      "meaning": "모래",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "すると",
+      "reading": "すると",
+      "meaning": "그러면",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "世界",
+      "reading": "せかい",
+      "meaning": "세계",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "線",
+      "reading": "せん",
+      "meaning": "선",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "育てる",
+      "reading": "そだてる",
+      "meaning": "키우다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "それに",
+      "reading": "それに",
+      "meaning": "게다가",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "退院",
+      "reading": "たいいん",
+      "meaning": "퇴원",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "大分",
+      "reading": "だいぶ",
+      "meaning": "상당히",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "足す",
+      "reading": "たす",
+      "meaning": "더하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "建てる",
+      "reading": "たてる",
+      "meaning": "짓다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "たまに",
+      "reading": "たまに",
+      "meaning": "가끔",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "暖房",
+      "reading": "だんぼう",
+      "meaning": "난방",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "ちゃん",
+      "reading": "ちゃん",
+      "meaning": "이름에 붙이는 친근한 호칭",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "捕まえる",
+      "reading": "つかまえる",
+      "meaning": "붙잡다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "続く",
+      "reading": "つづく",
+      "meaning": "계속되다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "連れる",
+      "reading": "つれる",
+      "meaning": "데리고 가다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "手袋",
+      "reading": "てぶくろ",
+      "meaning": "장갑",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "電灯",
+      "reading": "でんとう",
+      "meaning": "전등",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "とうとう",
+      "reading": "とうとう",
+      "meaning": "마침내",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "特急",
+      "reading": "とっきゅう",
+      "meaning": "특급열차",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "泥棒",
+      "reading": "どろぼう",
+      "meaning": "도둑",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "泣く",
+      "reading": "なく",
+      "meaning": "울다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "なるべく",
+      "reading": "なるべく",
+      "meaning": "될 수 있으면",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "二階建て",
+      "reading": "にかいだて",
+      "meaning": "2층 건물",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "人形",
+      "reading": "にんぎょう",
+      "meaning": "인형",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "ねっしん",
+      "reading": "ねっしん",
+      "meaning": "열심",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "のど",
+      "reading": "のど",
+      "meaning": "목구멍",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "パート",
+      "reading": "パート",
+      "meaning": "시간제 일",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "はず",
+      "reading": "はず",
+      "meaning": "그럴 터, 당연히 그래야 함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "花見",
+      "reading": "はなみ",
+      "meaning": "벚꽃놀이",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "ハンドバッグ",
+      "reading": "ハンドバッグ",
+      "meaning": "핸드백",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "光る",
+      "reading": "ひかる",
+      "meaning": "빛나다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "久しぶり",
+      "reading": "ひさしぶり",
+      "meaning": "오랜만",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "ひどい",
+      "reading": "ひどい",
+      "meaning": "심하다, 너무하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "ファックス",
+      "reading": "ファックス",
+      "meaning": "팩스",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "普通",
+      "reading": "ふつう",
+      "meaning": "보통",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "不便",
+      "reading": "ふべん",
+      "meaning": "불편함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "文法",
+      "reading": "ぶんぽう",
+      "meaning": "문법",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "貿易",
+      "reading": "ぼうえき",
+      "meaning": "무역",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "ほど",
+      "reading": "ほど",
+      "meaning": "정도",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "まじめ",
+      "reading": "まじめ",
+      "meaning": "성실함, 진지함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "回る",
+      "reading": "まわる",
+      "meaning": "돌다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "味噌",
+      "reading": "みそ",
+      "meaning": "된장",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "虫",
+      "reading": "むし",
+      "meaning": "벌레",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "珍しい",
+      "reading": "めずらしい",
+      "meaning": "드물다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "もちろん",
+      "reading": "もちろん",
+      "meaning": "물론",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "焼く",
+      "reading": "やく",
+      "meaning": "굽다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "やっと",
+      "reading": "やっと",
+      "meaning": "겨우, 마침내",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "輸出",
+      "reading": "ゆしゅつ",
+      "meaning": "수출",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "用",
+      "reading": "よう",
+      "meaning": "용도, 볼일",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "喜ぶ",
+      "reading": "よろこぶ",
+      "meaning": "기뻐하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "留守",
+      "reading": "るす",
+      "meaning": "집을 비움",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "沸かす",
+      "reading": "わかす",
+      "meaning": "물을 끓이다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "笑う",
+      "reading": "わらう",
+      "meaning": "웃다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "あいにく",
+      "reading": "あいにく",
+      "meaning": "공교롭게도",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "当たる",
+      "reading": "あたる",
+      "meaning": "맞다, 해당하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "表す",
+      "reading": "あらわす",
+      "meaning": "나타내다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "委員",
+      "reading": "いいん",
+      "meaning": "위원",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "いずれ",
+      "reading": "いずれ",
+      "meaning": "어느 쪽, 언젠가",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "一種",
+      "reading": "いっしゅ",
+      "meaning": "한 종류",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "命",
+      "reading": "いのち",
+      "meaning": "명령",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "言わば",
+      "reading": "いわば",
+      "meaning": "말하자면",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "宇宙",
+      "reading": "うちゅう",
+      "meaning": "우주",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "柄",
+      "reading": "え",
+      "meaning": "손잡이, 자루",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "援助",
+      "reading": "えんじょ",
+      "meaning": "원조",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "覆う",
+      "reading": "おおう",
+      "meaning": "덮다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "お互い",
+      "reading": "おたがい",
+      "meaning": "서로",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "思わず",
+      "reading": "おもわず",
+      "meaning": "무심코",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "回",
+      "reading": "かい",
+      "meaning": "회, 번",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "替える",
+      "reading": "かえる",
+      "meaning": "바꾸다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "学習",
+      "reading": "がくしゅう",
+      "meaning": "학습",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "貸し",
+      "reading": "かし",
+      "meaning": "빌려줌, 빌려준 것",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "がっかり",
+      "reading": "がっかり",
+      "meaning": "낙담함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "雷",
+      "reading": "かみなり",
+      "meaning": "천둥, 번개",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "考え",
+      "reading": "かんがえ",
+      "meaning": "생각",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "完成",
+      "reading": "かんせい",
+      "meaning": "완성",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "効く",
+      "reading": "きく",
+      "meaning": "효과가 있다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "気付く",
+      "reading": "きづく",
+      "meaning": "알아차리다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "逆",
+      "reading": "ぎゃく",
+      "meaning": "반대, 거꾸로",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "教科書",
+      "reading": "きょうかしょ",
+      "meaning": "교과서",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "霧",
+      "reading": "きり",
+      "meaning": "안개",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "金融",
+      "reading": "きんゆう",
+      "meaning": "금융",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "ぐっすり",
+      "reading": "ぐっすり",
+      "meaning": "푹, 깊이 잠드는 모양",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "グループ",
+      "reading": "グループ",
+      "meaning": "그룹",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "警告",
+      "reading": "けいこく",
+      "meaning": "경고",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "欠陥",
+      "reading": "けっかん",
+      "meaning": "결함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "言語",
+      "reading": "げんご",
+      "meaning": "언어",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "語",
+      "reading": "ご",
+      "meaning": "말, 단어",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "貢献",
+      "reading": "こうけん",
+      "meaning": "공헌",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "コーチ",
+      "reading": "コーチ",
+      "meaning": "코치",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "腰",
+      "reading": "こし",
+      "meaning": "허리",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "小屋",
+      "reading": "こや",
+      "meaning": "오두막",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "サービス",
+      "reading": "サービス",
+      "meaning": "서비스",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "盛り",
+      "reading": "さかり",
+      "meaning": "한창때",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "さっぱり",
+      "reading": "さっぱり",
+      "meaning": "개운하게, 산뜻하게",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "参考",
+      "reading": "さんこう",
+      "meaning": "참고",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "支給",
+      "reading": "しきゅう",
+      "meaning": "지급",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "舌",
+      "reading": "した",
+      "meaning": "혀",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "失望",
+      "reading": "しつぼう",
+      "meaning": "실망",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "しまった",
+      "reading": "しまった",
+      "meaning": "아차, 이런",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "宗教",
+      "reading": "しゅうきょう",
+      "meaning": "종교",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "手術",
+      "reading": "しゅじゅつ",
+      "meaning": "수술",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "小",
+      "reading": "しょう",
+      "meaning": "작음, 소",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "状態",
+      "reading": "じょうたい",
+      "meaning": "상태",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "職",
+      "reading": "しょく",
+      "meaning": "직업",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "女優",
+      "reading": "じょゆう",
+      "meaning": "여배우",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "人種",
+      "reading": "じんしゅ",
+      "meaning": "인종",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "信頼",
+      "reading": "しんらい",
+      "meaning": "신뢰",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "優れる",
+      "reading": "すぐれる",
+      "meaning": "뛰어나다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "スピーチ",
+      "reading": "スピーチ",
+      "meaning": "연설",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "成功",
+      "reading": "せいこう",
+      "meaning": "성공",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "生命",
+      "reading": "せいめい",
+      "meaning": "생명",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "善",
+      "reading": "ぜん",
+      "meaning": "선, 착한 일",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "操作",
+      "reading": "そうさ",
+      "meaning": "조작",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "備える",
+      "reading": "そなえる",
+      "meaning": "갖추다, 대비하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "他",
+      "reading": "た",
+      "meaning": "다른 것",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "対象",
+      "reading": "たいしょう",
+      "meaning": "대상",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "大陸",
+      "reading": "たいりく",
+      "meaning": "대륙",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "直ちに",
+      "reading": "ただちに",
+      "meaning": "즉시",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "玉",
+      "reading": "たま",
+      "meaning": "구슬, 공",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "単純",
+      "reading": "たんじゅん",
+      "meaning": "단순함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "違いない",
+      "reading": "ちがいない",
+      "meaning": "틀림없다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "中",
+      "reading": "ちゅう",
+      "meaning": "안, 가운데",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "貯金",
+      "reading": "ちょきん",
+      "meaning": "저축",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "就く",
+      "reading": "つく",
+      "meaning": "직책에 오르다, 자리에 앉다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "梅雨",
+      "reading": "つゆ",
+      "meaning": "장마",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "出来事",
+      "reading": "できごと",
+      "meaning": "일어난 일",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "典型",
+      "reading": "てんけい",
+      "meaning": "전형",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "どうしても",
+      "reading": "どうしても",
+      "meaning": "어떻게 해서든, 아무래도",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "読書",
+      "reading": "どくしょ",
+      "meaning": "독서",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "途端",
+      "reading": "とたん",
+      "meaning": "바로 그 순간",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "ドラマ",
+      "reading": "ドラマ",
+      "meaning": "드라마",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "仲",
+      "reading": "なか",
+      "meaning": "사이, 관계",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "鍋",
+      "reading": "なべ",
+      "meaning": "냄비",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "日曜",
+      "reading": "にちよう",
+      "meaning": "일요일",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "鼠",
+      "reading": "ねずみ",
+      "meaning": "쥐",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "残す",
+      "reading": "のこす",
+      "meaning": "남기다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "パーセント",
+      "reading": "パーセント",
+      "meaning": "퍼센트",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "爆発",
+      "reading": "ばくはつ",
+      "meaning": "폭발",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "バッグ",
+      "reading": "バッグ",
+      "meaning": "가방",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "羽",
+      "reading": "はね",
+      "meaning": "깃, 날개",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "犯人",
+      "reading": "はんにん",
+      "meaning": "범인",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "必死",
+      "reading": "ひっし",
+      "meaning": "필사적임",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "表",
+      "reading": "ひょう",
+      "meaning": "표",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "風景",
+      "reading": "ふうけい",
+      "meaning": "풍경",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "不正",
+      "reading": "ふせい",
+      "meaning": "부정, 부당함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "部分",
+      "reading": "ぶぶん",
+      "meaning": "부분",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "文明",
+      "reading": "ぶんめい",
+      "meaning": "문명",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "棒",
+      "reading": "ぼう",
+      "meaning": "막대기",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "歩道",
+      "reading": "ほどう",
+      "meaning": "보도, 인도",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "迷子",
+      "reading": "まいご",
+      "meaning": "길 잃은 아이",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "全く",
+      "reading": "まったく",
+      "meaning": "완전히, 전혀",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "身",
+      "reading": "み",
+      "meaning": "몸, 자신",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "無",
+      "reading": "む",
+      "meaning": "없음, 무",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "命じる",
+      "reading": "めいじる",
+      "meaning": "명령하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "毛布",
+      "reading": "もうふ",
+      "meaning": "담요",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "物音",
+      "reading": "ものおと",
+      "meaning": "무언가의 소리",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "辞める",
+      "reading": "やめる",
+      "meaning": "그만두다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "床",
+      "reading": "ゆか",
+      "meaning": "바닥",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "様子",
+      "reading": "ようす",
+      "meaning": "모습, 상태",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "予報",
+      "reading": "よほう",
+      "meaning": "예보",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "利口",
+      "reading": "りこう",
+      "meaning": "영리함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "列車",
+      "reading": "れっしゃ",
+      "meaning": "열차",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "わざと",
+      "reading": "わざと",
+      "meaning": "일부러",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "アクセント",
+      "reading": "アクセント",
+      "meaning": "억양, 악센트",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "宛名",
+      "reading": "あてな",
+      "meaning": "받는 사람 이름과 주소",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "争う",
+      "reading": "あらそう",
+      "meaning": "다투다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "育児",
+      "reading": "いくじ",
+      "meaning": "육아",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "一旦",
+      "reading": "いったん",
+      "meaning": "일단",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "インキ",
+      "reading": "インキ",
+      "meaning": "잉크",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "打合せ",
+      "reading": "うちあわせ",
+      "meaning": "업무 협의",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "羨ましい",
+      "reading": "うらやましい",
+      "meaning": "부럽다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "偉い",
+      "reading": "えらい",
+      "meaning": "훌륭하다, 지위가 높다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "往復",
+      "reading": "おうふく",
+      "meaning": "왕복",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "おきのどくに",
+      "reading": "おきのどくに",
+      "meaning": "안됐습니다, 유감입니다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "教わる",
+      "reading": "おそわる",
+      "meaning": "가르침을 받다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "思い込む",
+      "reading": "おもいこむ",
+      "meaning": "굳게 믿다, 단정하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "カーブ",
+      "reading": "カーブ",
+      "meaning": "곡선, 커브",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "回答",
+      "reading": "かいとう",
+      "meaning": "응답",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "架空",
+      "reading": "かくう",
+      "meaning": "가공, 상상 속",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "重なる",
+      "reading": "かさなる",
+      "meaning": "겹치다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "加速",
+      "reading": "かそく",
+      "meaning": "가속",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "活字",
+      "reading": "かつじ",
+      "meaning": "활자",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "神様",
+      "reading": "かみさま",
+      "meaning": "신",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "為替",
+      "reading": "かわせ",
+      "meaning": "환, 외환",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "缶詰",
+      "reading": "かんづめ",
+      "meaning": "통조림",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "記号",
+      "reading": "きごう",
+      "meaning": "기호",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "キャンパス",
+      "reading": "キャンパス",
+      "meaning": "캠퍼스",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "気を付ける",
+      "reading": "きをつける",
+      "meaning": "주의하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "崩れる",
+      "reading": "くずれる",
+      "meaning": "무너지다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "組み立てる",
+      "reading": "くみたてる",
+      "meaning": "조립하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "経度",
+      "reading": "けいど",
+      "meaning": "경도",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "血圧",
+      "reading": "けつあつ",
+      "meaning": "혈압",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "厳重",
+      "reading": "げんじゅう",
+      "meaning": "엄중함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "工芸",
+      "reading": "こうげい",
+      "meaning": "공예",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "交替",
+      "reading": "こうたい",
+      "meaning": "교대",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "合流",
+      "reading": "ごうりゅう",
+      "meaning": "합류",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "五十音",
+      "reading": "ごじゅうおん",
+      "meaning": "오십음",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "御無沙汰",
+      "reading": "ごぶさた",
+      "meaning": "오랫동안 연락하지 않음",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "混合",
+      "reading": "こんごう",
+      "meaning": "혼합",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "遡る",
+      "reading": "さかのぼる",
+      "meaning": "거슬러 올라가다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "刺身",
+      "reading": "さしみ",
+      "meaning": "회",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "騒がしい",
+      "reading": "さわがしい",
+      "meaning": "시끄럽다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "司会",
+      "reading": "しかい",
+      "meaning": "사회, 진행",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "自然科学",
+      "reading": "しぜんかがく",
+      "meaning": "자연과학",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "実用",
+      "reading": "じつよう",
+      "meaning": "실용",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "氏名",
+      "reading": "しめい",
+      "meaning": "성명",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "車輪",
+      "reading": "しゃりん",
+      "meaning": "바퀴",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "終了",
+      "reading": "しゅうりょう",
+      "meaning": "종료",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "順々",
+      "reading": "じゅんじゅん",
+      "meaning": "차례차례",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "商社",
+      "reading": "しょうしゃ",
+      "meaning": "무역 상사",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "消耗",
+      "reading": "しょうもう",
+      "meaning": "소모",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "資料",
+      "reading": "しりょう",
+      "meaning": "자료",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "親類",
+      "reading": "しんるい",
+      "meaning": "친척",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "水曜",
+      "reading": "すいよう",
+      "meaning": "수요일",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "涼む",
+      "reading": "すずむ",
+      "meaning": "더위를 식히다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "澄む",
+      "reading": "すむ",
+      "meaning": "맑아지다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "清書",
+      "reading": "せいしょ",
+      "meaning": "깨끗이 다시 쓰기",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "背負う",
+      "reading": "せおう",
+      "meaning": "짊어지다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "前後",
+      "reading": "ぜんご",
+      "meaning": "전후, 앞뒤",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "相違",
+      "reading": "そうい",
+      "meaning": "차이",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "属する",
+      "reading": "ぞくする",
+      "meaning": "속하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "反る",
+      "reading": "そる",
+      "meaning": "휘다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "大して",
+      "reading": "たいして",
+      "meaning": "그다지",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "絶えず",
+      "reading": "たえず",
+      "meaning": "끊임없이",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "頼もしい",
+      "reading": "たのもしい",
+      "meaning": "믿음직하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "淡水",
+      "reading": "たんすい",
+      "meaning": "민물",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "地帯",
+      "reading": "ちたい",
+      "meaning": "지대",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "超過",
+      "reading": "ちょうか",
+      "meaning": "초과",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "直流",
+      "reading": "ちょくりゅう",
+      "meaning": "직류",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "通訳",
+      "reading": "つうやく",
+      "meaning": "통역",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "繋がり",
+      "reading": "つながり",
+      "meaning": "연결, 관계",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "手洗い",
+      "reading": "てあらい",
+      "meaning": "화장실, 손 씻기",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "適確",
+      "reading": "てきかく",
+      "meaning": "정확하고 알맞음",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "展開",
+      "reading": "てんかい",
+      "meaning": "전개",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "統一",
+      "reading": "とういつ",
+      "meaning": "통일",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "東洋",
+      "reading": "とうよう",
+      "meaning": "동양",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "所々",
+      "reading": "ところどころ",
+      "meaning": "곳곳",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "採る",
+      "reading": "とる",
+      "meaning": "채택하다, 취하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "亡くす",
+      "reading": "なくす",
+      "meaning": "사별하다, 가족을 잃다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "南極",
+      "reading": "なんきょく",
+      "meaning": "남극",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "日用品",
+      "reading": "にちようひん",
+      "meaning": "생활용품",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "寝間着",
+      "reading": "ねまき",
+      "meaning": "잠옷",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "上る",
+      "reading": "のぼる",
+      "meaning": "오르다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "測る",
+      "reading": "はかる",
+      "meaning": "재다, 측정하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "果して",
+      "reading": "はたして",
+      "meaning": "과연",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "ばね",
+      "reading": "ばね",
+      "meaning": "용수철",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "判事",
+      "reading": "はんじ",
+      "meaning": "판사",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "卑怯",
+      "reading": "ひきょう",
+      "meaning": "비겁함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "一通り",
+      "reading": "ひととおり",
+      "meaning": "대략, 한 차례",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "ひゃっかじてん",
+      "reading": "ひゃっかじてん",
+      "meaning": "백과사전",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "便箋",
+      "reading": "びんせん",
+      "meaning": "편지지",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "不潔",
+      "reading": "ふけつ",
+      "meaning": "불결함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "物騒",
+      "reading": "ぶっそう",
+      "meaning": "흉흉하다, 위험하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "振り仮名",
+      "reading": "ふりがな",
+      "meaning": "후리가나, 한자 위에 붙인 읽기",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "文脈",
+      "reading": "ぶんみゃく",
+      "meaning": "문맥",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "ヘリコプター",
+      "reading": "ヘリコプター",
+      "meaning": "헬리콥터",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "防犯",
+      "reading": "ぼうはん",
+      "meaning": "방범",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "掘る",
+      "reading": "ほる",
+      "meaning": "파다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "まごまご",
+      "reading": "まごまご",
+      "meaning": "갈팡질팡",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "真っ先",
+      "reading": "まっさき",
+      "meaning": "맨 먼저",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "マンション",
+      "reading": "マンション",
+      "meaning": "공동주택, 아파트",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "見本",
+      "reading": "みほん",
+      "meaning": "견본",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "群れ",
+      "reading": "むれ",
+      "meaning": "무리",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "目下",
+      "reading": "めした",
+      "meaning": "아랫사람, 현재",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "モーター",
+      "reading": "モーター",
+      "meaning": "모터",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "モノレール",
+      "reading": "モノレール",
+      "meaning": "모노레일",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "夜行",
+      "reading": "やこう",
+      "meaning": "야간에 이동함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "夕日",
+      "reading": "ゆうひ",
+      "meaning": "석양",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "容積",
+      "reading": "ようせき",
+      "meaning": "용적",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "酔っ払い",
+      "reading": "よっぱらい",
+      "meaning": "술 취한 사람",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "リットル",
+      "reading": "リットル",
+      "meaning": "리터",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "レジャー",
+      "reading": "レジャー",
+      "meaning": "여가",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "詫びる",
+      "reading": "わびる",
+      "meaning": "사과하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "明かす",
+      "reading": "あかす",
+      "meaning": "밝히다, 밤을 새우다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "呆気ない",
+      "reading": "あっけない",
+      "meaning": "맥없다, 허무하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "歩む",
+      "reading": "あゆむ",
+      "meaning": "걷다, 걸어가다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "家出",
+      "reading": "いえで",
+      "meaning": "가출",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "遺跡",
+      "reading": "いせき",
+      "meaning": "유적",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "いっそ",
+      "reading": "いっそ",
+      "meaning": "차라리",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "員",
+      "reading": "いん",
+      "meaning": "구성원",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "打ち合わせる",
+      "reading": "うちあわせる",
+      "meaning": "사전에 협의하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "植わる",
+      "reading": "うわる",
+      "meaning": "심겨 있다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "塩",
+      "reading": "えん",
+      "meaning": "소금",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "オーケー",
+      "reading": "オーケー",
+      "meaning": "오케이",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "お世辞",
+      "reading": "おせじ",
+      "meaning": "아첨, 빈말",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "おまけ",
+      "reading": "おまけ",
+      "meaning": "덤, 할인",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "階",
+      "reading": "かい",
+      "meaning": "층",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "街頭",
+      "reading": "がいとう",
+      "meaning": "거리, 길거리",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "学芸",
+      "reading": "がくげい",
+      "meaning": "학예",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "風車",
+      "reading": "かざぐるま",
+      "meaning": "풍차",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "傍ら",
+      "reading": "かたわら",
+      "meaning": "곁, 옆",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "花粉",
+      "reading": "かふん",
+      "meaning": "꽃가루",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "癌",
+      "reading": "がん",
+      "meaning": "암",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "幹線",
+      "reading": "かんせん",
+      "meaning": "간선",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "着飾る",
+      "reading": "きかざる",
+      "meaning": "차려입다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "規制",
+      "reading": "きせい",
+      "meaning": "규제",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "生真面目",
+      "reading": "きまじめ",
+      "meaning": "지나치게 진지함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "教科",
+      "reading": "きょうか",
+      "meaning": "교과",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "強烈",
+      "reading": "きょうれつ",
+      "meaning": "강렬함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "近視",
+      "reading": "きんし",
+      "meaning": "근시",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "屈折",
+      "reading": "くっせつ",
+      "meaning": "굴절",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "計器",
+      "reading": "けいき",
+      "meaning": "측정기",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "決行",
+      "reading": "けっこう",
+      "meaning": "결행",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "健在",
+      "reading": "けんざい",
+      "meaning": "건재함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "戸",
+      "reading": "こ",
+      "meaning": "집을 세는 단위",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "高原",
+      "reading": "こうげん",
+      "meaning": "고원",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "講読",
+      "reading": "こうどく",
+      "meaning": "강독",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "国有",
+      "reading": "こくゆう",
+      "meaning": "국유",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "小銭",
+      "reading": "こぜに",
+      "meaning": "잔돈, 동전",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "込める",
+      "reading": "こめる",
+      "meaning": "담다, 집어넣다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "災害",
+      "reading": "さいがい",
+      "meaning": "재해",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "逆立ち",
+      "reading": "さかだち",
+      "meaning": "물구나무서기",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "錯覚",
+      "reading": "さっかく",
+      "meaning": "착각",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "産出",
+      "reading": "さんしゅつ",
+      "meaning": "산출",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "仕掛け",
+      "reading": "しかけ",
+      "meaning": "장치, 수법",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "視察",
+      "reading": "しさつ",
+      "meaning": "시찰",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "下火",
+      "reading": "したび",
+      "meaning": "기세가 수그러듦",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "芝",
+      "reading": "しば",
+      "meaning": "잔디",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "ジャンプ",
+      "reading": "ジャンプ",
+      "meaning": "점프",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "重複",
+      "reading": "じゅうふく",
+      "meaning": "중복",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "出費",
+      "reading": "しゅっぴ",
+      "meaning": "지출",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "上空",
+      "reading": "じょうくう",
+      "meaning": "상공",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "除外",
+      "reading": "じょがい",
+      "meaning": "제외",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "退ける",
+      "reading": "しりぞける",
+      "meaning": "물리치다, 퇴짜 놓다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "親善",
+      "reading": "しんぜん",
+      "meaning": "친선",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "据え付ける",
+      "reading": "すえつける",
+      "meaning": "설치하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "天皇",
+      "reading": "すめらぎ",
+      "meaning": "일본 천황",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "清純",
+      "reading": "せいじゅん",
+      "meaning": "청순함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "責務",
+      "reading": "せきむ",
+      "meaning": "책무",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "全快",
+      "reading": "ぜんかい",
+      "meaning": "완쾌",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "沿い",
+      "reading": "ぞい",
+      "meaning": "따라, 가를 따라",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "即座に",
+      "reading": "そくざに",
+      "meaning": "즉석에서",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "存続",
+      "reading": "そんぞく",
+      "meaning": "존속",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "タイピスト",
+      "reading": "タイピスト",
+      "meaning": "타자수",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "丈",
+      "reading": "たけ",
+      "meaning": "길이, 키",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "だぶだぶ",
+      "reading": "だぶだぶ",
+      "meaning": "헐렁함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "断言",
+      "reading": "だんげん",
+      "meaning": "단언",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "知的",
+      "reading": "ちてき",
+      "meaning": "지적임",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "超",
+      "reading": "ちょう",
+      "meaning": "초, 극도로",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "陳列",
+      "reading": "ちんれつ",
+      "meaning": "진열",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "造る",
+      "reading": "つくる",
+      "meaning": "만들다, 건조하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "手当て",
+      "reading": "てあて",
+      "meaning": "수당, 처치",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "出くわす",
+      "reading": "でくわす",
+      "meaning": "우연히 마주치다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "田園",
+      "reading": "でんえん",
+      "meaning": "전원",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "問い合わせる",
+      "reading": "といあわせる",
+      "meaning": "문의하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "到達",
+      "reading": "とうたつ",
+      "meaning": "도달",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "跡切れる",
+      "reading": "とぎれる",
+      "meaning": "중간에 끊기다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "取っ手",
+      "reading": "とって",
+      "meaning": "손잡이",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "トランジスター",
+      "reading": "トランジスター",
+      "meaning": "트랜지스터",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "内臓",
+      "reading": "ないぞう",
+      "meaning": "내장",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "生臭い",
+      "reading": "なまぐさい",
+      "meaning": "비린내가 나다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "にきび",
+      "reading": "にきび",
+      "meaning": "여드름",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "抜け出す",
+      "reading": "ぬけだす",
+      "meaning": "빠져나가다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "年長",
+      "reading": "ねんちょう",
+      "meaning": "연장, 나이가 위임",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "配偶者",
+      "reading": "はいぐうしゃ",
+      "meaning": "배우자",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "白状",
+      "reading": "はくじょう",
+      "meaning": "자백",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "初",
+      "reading": "はつ",
+      "meaning": "처음",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "遥か",
+      "reading": "はるか",
+      "meaning": "아주 멀리, 훨씬",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "非",
+      "reading": "ひ",
+      "meaning": "비, 잘못",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "引っ掻く",
+      "reading": "ひっかく",
+      "meaning": "할퀴다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "描写",
+      "reading": "びょうしゃ",
+      "meaning": "묘사",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "風習",
+      "reading": "ふうしゅう",
+      "meaning": "풍습",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "負傷",
+      "reading": "ふしょう",
+      "meaning": "부상",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "文",
+      "reading": "ふみ",
+      "meaning": "글, 문장",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "奮闘",
+      "reading": "ふんとう",
+      "meaning": "분투",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "便宜",
+      "reading": "べんぎ",
+      "meaning": "편의",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "放射能",
+      "reading": "ほうしゃのう",
+      "meaning": "방사능",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "募金",
+      "reading": "ぼきん",
+      "meaning": "모금",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "ぼやける",
+      "reading": "ぼやける",
+      "meaning": "흐릿해지다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "負かす",
+      "reading": "まかす",
+      "meaning": "이기다, 패배시키다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "マッサージ",
+      "reading": "マッサージ",
+      "meaning": "마사지",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "見込み",
+      "reading": "みこみ",
+      "meaning": "전망, 가망",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "身振り",
+      "reading": "みぶり",
+      "meaning": "몸짓",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "無茶",
+      "reading": "むちゃ",
+      "meaning": "무모함",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "メディア",
+      "reading": "メディア",
+      "meaning": "미디어",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "もてなす",
+      "reading": "もてなす",
+      "meaning": "대접하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "養う",
+      "reading": "やしなう",
+      "meaning": "부양하다, 기르다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "有する",
+      "reading": "ゆうする",
+      "meaning": "보유하다",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "様式",
+      "reading": "ようしき",
+      "meaning": "양식",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "夜更かし",
+      "reading": "よふかし",
+      "meaning": "밤늦게까지 깨어 있음",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "流通",
+      "reading": "りゅうつう",
+      "meaning": "유통",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "レース",
+      "reading": "レース",
+      "meaning": "경주",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "枠",
+      "reading": "わく",
+      "meaning": "틀, 테두리",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "level": "N5",
+      "target": "〜まで（until）",
+      "reading": "まで",
+      "explanation": "시간이나 범위의 끝을 나타냅니다.",
+      "example": "昼休みは1時までです。",
+      "translation": "점심시간은 한 시까지입니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜の方が〜より",
+      "reading": "のほうが…より",
+      "explanation": "뒤의 비교 대상보다 앞의 대상이 더 어떠함을 말합니다.",
+      "example": "犬の方が猫より好きです。",
+      "translation": "고양이보다 개를 더 좋아합니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜と〜とどちらが",
+      "reading": "と…とどちらが",
+      "explanation": "두 대상을 놓고 어느 쪽이 더 그런지 묻습니다.",
+      "example": "コーヒーと紅茶とどちらが好きですか。",
+      "translation": "커피와 홍차 중 어느 쪽을 더 좋아하세요?",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜の中で〜が一番",
+      "reading": "のなかで…がいちばん",
+      "explanation": "범위 안에서 가장 두드러지는 대상을 말합니다.",
+      "example": "果物の中でりんごが一番好きです。",
+      "translation": "과일 중에서 사과를 가장 좋아합니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜だ",
+      "reading": "だ",
+      "explanation": "명사나 な형용사와 쓰는 평서형입니다.",
+      "example": "今日は日曜日だ。",
+      "translation": "오늘은 일요일이다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜ではありません / 〜じゃない",
+      "reading": "ではありません／じゃない",
+      "explanation": "명사나 な형용사를 부정합니다. じゃない는 일상적인 말입니다.",
+      "example": "私は先生ではありません。学生です。",
+      "translation": "저는 선생님이 아닙니다. 학생입니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜ない",
+      "reading": "ない",
+      "explanation": "동작을 하지 않는다는 뜻의 보통형입니다.",
+      "example": "今日は学校へ行かない。",
+      "translation": "오늘은 학교에 가지 않아.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜た",
+      "reading": "た",
+      "explanation": "동사의 보통체 과거형입니다.",
+      "example": "週末は家で映画を見た。",
+      "translation": "주말에는 집에서 영화를 봤다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜をください",
+      "reading": "おください",
+      "explanation": "물건을 달라고 정중하게 부탁할 때 씁니다. 조사 を는 ‘お’로 발음합니다.",
+      "example": "すみません、水をください。",
+      "translation": "실례합니다. 물 좀 주세요.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜ないでください",
+      "reading": "ないでください",
+      "explanation": "상대에게 어떤 행동을 하지 말아 달라고 부탁합니다.",
+      "example": "教室で食べないでください。",
+      "translation": "교실에서 먹지 말아 주세요.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜てもいい",
+      "reading": "てもいい",
+      "explanation": "허용을 나타내거나 허락을 구합니다.",
+      "example": "この辞書を使ってもいいですか。",
+      "translation": "이 사전을 써도 될까요?",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜てはいけない",
+      "reading": "てはいけない",
+      "explanation": "행동을 금지합니다. 여기서 は는 ‘わ’로 발음합니다.",
+      "example": "図書館で大きい声で話してはいけません。",
+      "translation": "도서관에서 큰 소리로 말하면 안 됩니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜なければならない / 〜なくてはいけない",
+      "reading": "なければならない／なくてはいけない",
+      "explanation": "해야 할 행동을 나타냅니다.",
+      "example": "明日は6時に起きなければなりません。",
+      "translation": "내일은 여섯 시에 일어나야 합니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜なくてもいい",
+      "reading": "なくてもいい",
+      "explanation": "그 행동을 할 필요가 없다는 뜻입니다.",
+      "example": "明日は学校へ来なくてもいいです。",
+      "translation": "내일은 학교에 오지 않아도 됩니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜たり〜たりする",
+      "reading": "たり…たりする",
+      "explanation": "여러 행동 중 대표적인 예를 듭니다.",
+      "example": "日曜日はそうじをしたり、洗濯をしたりします。",
+      "translation": "일요일에는 청소나 빨래를 합니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜たことがある",
+      "reading": "たことがある",
+      "explanation": "과거에 해 본 경험을 나타냅니다.",
+      "example": "富士山に登ったことがあります。",
+      "translation": "후지산에 올라 본 적이 있습니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜前に",
+      "reading": "まえに",
+      "explanation": "어떤 행동보다 앞서 다른 행동을 합니다.",
+      "example": "寝る前に歯をみがきます。",
+      "translation": "자기 전에 양치합니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜後で",
+      "reading": "あとで",
+      "explanation": "어떤 행동을 마친 뒤에 다른 행동을 합니다.",
+      "example": "晩ご飯を食べた後で、散歩をします。",
+      "translation": "저녁을 먹은 뒤 산책합니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜ながら（while）",
+      "reading": "ながら",
+      "explanation": "한 사람이 두 행동을 동시에 합니다.",
+      "example": "音楽を聞きながら勉強します。",
+      "translation": "음악을 들으면서 공부합니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N5",
+      "target": "〜が好き / 〜が嫌い",
+      "reading": "がすき／がきらい",
+      "explanation": "좋아하거나 싫어하는 대상을 조사 が로 표시합니다.",
+      "example": "私は甘いものが好きです。",
+      "translation": "저는 단것을 좋아합니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "あげる / くれる / もらう",
+      "reading": "あげる／くれる／もらう",
+      "explanation": "주고받는 관계와 말하는 사람의 관점에 따라 골라 씁니다.",
+      "example": "私は弟に古いゲームをあげた。",
+      "translation": "나는 동생에게 갖고 있던 게임을 줬다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜てくださる / 〜ていただく",
+      "reading": "てくださる／ていただく",
+      "explanation": "상대가 해 준 일을 높이거나 내가 도움을 받았음을 겸양해서 말합니다.",
+      "example": "先生が私の作文を直してくださいました。",
+      "translation": "선생님께서 제 작문을 고쳐 주셨습니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜ていく",
+      "reading": "ていく",
+      "explanation": "동작을 한 뒤 이동하거나 앞으로 진행되는 변화를 나타냅니다.",
+      "example": "雨が降りそうだから、傘を持っていきます。",
+      "translation": "비가 올 것 같아서 우산을 가져가겠습니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜てくる",
+      "reading": "てくる",
+      "explanation": "동작을 하고 돌아오거나 변화가 지금까지 이어짐을 나타냅니다.",
+      "example": "ちょっとコンビニに行ってきます。",
+      "translation": "잠깐 편의점에 다녀올게요.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜てしまう / 〜ちゃう",
+      "reading": "てしまう／ちゃう",
+      "explanation": "동작의 완료나 뜻하지 않은 일을 나타냅니다. ちゃう는 구어형입니다.",
+      "example": "電車に傘を忘れてしまいました。",
+      "translation": "전철에 그만 우산을 두고 내렸습니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜とき",
+      "reading": "とき",
+      "explanation": "어떤 동작이나 상태가 일어나는 때를 나타냅니다.",
+      "example": "子どものとき、よく川で泳ぎました。",
+      "translation": "어렸을 때 강에서 자주 수영했습니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜間 / 〜間に",
+      "reading": "あいだ／あいだに",
+      "explanation": "일정 기간 전체에 걸치면 間, 기간 중 어느 시점의 일이면 間に를 씁니다.",
+      "example": "夏休みの間、祖父の家にいました。",
+      "translation": "여름방학 동안 할아버지 댁에 있었습니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜らしい（hearsay/conjecture）",
+      "reading": "らしい",
+      "explanation": "들었거나 간접적으로 알게 된 정보를 바탕으로 추정합니다.",
+      "example": "駅の近くに新しいカフェができたらしい。",
+      "translation": "역 근처에 새 카페가 생겼다고 합니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜ようだ",
+      "reading": "ようだ",
+      "explanation": "관찰한 사실이나 단서를 근거로 판단합니다.",
+      "example": "誰もいないようですね。",
+      "translation": "아무도 없는 것 같네요.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜みたい",
+      "reading": "みたい",
+      "explanation": "회화에서 추정이나 비유를 나타냅니다.",
+      "example": "隣の部屋に誰か来たみたい。",
+      "translation": "옆방에 누가 온 것 같아.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜方",
+      "reading": "かた",
+      "explanation": "동사 ます형 어간에 붙어 방법을 나타냅니다.",
+      "example": "この機械の使い方を教えてください。",
+      "translation": "이 기계의 사용법을 알려 주세요.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜中",
+      "reading": "ちゅう／じゅう",
+      "explanation": "ちゅう는 진행 중을, じゅう는 기간이나 장소 전체를 나타낼 수 있습니다.",
+      "example": "父は今、電話中です。",
+      "translation": "아버지는 지금 통화 중입니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜予定",
+      "reading": "よてい",
+      "explanation": "계획이나 예정된 일정을 나타냅니다.",
+      "example": "来月、大阪に引っ越す予定です。",
+      "translation": "다음 달에 오사카로 이사할 예정입니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜ことにする",
+      "reading": "ことにする",
+      "explanation": "스스로 어떤 행동을 하기로 결정합니다.",
+      "example": "健康のために、毎朝歩くことにした。",
+      "translation": "건강을 위해 매일 아침 걷기로 했다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜ことになる",
+      "reading": "ことになる",
+      "explanation": "결정이나 사정에 따라 그렇게 되었음을 나타냅니다.",
+      "example": "来年の春から、名古屋の店で働くことになりました。",
+      "translation": "내년 봄부터 나고야 가게에서 일하게 되었습니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜ことができる",
+      "reading": "ことができる",
+      "explanation": "어떤 일을 할 능력이 있거나 그 일이 가능함을 나타냅니다.",
+      "example": "この図書館では、本を二週間借りることができます。",
+      "translation": "이 도서관에서는 책을 2주 동안 빌릴 수 있습니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜える / 〜られる（potential）",
+      "reading": "える／られる",
+      "explanation": "동사를 가능형으로 바꿔 능력이나 가능 여부를 말합니다.",
+      "example": "私は漢字が二百ぐらい読めます。",
+      "translation": "저는 한자 200자 정도를 읽을 수 있습니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜れる / 〜られる（passive）",
+      "reading": "れる／られる",
+      "explanation": "동사를 수동형으로 바꿔 다른 사람의 동작을 받는 쪽에서 말합니다.",
+      "example": "先生に作文をほめられました。",
+      "translation": "선생님께 작문을 칭찬받았습니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜せる / 〜させる",
+      "reading": "せる／させる",
+      "explanation": "다른 사람에게 어떤 동작을 시키거나 허락합니다.",
+      "example": "母は毎日弟に野菜を食べさせる。",
+      "translation": "어머니는 매일 남동생에게 채소를 먹이신다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N4",
+      "target": "〜せられる / 〜させられる",
+      "reading": "せられる／させられる",
+      "explanation": "다른 사람에 의해 어떤 동작을 하게 된 상황을 나타냅니다.",
+      "example": "子どものころ、母に毎日ピアノを練習させられた。",
+      "translation": "어렸을 때 어머니 때문에 매일 피아노를 연습해야 했다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜わけだ",
+      "reading": "わけだ",
+      "explanation": "앞서 알게 된 사실을 근거로 결과를 납득할 때 씁니다.",
+      "example": "三年も中国に住んでいたんですか。だから中国語が上手なわけですね。",
+      "translation": "중국에서 3년이나 사셨어요? 그래서 중국어를 잘하시는군요.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜ものだ",
+      "reading": "ものだ",
+      "explanation": "일반적인 사실이나 과거에 반복하던 일을 회상할 때 씁니다.",
+      "example": "子どものころは、この川でよく泳いだものだ。",
+      "translation": "어렸을 때는 이 강에서 자주 수영하곤 했다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜ものではない",
+      "reading": "ものではない",
+      "explanation": "상식이나 도리에 비추어 해서는 안 될 일을 말합니다.",
+      "example": "人の失敗を笑うものではない。",
+      "translation": "남의 실수를 비웃는 게 아니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜もの / 〜もん",
+      "reading": "もの／もん",
+      "explanation": "회화에서 이유나 변명을 덧붙입니다.",
+      "example": "「どうして食べないの？」「だって、ピーマン嫌いなんだもん。」",
+      "translation": "“왜 안 먹어?” “피망을 싫어하니까.”",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜ものだから / 〜もので",
+      "reading": "ものだから／もので",
+      "explanation": "사정을 설명하거나 변명할 때 이유를 제시합니다.",
+      "example": "道がすごく混んでいたものだから、約束の時間に間に合わなかった。",
+      "translation": "길이 너무 막혀서 약속 시간에 못 맞췄다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜ことだ",
+      "reading": "ことだ",
+      "explanation": "어떻게 해야 할지 조언할 때 씁니다.",
+      "example": "日本語が上手になりたいなら、毎日少しずつでも話すことだ。",
+      "translation": "일본어를 잘하고 싶다면 매일 조금씩이라도 말해야 한다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜ことはない",
+      "reading": "ことはない",
+      "explanation": "어떤 행동을 할 필요가 없음을 나타냅니다. は는 ‘わ’로 발음합니다.",
+      "example": "簡単な手術ですから、そんなに心配することはありませんよ。",
+      "translation": "간단한 수술이니 그렇게 걱정할 필요는 없어요.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜ことにしている",
+      "reading": "ことにしている",
+      "explanation": "스스로 정한 방침이나 지속하는 습관을 말합니다.",
+      "example": "健康のために、週に三回はジムに通うことにしている。",
+      "translation": "건강을 위해 일주일에 세 번은 헬스장에 다니기로 하고 있다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜こと（instruction）",
+      "reading": "こと",
+      "explanation": "문서의 지시나 규정에서 해야 할 행동을 나타냅니다.",
+      "example": "レポートは、来週の金曜日までに提出すること。",
+      "translation": "보고서는 다음 주 금요일까지 제출할 것.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜ように言う / 〜ように頼む",
+      "reading": "ようにいう／ようにたのむ",
+      "explanation": "지시나 요청의 내용을 전달합니다.",
+      "example": "医者に、お酒を飲みすぎないように言われた。",
+      "translation": "의사에게 술을 너무 많이 마시지 말라는 말을 들었다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜そうにない / 〜そうもない",
+      "reading": "そうにない／そうもない",
+      "explanation": "현재 상황을 근거로 일어날 가능성이 낮다고 봅니다.",
+      "example": "この雨は、夕方までやみそうにない。",
+      "translation": "이 비는 저녁까지 그칠 것 같지 않다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜一方だ",
+      "reading": "いっぽうだ",
+      "explanation": "변화가 한 방향으로만 계속 진행됩니다.",
+      "example": "この町の人口は、減る一方だ。",
+      "translation": "이 마을 인구는 계속 줄어들고 있다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜一方で",
+      "reading": "いっぽうで",
+      "explanation": "한 가지 측면과 대비되는 다른 면을 덧붙입니다.",
+      "example": "インターネットは便利な一方で、危険な面もある。",
+      "translation": "인터넷은 편리한 반면 위험한 면도 있다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜によって / 〜による",
+      "reading": "によって／による",
+      "explanation": "수단이나 원인, 수동문의 행위자를 나타냅니다.",
+      "example": "この橋は、有名な建築家によって設計された。",
+      "translation": "이 다리는 유명한 건축가에 의해 설계되었다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜によると / 〜によれば",
+      "reading": "によると／によれば",
+      "explanation": "정보를 어디에서 얻었는지 밝힙니다.",
+      "example": "天気予報によると、週末は大雪になるそうだ。",
+      "translation": "일기예보에 따르면 주말에 큰눈이 온다고 한다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜ばかりでなく",
+      "reading": "ばかりでなく",
+      "explanation": "같은 방향의 대상을 더 추가합니다.",
+      "example": "この映画は子どもばかりでなく、大人も楽しめる。",
+      "translation": "이 영화는 아이들뿐 아니라 어른도 즐길 수 있다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜だけでなく",
+      "reading": "だけでなく",
+      "explanation": "앞의 장점이나 특징에 또 하나를 더합니다.",
+      "example": "この店は料理がおいしいだけでなく、値段も安い。",
+      "translation": "이 가게는 음식이 맛있을 뿐 아니라 가격도 싸다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜も〜ば〜も",
+      "reading": "も…ば…も",
+      "explanation": "여러 특징이나 행동을 나란히 제시합니다.",
+      "example": "彼女は歌も歌えば、ピアノも弾く。",
+      "translation": "그녀는 노래도 부르고 피아노도 친다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜的",
+      "reading": "てき",
+      "explanation": "명사에 붙여 어떤 성격이나 관련을 나타냅니다.",
+      "example": "日本の伝統的な料理を食べてみたい。",
+      "translation": "일본의 전통적인 음식을 먹어 보고 싶다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N3",
+      "target": "〜ような / 〜ように（like）",
+      "reading": "ような／ように",
+      "explanation": "비슷한 대상에 빗대거나 예를 듭니다.",
+      "example": "私も、あなたのような優しい看護師になりたいです。",
+      "translation": "저도 당신처럼 친절한 간호사가 되고 싶어요.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜に加えて",
+      "reading": "にくわえて",
+      "explanation": "이미 언급한 조건이나 상황에 다른 요소를 덧붙입니다.",
+      "example": "今年は猛暑に加えて雨不足が続き、野菜の価格が高騰している。",
+      "translation": "올해는 폭염에 비 부족까지 이어져 채소 가격이 급등하고 있다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜を通じて / 〜を通して",
+      "reading": "おつうじて／おとおして",
+      "explanation": "사람이나 매체를 거쳐 연결되거나 일정 기간 내내라는 뜻입니다.",
+      "example": "共通の友人を通じて、今の妻と知り合った。",
+      "translation": "공통 친구를 통해 지금의 아내를 알게 되었다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜を除いて",
+      "reading": "おのぞいて",
+      "explanation": "대상이나 기간을 범위에서 뺍니다.",
+      "example": "年末年始を除いて、図書館は毎日開いている。",
+      "translation": "연말연시를 제외하고 도서관은 매일 연다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜かのようだ",
+      "reading": "かのようだ",
+      "explanation": "실제와 다를 수 있는 모습을 마치 그런 것처럼 묘사합니다.",
+      "example": "彼はまるで何も知らないかのような顔をしていた。",
+      "translation": "그는 마치 아무것도 모르는 듯한 표정을 짓고 있었다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜ずにはいられない",
+      "reading": "ずにはいられない",
+      "explanation": "감정이나 행동을 억누를 수 없음을 나타냅니다.",
+      "example": "あまりにひどいニュースに、怒りを感じずにはいられなかった。",
+      "translation": "너무 끔찍한 소식에 화가 나지 않을 수 없었다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜てはいられない",
+      "reading": "てはいられない",
+      "explanation": "상황이 현재 행동을 계속할 여유를 허락하지 않습니다.",
+      "example": "締め切りが迫っているので、のんびりしてはいられない。",
+      "translation": "마감이 다가와 느긋하게 있을 수 없다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜ものか",
+      "reading": "ものか",
+      "explanation": "그렇게 하거나 될 가능성을 강하게 부정합니다.",
+      "example": "あんな失礼な店には、二度と行くものか。",
+      "translation": "그렇게 무례한 가게에 두 번 다시 가겠어?",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜ものの",
+      "reading": "ものの",
+      "explanation": "앞 사실을 인정한 뒤 예상과 다른 내용을 말합니다.",
+      "example": "免許は取ったものの、怖くてまだ一度も運転していない。",
+      "translation": "면허는 땄지만 무서워서 아직 한 번도 운전하지 않았다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜くらいなら / 〜ぐらいなら",
+      "reading": "くらいなら／ぐらいなら",
+      "explanation": "싫은 선택 대신 차라리 다른 쪽을 택하겠다는 뜻입니다.",
+      "example": "あんな人に頭を下げるくらいなら、会社を辞めたほうがましだ。",
+      "translation": "그런 사람에게 고개를 숙일 바에는 회사를 그만두는 게 낫다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜ものがある",
+      "reading": "ものがある",
+      "explanation": "사람을 움직이거나 인상을 남기는 어떤 특징이 있음을 말합니다.",
+      "example": "この画家の初期の作品には、見る人の心を強く打つものがある。",
+      "translation": "이 화가의 초기 작품에는 보는 사람의 마음을 강하게 울리는 무언가가 있다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜ことか",
+      "reading": "ことか",
+      "explanation": "감정이나 얼마나 큰 정도였는지를 강조합니다.",
+      "example": "この日が来るのを、どれほど待ち望んだことか。",
+      "translation": "이날이 오기를 얼마나 기다렸던가!",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜ことに（は）",
+      "reading": "ことにわ／ことに",
+      "explanation": "뒤에 나올 사실을 어떻게 받아들이는지 먼저 말합니다.",
+      "example": "驚いたことに、彼は会社を辞めてパン屋を開いたそうだ。",
+      "translation": "놀랍게도 그는 회사를 그만두고 빵집을 열었다고 한다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜ことだから",
+      "reading": "ことだから",
+      "explanation": "잘 아는 사람의 성격이나 습관을 근거로 추측합니다.",
+      "example": "几帳面な彼のことだから、書類はもう準備してあるだろう。",
+      "translation": "꼼꼼한 그이니 서류를 벌써 준비해 뒀을 것이다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜ことなく",
+      "reading": "ことなく",
+      "explanation": "어떤 행동을 하지 않은 상태로 다른 행동을 이어갑니다.",
+      "example": "彼は三十年間、一日も休むことなく店を開け続けた。",
+      "translation": "그는 30년 동안 하루도 쉬지 않고 가게를 열었다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜ないことには",
+      "reading": "ないことにわ",
+      "explanation": "앞 조건이 성립하지 않으면 뒤의 판단이나 결과가 어렵습니다.",
+      "example": "実際に会って話してみないことには、どんな人か分からない。",
+      "translation": "실제로 만나 이야기해 보지 않으면 어떤 사람인지 알 수 없다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜ことは〜が",
+      "reading": "ことわ…が",
+      "explanation": "사실을 일단 인정하고 제한이나 반대 사실을 덧붙입니다.",
+      "example": "あの映画、見たことは見たけど、途中で寝てしまった。",
+      "translation": "그 영화 보기는 봤는데 중간에 잠이 들었다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜あげく",
+      "reading": "あげく",
+      "explanation": "오랫동안 고민하거나 애쓴 끝에 나온 결과를 말합니다.",
+      "example": "さんざん迷ったあげく、結局どちらも買わなかった。",
+      "translation": "한참 망설인 끝에 결국 둘 다 사지 않았다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜あまり（に）",
+      "reading": "あまり／あまりに",
+      "explanation": "감정이나 정도가 너무 강해 어떤 결과가 생김을 말합니다.",
+      "example": "彼女は緊張のあまり、スピーチの内容を忘れてしまった。",
+      "translation": "그녀는 너무 긴장한 나머지 연설 내용을 잊었다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜上（に）",
+      "reading": "うえ／うえに",
+      "explanation": "같은 방향의 장점이나 문제를 덧붙입니다.",
+      "example": "あのレストランは料理がおいしい上に、値段も手頃だ。",
+      "translation": "저 식당은 음식이 맛있는 데다 가격도 적당하다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N2",
+      "target": "〜上で",
+      "reading": "うえで",
+      "explanation": "먼저 충분히 확인한 다음 판단하거나 조치합니다.",
+      "example": "家族とよく相談した上で、お返事いたします。",
+      "translation": "가족과 충분히 상의한 뒤 답변드리겠습니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜すら",
+      "reading": "すら",
+      "explanation": "극단적인 예를 들어 힘들거나 드문 정도를 강조합니다.",
+      "example": "高熱が三日も続き、水を飲むことすらつらかった。",
+      "translation": "고열이 사흘이나 계속되어 물을 마시는 것조차 힘들었다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜たら最後 / 〜が最後",
+      "reading": "たらさいご／がさいご",
+      "explanation": "한번 일이 시작되면 상태를 되돌리기 어렵다는 뜻입니다.",
+      "example": "この子は一度泣き出したら最後、何をしても一時間は泣きやまない。",
+      "translation": "이 아이는 한 번 울기 시작하면 뭘 해도 한 시간은 울음을 그치지 않는다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜てからというもの",
+      "reading": "てからというもの",
+      "explanation": "특정 사건 이후 변화한 상태가 계속된다고 말합니다.",
+      "example": "犬を飼い始めてからというもの、父は毎朝六時に起きるようになった。",
+      "translation": "개를 키우기 시작한 뒤로 아버지는 매일 아침 여섯 시에 일어나게 됐다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜てやまない",
+      "reading": "てやまない",
+      "explanation": "계속 바라거나 존경하는 깊은 마음을 격식 있게 드러냅니다.",
+      "example": "皆様のご健康とご多幸を心より願ってやみません。",
+      "translation": "여러분의 건강과 행복을 진심으로 기원합니다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜ともなると / 〜ともなれば",
+      "reading": "ともなると／ともなれば",
+      "explanation": "특정한 단계나 지위가 되면 상황이 달라진다고 말합니다.",
+      "example": "大企業の社長ともなると、分刻みのスケジュールで動かなければならない。",
+      "translation": "대기업 사장쯤 되면 분 단위 일정에 맞춰 움직여야 한다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜(よ)うものなら",
+      "reading": "ようものなら／うものなら",
+      "explanation": "어떤 일이 생기기라도 하면 심각한 결과가 따를 것임을 나타냅니다.",
+      "example": "父の前で母の料理に文句でも言おうものなら、大変なことになる。",
+      "translation": "아버지 앞에서 어머니 요리에 불평이라도 하면 큰일 난다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜に至る / 〜に至って / 〜に至っては",
+      "reading": "にいたる／にいたって／にいたってわ",
+      "explanation": "과정 끝에 이른 단계나 극단적인 사례를 나타냅니다.",
+      "example": "小さな行き違いが、ついには両社の提携解消にまで至った。",
+      "translation": "작은 오해가 결국 두 회사의 제휴 해지에까지 이르렀다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜あっての",
+      "reading": "あっての",
+      "explanation": "앞의 존재가 있어야 뒤의 일이 성립한다고 말합니다.",
+      "example": "お客様あっての商売ですから、どんな小さな声にも耳を傾けなければならない。",
+      "translation": "고객이 있어야 사업도 있는 것이니 아무리 작은 목소리도 귀담아들어야 한다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜いかんで / 〜いかんによらず",
+      "reading": "いかんで／いかんによらず",
+      "explanation": "기준에 따라 결과가 달라지거나 그 기준과 무관함을 격식 있게 나타냅니다.",
+      "example": "来季の契約は、今シーズンの成績いかんで決まる。",
+      "translation": "다음 시즌 계약은 이번 시즌 성적에 따라 결정된다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜(よ)うが / 〜(よ)うと",
+      "reading": "ようが／ようと",
+      "explanation": "어떤 조건이 생겨도 결과나 의지가 바뀌지 않음을 나타냅니다.",
+      "example": "周りに何と言われようが、自分で決めた道を進むつもりだ。",
+      "translation": "주변에서 뭐라고 하든 내가 정한 길을 갈 생각이다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜(よ)うが〜まいが / 〜(よ)うと〜まいと",
+      "reading": "ようが…まいが／ようと…まいと",
+      "explanation": "특정 행동을 하든 안 하든 결과는 같다고 말합니다.",
+      "example": "君が賛成しようがしまいが、この計画はもう動き出している。",
+      "translation": "네가 찬성하든 말든 이 계획은 이미 움직이기 시작했다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜(よ)うにも〜ない",
+      "reading": "ようにも…ない",
+      "explanation": "하려는 마음은 있어도 사정 때문에 할 수 없다는 뜻입니다.",
+      "example": "財布を家に忘れてきたので、昼ご飯を買おうにも買えなかった。",
+      "translation": "지갑을 집에 두고 와서 점심을 사려고 해도 살 수 없었다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜かぎりだ",
+      "reading": "かぎりだ",
+      "explanation": "기쁨이나 아쉬움의 정도가 매우 크다고 말합니다.",
+      "example": "長年の夢だった自分の店をついに開くことができ、うれしいかぎりだ。",
+      "translation": "오랜 꿈이었던 내 가게를 마침내 열게 되어 더없이 기쁘다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜かと思いきや",
+      "reading": "かとおもいきや",
+      "explanation": "그럴 거라 예상했지만 반대 상황이 생겼다고 말합니다.",
+      "example": "今年の冬は暖かいかと思いきや、二月に入って記録的な大雪に見舞われた。",
+      "translation": "올겨울은 따뜻할 줄 알았는데 2월에 기록적인 폭설을 맞았다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜きらいがある",
+      "reading": "きらいがある",
+      "explanation": "바람직하지 않은 경향을 완곡하게 지적합니다.",
+      "example": "彼は何事も自分一人で抱え込むきらいがある。",
+      "translation": "그는 뭐든 혼자 떠안으려는 경향이 있다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜極まる / 〜極まりない",
+      "reading": "きわまる／きわまりない",
+      "explanation": "상태의 정도가 극심함을 강조합니다.",
+      "example": "公共の場で大声で電話をするなんて、迷惑極まりない。",
+      "translation": "공공장소에서 큰 소리로 통화하다니 극히 민폐다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜の極み",
+      "reading": "のきわみ",
+      "explanation": "어떤 감정이나 평가가 최고조임을 나타냅니다.",
+      "example": "決勝戦であのような凡ミスをしたことは、まさに痛恨の極みだ。",
+      "translation": "결승전에서 그런 어이없는 실수를 했다니 더없이 통탄스럽다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜ごとき / 〜ごとく",
+      "reading": "ごとき／ごとく",
+      "explanation": "다른 대상이나 상황과 비슷함을 표현하는 문어체입니다.",
+      "example": "彼女は何事もなかったかのごとく、静かに微笑んでいた。",
+      "translation": "그녀는 아무 일도 없었던 것처럼 조용히 미소 짓고 있었다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜こととて",
+      "reading": "こととて",
+      "explanation": "특별한 사정을 이유로 내세울 때 쓰는 격식 있는 표현입니다.",
+      "example": "何分にも不慣れなこととて、至らぬ点があればご容赦ください。",
+      "translation": "아무래도 아직 익숙하지 않은 터라 부족한 점이 있다면 너그러이 봐 주세요.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    },
+    {
+      "level": "N1",
+      "target": "〜ことなしに",
+      "reading": "ことなしに",
+      "explanation": "어떤 전제나 행동이 빠진 상태를 나타냅니다.",
+      "example": "基礎を固めることなしに、応用力は身につかない。",
+      "translation": "기초를 다지지 않고는 응용력을 기를 수 없다.",
+      "source": {
+        "label": "OpenJLPT · CC BY-SA 4.0",
+        "url": "https://github.com/evanclan/OpenJLPT"
+      }
+    }
+  ]
+}

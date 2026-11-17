@@ -1,0 +1,1262 @@
+[
+  {
+    "level": "N5",
+    "target": "食べる",
+    "reading": "たべる",
+    "meaning": "먹다"
+  },
+  {
+    "level": "N5",
+    "target": "飲む",
+    "reading": "のむ",
+    "meaning": "마시다"
+  },
+  {
+    "level": "N5",
+    "target": "読む",
+    "reading": "よむ",
+    "meaning": "읽다"
+  },
+  {
+    "level": "N5",
+    "target": "書く",
+    "reading": "かく",
+    "meaning": "쓰다"
+  },
+  {
+    "level": "N5",
+    "target": "聞く",
+    "reading": "きく",
+    "meaning": "듣다, 묻다"
+  },
+  {
+    "level": "N5",
+    "target": "話す",
+    "reading": "はなす",
+    "meaning": "말하다"
+  },
+  {
+    "level": "N5",
+    "target": "行く",
+    "reading": "いく",
+    "meaning": "가다"
+  },
+  {
+    "level": "N5",
+    "target": "来る",
+    "reading": "くる",
+    "meaning": "오다"
+  },
+  {
+    "level": "N5",
+    "target": "帰る",
+    "reading": "かえる",
+    "meaning": "돌아가다"
+  },
+  {
+    "level": "N5",
+    "target": "見る",
+    "reading": "みる",
+    "meaning": "보다"
+  },
+  {
+    "level": "N5",
+    "target": "大きい",
+    "reading": "おおきい",
+    "meaning": "크다"
+  },
+  {
+    "level": "N5",
+    "target": "小さい",
+    "reading": "ちいさい",
+    "meaning": "작다"
+  },
+  {
+    "level": "N5",
+    "target": "新しい",
+    "reading": "あたらしい",
+    "meaning": "새롭다"
+  },
+  {
+    "level": "N5",
+    "target": "古い",
+    "reading": "ふるい",
+    "meaning": "오래되다"
+  },
+  {
+    "level": "N5",
+    "target": "高い",
+    "reading": "たかい",
+    "meaning": "높다, 비싸다"
+  },
+  {
+    "level": "N5",
+    "target": "安い",
+    "reading": "やすい",
+    "meaning": "싸다"
+  },
+  {
+    "level": "N5",
+    "target": "名前",
+    "reading": "なまえ",
+    "meaning": "이름"
+  },
+  {
+    "level": "N5",
+    "target": "家",
+    "reading": "いえ",
+    "meaning": "집"
+  },
+  {
+    "level": "N5",
+    "target": "本",
+    "reading": "ほん",
+    "meaning": "책"
+  },
+  {
+    "level": "N5",
+    "target": "天気",
+    "reading": "てんき",
+    "meaning": "날씨"
+  },
+  {
+    "level": "N4",
+    "target": "受付",
+    "reading": "うけつけ",
+    "meaning": "접수, 안내 데스크"
+  },
+  {
+    "level": "N4",
+    "target": "用事",
+    "reading": "ようじ",
+    "meaning": "볼일"
+  },
+  {
+    "level": "N4",
+    "target": "都合",
+    "reading": "つごう",
+    "meaning": "사정, 형편"
+  },
+  {
+    "level": "N4",
+    "target": "経験",
+    "reading": "けいけん",
+    "meaning": "경험"
+  },
+  {
+    "level": "N4",
+    "target": "急ぐ",
+    "reading": "いそぐ",
+    "meaning": "서두르다"
+  },
+  {
+    "level": "N4",
+    "target": "忘れる",
+    "reading": "わすれる",
+    "meaning": "잊다"
+  },
+  {
+    "level": "N4",
+    "target": "見つける",
+    "reading": "みつける",
+    "meaning": "찾아내다"
+  },
+  {
+    "level": "N4",
+    "target": "手伝う",
+    "reading": "てつだう",
+    "meaning": "돕다"
+  },
+  {
+    "level": "N4",
+    "target": "比べる",
+    "reading": "くらべる",
+    "meaning": "비교하다"
+  },
+  {
+    "level": "N4",
+    "target": "続ける",
+    "reading": "つづける",
+    "meaning": "계속하다"
+  },
+  {
+    "level": "N4",
+    "target": "出発",
+    "reading": "しゅっぱつ",
+    "meaning": "출발"
+  },
+  {
+    "level": "N4",
+    "target": "途中",
+    "reading": "とちゅう",
+    "meaning": "도중"
+  },
+  {
+    "level": "N4",
+    "target": "景色",
+    "reading": "けしき",
+    "meaning": "경치"
+  },
+  {
+    "level": "N4",
+    "target": "必要",
+    "reading": "ひつよう",
+    "meaning": "필요함"
+  },
+  {
+    "level": "N4",
+    "target": "安全",
+    "reading": "あんぜん",
+    "meaning": "안전"
+  },
+  {
+    "level": "N4",
+    "target": "危険",
+    "reading": "きけん",
+    "meaning": "위험"
+  },
+  {
+    "level": "N4",
+    "target": "遅れる",
+    "reading": "おくれる",
+    "meaning": "늦다"
+  },
+  {
+    "level": "N4",
+    "target": "届く",
+    "reading": "とどく",
+    "meaning": "도착하다, 닿다"
+  },
+  {
+    "level": "N4",
+    "target": "片付ける",
+    "reading": "かたづける",
+    "meaning": "정리하다"
+  },
+  {
+    "level": "N4",
+    "target": "迎える",
+    "reading": "むかえる",
+    "meaning": "맞이하다"
+  },
+  {
+    "level": "N3",
+    "target": "改善",
+    "reading": "かいぜん",
+    "meaning": "개선"
+  },
+  {
+    "level": "N3",
+    "target": "変化",
+    "reading": "へんか",
+    "meaning": "변화"
+  },
+  {
+    "level": "N3",
+    "target": "手続き",
+    "reading": "てつづき",
+    "meaning": "절차"
+  },
+  {
+    "level": "N3",
+    "target": "確認",
+    "reading": "かくにん",
+    "meaning": "확인"
+  },
+  {
+    "level": "N3",
+    "target": "意見",
+    "reading": "いけん",
+    "meaning": "의견"
+  },
+  {
+    "level": "N3",
+    "target": "納得",
+    "reading": "なっとく",
+    "meaning": "납득"
+  },
+  {
+    "level": "N3",
+    "target": "集中",
+    "reading": "しゅうちゅう",
+    "meaning": "집중"
+  },
+  {
+    "level": "N3",
+    "target": "目標",
+    "reading": "もくひょう",
+    "meaning": "목표"
+  },
+  {
+    "level": "N3",
+    "target": "適切",
+    "reading": "てきせつ",
+    "meaning": "적절함"
+  },
+  {
+    "level": "N3",
+    "target": "詳細",
+    "reading": "しょうさい",
+    "meaning": "상세함"
+  },
+  {
+    "level": "N3",
+    "target": "扱う",
+    "reading": "あつかう",
+    "meaning": "다루다"
+  },
+  {
+    "level": "N3",
+    "target": "広がる",
+    "reading": "ひろがる",
+    "meaning": "퍼지다"
+  },
+  {
+    "level": "N3",
+    "target": "支える",
+    "reading": "ささえる",
+    "meaning": "지탱하다, 돕다"
+  },
+  {
+    "level": "N3",
+    "target": "避ける",
+    "reading": "さける",
+    "meaning": "피하다"
+  },
+  {
+    "level": "N3",
+    "target": "抱える",
+    "reading": "かかえる",
+    "meaning": "끌어안다, 안고 있다"
+  },
+  {
+    "level": "N3",
+    "target": "迷う",
+    "reading": "まよう",
+    "meaning": "망설이다, 길을 잃다"
+  },
+  {
+    "level": "N3",
+    "target": "落ち着く",
+    "reading": "おちつく",
+    "meaning": "진정되다"
+  },
+  {
+    "level": "N3",
+    "target": "確かめる",
+    "reading": "たしかめる",
+    "meaning": "확인하다"
+  },
+  {
+    "level": "N3",
+    "target": "改める",
+    "reading": "あらためる",
+    "meaning": "고치다, 새로 하다"
+  },
+  {
+    "level": "N3",
+    "target": "間違い",
+    "reading": "まちがい",
+    "meaning": "실수, 잘못"
+  },
+  {
+    "level": "N2",
+    "target": "把握",
+    "reading": "はあく",
+    "meaning": "파악"
+  },
+  {
+    "level": "N2",
+    "target": "採用",
+    "reading": "さいよう",
+    "meaning": "채용, 채택"
+  },
+  {
+    "level": "N2",
+    "target": "削減",
+    "reading": "さくげん",
+    "meaning": "삭감"
+  },
+  {
+    "level": "N2",
+    "target": "拡大",
+    "reading": "かくだい",
+    "meaning": "확대"
+  },
+  {
+    "level": "N2",
+    "target": "妨げる",
+    "reading": "さまたげる",
+    "meaning": "방해하다"
+  },
+  {
+    "level": "N2",
+    "target": "応じる",
+    "reading": "おうじる",
+    "meaning": "응하다"
+  },
+  {
+    "level": "N2",
+    "target": "省く",
+    "reading": "はぶく",
+    "meaning": "생략하다, 덜어 내다"
+  },
+  {
+    "level": "N2",
+    "target": "及ぼす",
+    "reading": "およぼす",
+    "meaning": "미치게 하다"
+  },
+  {
+    "level": "N2",
+    "target": "努める",
+    "reading": "つとめる",
+    "meaning": "힘쓰다"
+  },
+  {
+    "level": "N2",
+    "target": "課題",
+    "reading": "かだい",
+    "meaning": "과제"
+  },
+  {
+    "level": "N2",
+    "target": "方針",
+    "reading": "ほうしん",
+    "meaning": "방침"
+  },
+  {
+    "level": "N2",
+    "target": "指摘",
+    "reading": "してき",
+    "meaning": "지적"
+  },
+  {
+    "level": "N2",
+    "target": "傾向",
+    "reading": "けいこう",
+    "meaning": "경향"
+  },
+  {
+    "level": "N2",
+    "target": "規模",
+    "reading": "きぼ",
+    "meaning": "규모"
+  },
+  {
+    "level": "N2",
+    "target": "予測",
+    "reading": "よそく",
+    "meaning": "예측"
+  },
+  {
+    "level": "N2",
+    "target": "対応",
+    "reading": "たいおう",
+    "meaning": "대응"
+  },
+  {
+    "level": "N2",
+    "target": "需要",
+    "reading": "じゅよう",
+    "meaning": "수요"
+  },
+  {
+    "level": "N2",
+    "target": "供給",
+    "reading": "きょうきゅう",
+    "meaning": "공급"
+  },
+  {
+    "level": "N2",
+    "target": "措置",
+    "reading": "そち",
+    "meaning": "조치"
+  },
+  {
+    "level": "N2",
+    "target": "推移",
+    "reading": "すいい",
+    "meaning": "추이, 변화해 감"
+  },
+  {
+    "level": "N1",
+    "target": "是正",
+    "reading": "ぜせい",
+    "meaning": "바로잡음, 시정"
+  },
+  {
+    "level": "N1",
+    "target": "逸脱",
+    "reading": "いつだつ",
+    "meaning": "일탈"
+  },
+  {
+    "level": "N1",
+    "target": "乖離",
+    "reading": "かいり",
+    "meaning": "괴리"
+  },
+  {
+    "level": "N1",
+    "target": "懸念",
+    "reading": "けねん",
+    "meaning": "우려"
+  },
+  {
+    "level": "N1",
+    "target": "阻害",
+    "reading": "そがい",
+    "meaning": "저해"
+  },
+  {
+    "level": "N1",
+    "target": "均衡",
+    "reading": "きんこう",
+    "meaning": "균형"
+  },
+  {
+    "level": "N1",
+    "target": "打開",
+    "reading": "だかい",
+    "meaning": "타개"
+  },
+  {
+    "level": "N1",
+    "target": "介入",
+    "reading": "かいにゅう",
+    "meaning": "개입"
+  },
+  {
+    "level": "N1",
+    "target": "推敲",
+    "reading": "すいこう",
+    "meaning": "글의 표현을 다듬음"
+  },
+  {
+    "level": "N1",
+    "target": "裏付け",
+    "reading": "うらづけ",
+    "meaning": "뒷받침, 근거"
+  },
+  {
+    "level": "N1",
+    "target": "繕う",
+    "reading": "つくろう",
+    "meaning": "수선하다, 꾸며 감추다"
+  },
+  {
+    "level": "N1",
+    "target": "凌ぐ",
+    "reading": "しのぐ",
+    "meaning": "견디다, 능가하다"
+  },
+  {
+    "level": "N1",
+    "target": "損なう",
+    "reading": "そこなう",
+    "meaning": "해치다, 손상시키다"
+  },
+  {
+    "level": "N1",
+    "target": "滞る",
+    "reading": "とどこおる",
+    "meaning": "정체되다, 밀리다"
+  },
+  {
+    "level": "N1",
+    "target": "携わる",
+    "reading": "たずさわる",
+    "meaning": "관여하다, 종사하다"
+  },
+  {
+    "level": "N1",
+    "target": "賄う",
+    "reading": "まかなう",
+    "meaning": "비용이나 식사 등을 충당하다"
+  },
+  {
+    "level": "N1",
+    "target": "見据える",
+    "reading": "みすえる",
+    "meaning": "똑바로 바라보다, 내다보다"
+  },
+  {
+    "level": "N1",
+    "target": "掲げる",
+    "reading": "かかげる",
+    "meaning": "내걸다, 내세우다"
+  },
+  {
+    "level": "N1",
+    "target": "目論む",
+    "reading": "もくろむ",
+    "meaning": "계획하다, 꾀하다"
+  },
+  {
+    "level": "N1",
+    "target": "紛らわしい",
+    "reading": "まぎらわしい",
+    "meaning": "헷갈리기 쉽다"
+  },
+  {
+    "level": "N5",
+    "target": "学校",
+    "reading": "がっこう",
+    "meaning": "학교"
+  },
+  {
+    "level": "N5",
+    "target": "学生",
+    "reading": "がくせい",
+    "meaning": "학생"
+  },
+  {
+    "level": "N5",
+    "target": "教室",
+    "reading": "きょうしつ",
+    "meaning": "교실"
+  },
+  {
+    "level": "N5",
+    "target": "机",
+    "reading": "つくえ",
+    "meaning": "책상"
+  },
+  {
+    "level": "N5",
+    "target": "椅子",
+    "reading": "いす",
+    "meaning": "의자"
+  },
+  {
+    "level": "N5",
+    "target": "山",
+    "reading": "やま",
+    "meaning": "산"
+  },
+  {
+    "level": "N5",
+    "target": "川",
+    "reading": "かわ",
+    "meaning": "강"
+  },
+  {
+    "level": "N5",
+    "target": "雨",
+    "reading": "あめ",
+    "meaning": "비"
+  },
+  {
+    "level": "N5",
+    "target": "雪",
+    "reading": "ゆき",
+    "meaning": "눈"
+  },
+  {
+    "level": "N5",
+    "target": "空",
+    "reading": "そら",
+    "meaning": "하늘"
+  },
+  {
+    "level": "N5",
+    "target": "海",
+    "reading": "うみ",
+    "meaning": "바다"
+  },
+  {
+    "level": "N5",
+    "target": "犬",
+    "reading": "いぬ",
+    "meaning": "개"
+  },
+  {
+    "level": "N5",
+    "target": "猫",
+    "reading": "ねこ",
+    "meaning": "고양이"
+  },
+  {
+    "level": "N5",
+    "target": "魚",
+    "reading": "さかな",
+    "meaning": "물고기"
+  },
+  {
+    "level": "N5",
+    "target": "肉",
+    "reading": "にく",
+    "meaning": "고기"
+  },
+  {
+    "level": "N5",
+    "target": "野菜",
+    "reading": "やさい",
+    "meaning": "채소"
+  },
+  {
+    "level": "N5",
+    "target": "果物",
+    "reading": "くだもの",
+    "meaning": "과일"
+  },
+  {
+    "level": "N5",
+    "target": "卵",
+    "reading": "たまご",
+    "meaning": "달걀"
+  },
+  {
+    "level": "N5",
+    "target": "牛乳",
+    "reading": "ぎゅうにゅう",
+    "meaning": "우유"
+  },
+  {
+    "level": "N5",
+    "target": "今日",
+    "reading": "きょう",
+    "meaning": "오늘"
+  },
+  {
+    "level": "N5",
+    "target": "明日",
+    "reading": "あした",
+    "meaning": "내일"
+  },
+  {
+    "level": "N5",
+    "target": "昨日",
+    "reading": "きのう",
+    "meaning": "어제"
+  },
+  {
+    "level": "N4",
+    "target": "予約",
+    "reading": "よやく",
+    "meaning": "예약"
+  },
+  {
+    "level": "N4",
+    "target": "連休",
+    "reading": "れんきゅう",
+    "meaning": "연휴"
+  },
+  {
+    "level": "N4",
+    "target": "料金",
+    "reading": "りょうきん",
+    "meaning": "요금"
+  },
+  {
+    "level": "N4",
+    "target": "会場",
+    "reading": "かいじょう",
+    "meaning": "행사장"
+  },
+  {
+    "level": "N4",
+    "target": "資料",
+    "reading": "しりょう",
+    "meaning": "자료"
+  },
+  {
+    "level": "N4",
+    "target": "練習",
+    "reading": "れんしゅう",
+    "meaning": "연습"
+  },
+  {
+    "level": "N4",
+    "target": "復習",
+    "reading": "ふくしゅう",
+    "meaning": "복습"
+  },
+  {
+    "level": "N4",
+    "target": "宿題",
+    "reading": "しゅくだい",
+    "meaning": "숙제"
+  },
+  {
+    "level": "N4",
+    "target": "試験",
+    "reading": "しけん",
+    "meaning": "시험"
+  },
+  {
+    "level": "N4",
+    "target": "合格",
+    "reading": "ごうかく",
+    "meaning": "합격"
+  },
+  {
+    "level": "N4",
+    "target": "卒業",
+    "reading": "そつぎょう",
+    "meaning": "졸업"
+  },
+  {
+    "level": "N4",
+    "target": "入学",
+    "reading": "にゅうがく",
+    "meaning": "입학"
+  },
+  {
+    "level": "N4",
+    "target": "通う",
+    "reading": "かよう",
+    "meaning": "정기적으로 다니다"
+  },
+  {
+    "level": "N4",
+    "target": "集める",
+    "reading": "あつめる",
+    "meaning": "모으다"
+  },
+  {
+    "level": "N4",
+    "target": "選ぶ",
+    "reading": "えらぶ",
+    "meaning": "고르다"
+  },
+  {
+    "level": "N4",
+    "target": "決める",
+    "reading": "きめる",
+    "meaning": "정하다"
+  },
+  {
+    "level": "N4",
+    "target": "調べる",
+    "reading": "しらべる",
+    "meaning": "조사하다"
+  },
+  {
+    "level": "N4",
+    "target": "直す",
+    "reading": "なおす",
+    "meaning": "고치다"
+  },
+  {
+    "level": "N4",
+    "target": "借りる",
+    "reading": "かりる",
+    "meaning": "빌리다"
+  },
+  {
+    "level": "N4",
+    "target": "返す",
+    "reading": "かえす",
+    "meaning": "돌려주다"
+  },
+  {
+    "level": "N4",
+    "target": "汚れる",
+    "reading": "よごれる",
+    "meaning": "더러워지다"
+  },
+  {
+    "level": "N4",
+    "target": "壊れる",
+    "reading": "こわれる",
+    "meaning": "망가지다"
+  },
+  {
+    "level": "N3",
+    "target": "申請",
+    "reading": "しんせい",
+    "meaning": "신청"
+  },
+  {
+    "level": "N3",
+    "target": "承認",
+    "reading": "しょうにん",
+    "meaning": "승인"
+  },
+  {
+    "level": "N3",
+    "target": "報告",
+    "reading": "ほうこく",
+    "meaning": "보고"
+  },
+  {
+    "level": "N3",
+    "target": "相談",
+    "reading": "そうだん",
+    "meaning": "상담"
+  },
+  {
+    "level": "N3",
+    "target": "調査",
+    "reading": "ちょうさ",
+    "meaning": "조사"
+  },
+  {
+    "level": "N3",
+    "target": "結果",
+    "reading": "けっか",
+    "meaning": "결과"
+  },
+  {
+    "level": "N3",
+    "target": "原因",
+    "reading": "げんいん",
+    "meaning": "원인"
+  },
+  {
+    "level": "N3",
+    "target": "効果",
+    "reading": "こうか",
+    "meaning": "효과"
+  },
+  {
+    "level": "N3",
+    "target": "条件",
+    "reading": "じょうけん",
+    "meaning": "조건"
+  },
+  {
+    "level": "N3",
+    "target": "目的",
+    "reading": "もくてき",
+    "meaning": "목적"
+  },
+  {
+    "level": "N3",
+    "target": "方法",
+    "reading": "ほうほう",
+    "meaning": "방법"
+  },
+  {
+    "level": "N3",
+    "target": "期限",
+    "reading": "きげん",
+    "meaning": "기한"
+  },
+  {
+    "level": "N3",
+    "target": "課す",
+    "reading": "かす",
+    "meaning": "부과하다"
+  },
+  {
+    "level": "N3",
+    "target": "認める",
+    "reading": "みとめる",
+    "meaning": "인정하다"
+  },
+  {
+    "level": "N3",
+    "target": "述べる",
+    "reading": "のべる",
+    "meaning": "서술하다"
+  },
+  {
+    "level": "N3",
+    "target": "示す",
+    "reading": "しめす",
+    "meaning": "나타내다"
+  },
+  {
+    "level": "N3",
+    "target": "比率",
+    "reading": "ひりつ",
+    "meaning": "비율"
+  },
+  {
+    "level": "N3",
+    "target": "増える",
+    "reading": "ふえる",
+    "meaning": "늘어나다"
+  },
+  {
+    "level": "N3",
+    "target": "減らす",
+    "reading": "へらす",
+    "meaning": "줄이다"
+  },
+  {
+    "level": "N3",
+    "target": "守備",
+    "reading": "しゅび",
+    "meaning": "수비"
+  },
+  {
+    "level": "N3",
+    "target": "苦労",
+    "reading": "くろう",
+    "meaning": "고생"
+  },
+  {
+    "level": "N3",
+    "target": "工夫",
+    "reading": "くふう",
+    "meaning": "궁리, 고안"
+  },
+  {
+    "level": "N2",
+    "target": "見積もり",
+    "reading": "みつもり",
+    "meaning": "견적"
+  },
+  {
+    "level": "N2",
+    "target": "内訳",
+    "reading": "うちわけ",
+    "meaning": "세부 내역"
+  },
+  {
+    "level": "N2",
+    "target": "根拠",
+    "reading": "こんきょ",
+    "meaning": "근거"
+  },
+  {
+    "level": "N2",
+    "target": "妥当",
+    "reading": "だとう",
+    "meaning": "타당함"
+  },
+  {
+    "level": "N2",
+    "target": "見直す",
+    "reading": "みなおす",
+    "meaning": "재검토하다"
+  },
+  {
+    "level": "N2",
+    "target": "見落とす",
+    "reading": "みおとす",
+    "meaning": "간과하다"
+  },
+  {
+    "level": "N2",
+    "target": "果たす",
+    "reading": "はたす",
+    "meaning": "완수하다"
+  },
+  {
+    "level": "N2",
+    "target": "免れる",
+    "reading": "まぬがれる",
+    "meaning": "면하다"
+  },
+  {
+    "level": "N2",
+    "target": "引き継ぐ",
+    "reading": "ひきつぐ",
+    "meaning": "인계받다"
+  },
+  {
+    "level": "N2",
+    "target": "取り組む",
+    "reading": "とりくむ",
+    "meaning": "힘써 다루다"
+  },
+  {
+    "level": "N2",
+    "target": "抑える",
+    "reading": "おさえる",
+    "meaning": "억제하다"
+  },
+  {
+    "level": "N2",
+    "target": "整える",
+    "reading": "ととのえる",
+    "meaning": "갖추다"
+  },
+  {
+    "level": "N2",
+    "target": "見込む",
+    "reading": "みこむ",
+    "meaning": "예상하다"
+  },
+  {
+    "level": "N2",
+    "target": "偏る",
+    "reading": "かたよる",
+    "meaning": "치우치다"
+  },
+  {
+    "level": "N2",
+    "target": "収支",
+    "reading": "しゅうし",
+    "meaning": "수입과 지출"
+  },
+  {
+    "level": "N2",
+    "target": "代替",
+    "reading": "だいたい",
+    "meaning": "대체"
+  },
+  {
+    "level": "N2",
+    "target": "例外",
+    "reading": "れいがい",
+    "meaning": "예외"
+  },
+  {
+    "level": "N2",
+    "target": "規制",
+    "reading": "きせい",
+    "meaning": "규제"
+  },
+  {
+    "level": "N2",
+    "target": "実施",
+    "reading": "じっし",
+    "meaning": "실시"
+  },
+  {
+    "level": "N2",
+    "target": "是非",
+    "reading": "ぜひ",
+    "meaning": "시비, 찬반"
+  },
+  {
+    "level": "N2",
+    "target": "普及",
+    "reading": "ふきゅう",
+    "meaning": "보급"
+  },
+  {
+    "level": "N2",
+    "target": "適用",
+    "reading": "てきよう",
+    "meaning": "적용"
+  },
+  {
+    "level": "N1",
+    "target": "齟齬",
+    "reading": "そご",
+    "meaning": "어긋남, 불일치"
+  },
+  {
+    "level": "N1",
+    "target": "脆弱",
+    "reading": "ぜいじゃく",
+    "meaning": "취약함"
+  },
+  {
+    "level": "N1",
+    "target": "払拭",
+    "reading": "ふっしょく",
+    "meaning": "불안 등을 씻어 냄"
+  },
+  {
+    "level": "N1",
+    "target": "精査",
+    "reading": "せいさ",
+    "meaning": "정밀하게 조사함"
+  },
+  {
+    "level": "N1",
+    "target": "逼迫",
+    "reading": "ひっぱく",
+    "meaning": "압박받아 여유가 없음"
+  },
+  {
+    "level": "N1",
+    "target": "収束",
+    "reading": "しゅうそく",
+    "meaning": "사태가 수그러들어 마무리됨"
+  },
+  {
+    "level": "N1",
+    "target": "膠着",
+    "reading": "こうちゃく",
+    "meaning": "교착"
+  },
+  {
+    "level": "N1",
+    "target": "過渡期",
+    "reading": "かとき",
+    "meaning": "과도기"
+  },
+  {
+    "level": "N1",
+    "target": "踏まえる",
+    "reading": "ふまえる",
+    "meaning": "근거로 삼다"
+  },
+  {
+    "level": "N1",
+    "target": "顧みる",
+    "reading": "かえりみる",
+    "meaning": "돌아보다, 돌보다"
+  },
+  {
+    "level": "N1",
+    "target": "覆う",
+    "reading": "おおう",
+    "meaning": "덮다"
+  },
+  {
+    "level": "N1",
+    "target": "促進",
+    "reading": "そくしん",
+    "meaning": "촉진"
+  },
+  {
+    "level": "N1",
+    "target": "譲歩",
+    "reading": "じょうほ",
+    "meaning": "양보"
+  },
+  {
+    "level": "N1",
+    "target": "堅持",
+    "reading": "けんじ",
+    "meaning": "굳게 지킴"
+  },
+  {
+    "level": "N1",
+    "target": "抜粋",
+    "reading": "ばっすい",
+    "meaning": "발췌"
+  },
+  {
+    "level": "N1",
+    "target": "示唆",
+    "reading": "しさ",
+    "meaning": "시사"
+  },
+  {
+    "level": "N1",
+    "target": "俯瞰",
+    "reading": "ふかん",
+    "meaning": "높은 곳에서 내려다봄"
+  },
+  {
+    "level": "N1",
+    "target": "漸進",
+    "reading": "ぜんしん",
+    "meaning": "점진"
+  },
+  {
+    "level": "N1",
+    "target": "推察",
+    "reading": "すいさつ",
+    "meaning": "미루어 헤아림"
+  },
+  {
+    "level": "N1",
+    "target": "介在",
+    "reading": "かいざい",
+    "meaning": "사이에 존재함"
+  },
+  {
+    "level": "N1",
+    "target": "慎む",
+    "reading": "つつしむ",
+    "meaning": "삼가다"
+  },
+  {
+    "level": "N1",
+    "target": "貫く",
+    "reading": "つらぬく",
+    "meaning": "꿰뚫다, 끝까지 지키다"
+  }
+]

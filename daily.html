@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JLPT 일일 테스트</title>
+<style>
+:root { font: 16px/1.55 Inter, system-ui, sans-serif; color: #1a2c25; background: #eef3ef; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1030px; margin: auto; padding: clamp(16px, 4vw, 42px); }
+header, nav { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+h1 { font-size: clamp(24px, 5vw, 34px); margin: 0 0 14px; }
+h2 { font-size: 1.18rem; margin: 0; }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); gap: 16px; align-items: start; }
+.panel { min-width: 0; background: white; border: 1px solid #d8e3db; border-radius: 16px; padding: clamp(14px, 3vw, 24px); }
+fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+button, select { font: inherit; color: inherit; border-radius: 8px; border: 1px solid #a7b8ae; background: white; padding: 7px 12px; }
+button:not(:disabled) { cursor: pointer; }
+a { color: #23513d; }
+.controls { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; gap: 6px; }
+#calendar, .weekdays { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; text-align: center; }
+.weekdays { font-size: .8rem; margin-top: 12px; color: #52675d; }
+#calendar button { min-height: 38px; padding: 0; position: relative; }
+#calendar button:disabled { opacity: .45; }
+#calendar button[data-state="started"] { background: #f8e8be; }
+#calendar button[data-state="done"] { background: #d9eddf; }
+#calendar button[aria-pressed="true"] { outline: 2px solid #194b37; outline-offset: -2px; font-weight: 700; }
+.legend { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 0; font-size: .85rem; }
+.dot { display: inline-block; width: .75rem; height: .75rem; border-radius: 50%; margin-right: 4px; }
+.primary { background: #194b37; border-color: #194b37; color: white; }
+#choices { display: grid; gap: 8px; margin-block: 14px; }
+#choices button { text-align: left; overflow-wrap: anywhere; }
+#choices button[aria-pressed="true"] { background: #e0efe6; border-color: #194b37; }
+#status { color: #52675d; margin: 6px 0 14px; }
+#feedback { white-space: pre-line; }
+progress { width: 100%; accent-color: #194b37; }
+footer { margin-top: 14px; font-size: .9rem; }
+@media (max-width: 740px) { .layout { grid-template-columns: 1fr; } }
+.study-nav { display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 6px; border-bottom: 1px solid #cfddd3; margin-bottom: 20px; padding-bottom: 10px; }
+.study-nav a { padding: 7px 12px; text-decoration: none; border-radius: 8px; color: #254e3b; white-space: nowrap; }
+.study-nav a[aria-current="page"] { background: #194b37; color: white; font-weight: 650; }
+.study-nav a:hover { text-decoration: underline; }
+@media (max-width: 520px) {
+  #calendar button { min-height: 44px; }
+  #choices button, .primary { min-height: 44px; }
+  #prompt { overflow-wrap: anywhere; }
+}
+</style>
+</head>
+<body>
+<main>
+<header><h1>JLPT 일일 테스트</h1></header>
+<nav class="study-nav" aria-label="학습 메뉴">
+<a href="/" data-tab="daily" aria-current="page">일일 테스트</a>
+<a href="/vocabulary" data-tab="vocabulary">단어 암기</a>
+<a href="/grammar" data-tab="grammar">문법 암기</a>
+<a href="/reading" data-tab="reading">독해 연습</a>
+<a href="/mock" data-tab="mock">모의고사</a>
+</nav>
+<div class="layout">
+<section class="panel" aria-label="학습 달력">
+<fieldset id="controls">
+<div class="controls"><label>급수 <select id="level"><option>N5</option><option>N4</option><option>N3</option><option>N2</option><option>N1</option></select></label><button id="today" type="button">오늘</button></div>
+<nav aria-label="달력 월 이동"><button id="prev" aria-label="이전 달">‹</button><h2 id="month"></h2><button id="following" aria-label="다음 달">›</button></nav>
+<div class="weekdays" aria-hidden="true"><span>일</span><span>월</span><span>화</span><span>수</span><span>목</span><span>금</span><span>토</span></div>
+<div id="calendar" aria-label="학습 날짜"></div>
+</fieldset>
+<p class="legend"><span><i class="dot" style="background:#f8e8be"></i>진행 중</span><span><i class="dot" style="background:#d9eddf"></i>완료</span></p>
+</section>
+<section class="panel" aria-label="일일 문제">
+<h2 id="selected"></h2>
+<p id="status" role="status"></p>
+<progress id="meter" max="50" value="0" aria-label="완료한 문항 수"></progress>
+<button id="retry" type="button" hidden>다시 불러오기</button>
+<div id="quiz" hidden>
+<h2 id="prompt" tabindex="-1"></h2>
+<div id="choices"></div>
+<p id="feedback" role="status"></p>
+<p id="source" hidden><a id="sourceLink"></a></p>
+<button id="next" type="button" class="primary" hidden>다음 문항</button>
+</div>
+</section>
+</div>
+<footer><a href="/practice">자유 연습</a> · <a href="https://www.jlpt.jp/e/samples/sampleindex.html">JLPT 공식 문제집</a></footer>
+</main>
+<script>
+const get = id => document.getElementById(id);
+const level = get("level");
+const calendar = get("calendar");
+const status = get("status");
+const quiz = get("quiz");
+const choices = get("choices");
+const meter = get("meter");
+const next = get("next");
+const retry = get("retry");
+const today = new Intl.DateTimeFormat("sv-SE", {timeZone:"Asia/Seoul"}).format(new Date());
+const prefix = "jlpt-daily-v1:";
+const transient = new Map();
+const initialFilters = new URLSearchParams(location.search);
+if (/^N[1-5]$/.test(initialFilters.get("level"))) level.value = initialFilters.get("level");
+const initialDate = initialFilters.get("date") ?? "";
+let selected = validDate(initialDate) ? initialDate : today;
+let month = selected.slice(0, 7);
+let current;
+let loadId = 0;
+
+function validDate(date) {
+  const epoch = Date.parse(date + "T00:00:00Z");
+  return /^\d{4}-\d{2}-\d{2}$/.test(date) && date <= today && Number.isFinite(epoch)
+    && new Date(epoch).toISOString().slice(0, 10) === date;
+}
+function storageKey(date, selectedLevel) {
+  return prefix + selectedLevel + ":" + date;
+}
+
+function readProgress(key) {
+  if (transient.has(key)) return transient.get(key);
+  try { return JSON.parse(localStorage.getItem(key)) ?? {}; }
+  catch { return {}; }
+}
+
+function saveProgress(key, answers) {
+  transient.set(key, answers);
+  try {
+    localStorage.setItem(key, JSON.stringify(answers));
+    return true;
+  } catch { return false; }
+}
+
+function renderCalendar() {
+  const [year, number] = month.split("-").map(Number);
+  const first = new Date(month + "-01T00:00:00Z");
+  const last = new Date(first);
+  last.setUTCMonth(first.getUTCMonth() + 1, 0);
+  get("month").textContent = year + "년 " + number + "월";
+  get("following").disabled = month >= today.slice(0, 7);
+  calendar.replaceChildren();
+  for (let index = 0; index < first.getUTCDay(); index++) {
+    calendar.append(document.createElement("span"));
+  }
+  for (let day = 1; day <= last.getUTCDate(); day++) {
+    const date = month + "-" + String(day).padStart(2, "0");
+    const count = Object.keys(readProgress(storageKey(date, level.value))).length;
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = day;
+    button.disabled = date > today;
+    button.setAttribute("aria-pressed", date === selected);
+    if (date === today) button.setAttribute("aria-current", "date");
+    button.setAttribute("aria-label", date + (count ? " · " + count + "/50" : ""));
+    if (count) button.dataset.state = count >= 50 ? "done" : "started";
+    button.addEventListener("click", () => choose(date));
+    calendar.append(button);
+  }
+}
+
+async function request(path, options) {
+  const response = await fetch(path, options);
+  const data = await response.json();
+  if (!response.ok) throw new Error(data.error);
+  return data;
+}
+
+async function choose(date) {
+  selected = date;
+  for (const tab of document.querySelectorAll(".study-nav a[data-tab]")) {
+    const params = new URLSearchParams({date, level: level.value});
+    tab.search = params.toString();
+  }
+  renderCalendar();
+  const id = ++loadId;
+  const selectedLevel = level.value;
+  const key = storageKey(date, selectedLevel);
+  get("selected").textContent = date.replaceAll("-", ".") + " · " + selectedLevel;
+  current = undefined;
+  quiz.hidden = retry.hidden = true;
+  meter.value = 0;
+  status.textContent = "일일 문항을 불러오는 중입니다.";
+  try {
+    const {questions} = await request("/api/daily?" + new URLSearchParams({date, level:selectedLevel}));
+    if (id !== loadId) return;
+    const saved = readProgress(key);
+    const answers = Object.fromEntries(questions.filter(q => typeof saved[q.id] === "boolean")
+      .map(q => [q.id, saved[q.id]]));
+    current = {key, questions, answers};
+    showQuestion();
+  } catch {
+    if (id !== loadId) return;
+    status.textContent = "일일 문항을 불러오지 못했습니다.";
+    retry.hidden = false;
+  }
+}
+
+function showQuestion() {
+  const {questions, answers} = current;
+  const count = Object.keys(answers).length;
+  const question = questions.find(item => !Object.hasOwn(answers, item.id));
+  meter.value = count;
+  quiz.hidden = !question;
+  if (!question) {
+    const score = Object.values(answers).filter(Boolean).length;
+    status.textContent = "학습 완료 · " + count + "문항 중 " + score + "문항 정답";
+    return;
+  }
+  status.textContent = (count + 1) + " / 50 · " + (question.section === "grammar" ? "문법" : "어휘") + " · 어휘 25 + 문법 25";
+  const prompt = get("prompt");
+  prompt.textContent = question.prompt;
+  prompt.lang = /[가-힣]/.test(question.prompt) ? "ko" : "ja";
+  choices.replaceChildren();
+  get("feedback").textContent = "";
+  get("source").hidden = next.hidden = true;
+  for (const choice of question.choices) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = choice;
+    button.lang = /[가-힣]/.test(choice) ? "ko" : "ja";
+    button.addEventListener("click", () => submitAnswer(question, choice, button));
+    choices.append(button);
+  }
+}
+
+async function submitAnswer(question, choice, selectedButton) {
+  const controls = get("controls");
+  const buttons = [...choices.querySelectorAll("button")];
+  controls.disabled = true;
+  buttons.forEach(button => button.disabled = true);
+  try {
+    const result = await request("/api/grade", {
+      method:"POST", headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({id:question.id, choice}),
+    });
+    current.answers[question.id] = result.correct;
+    const saved = saveProgress(current.key, current.answers);
+    meter.value = Object.keys(current.answers).length;
+    const complete = meter.value === 50;
+    renderCalendar();
+    selectedButton.setAttribute("aria-pressed", "true");
+    get("feedback").textContent = [
+      result.correct ? "정답입니다." : "틀렸습니다.",
+      result.correct ? "" : "내가 고른 답 · " + choice,
+      "정답 · " + result.answer,
+      result.patternReading ? "문형 읽기 · " + result.target + " → " + result.patternReading : "",
+      result.answerReading ? "정답 표현 읽기 · " + result.answerReading : "",
+      result.completedSentence ? "완성 문장 · " + result.completedSentence : "",
+      "문제 해석 · " + (result.translation ?? result.questionMeaning),
+      result.reading ? "어휘 · " + result.target + "（" + result.reading + "） — " + result.meaning : "",
+      question.section === "grammar" ? "해설 · " + result.explanation : "",
+      saved ? "" : "이 브라우저에 진도를 저장할 수 없습니다.",
+    ].filter(Boolean).join("\n");
+    if (result.source) {
+      get("sourceLink").href = result.source.url;
+      get("sourceLink").textContent = result.source.label;
+      get("source").hidden = false;
+    }
+    next.textContent = complete ? "결과 보기" : "다음 문항";
+    next.hidden = false;
+    next.focus();
+  } catch {
+    get("feedback").textContent = "채점에 실패했습니다. 다시 선택해 주세요.";
+    buttons.forEach(button => button.disabled = false);
+    selectedButton.focus();
+  } finally {
+    controls.disabled = false;
+  }
+}
+
+function moveMonth(amount) {
+  const date = new Date(month + "-01T00:00:00Z");
+  date.setUTCMonth(date.getUTCMonth() + amount);
+  month = date.toISOString().slice(0, 7);
+  renderCalendar();
+}
+get("prev").addEventListener("click", () => moveMonth(-1));
+get("following").addEventListener("click", () => moveMonth(1));
+get("today").addEventListener("click", () => {
+  month = today.slice(0, 7);
+  choose(today);
+});
+level.addEventListener("change", () => choose(selected));
+retry.addEventListener("click", () => choose(selected));
+next.addEventListener("click", () => {
+  showQuestion();
+  if (!quiz.hidden) get("prompt").focus();
+});
+choose(selected);
+</script>
+</body>
+</html>

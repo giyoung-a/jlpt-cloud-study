@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+share-private/
+share-guests/
+mock-progress.json*
+*.zip
+*.exe
+*.tmp
