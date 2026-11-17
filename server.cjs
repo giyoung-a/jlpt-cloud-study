@@ -205,6 +205,14 @@ async function readAnswer(request) {
 }
 
 const cloud = process.env.JLPT_CLOUD === "1";
+const secretFile = cloud && process.env.JLPT_CLOUD_SECRET_FILE;
+if (secretFile) {
+  const settings = JSON.parse(readFileSync(secretFile, "utf8"));
+  for (const name of ["DATABASE_URL", "JLPT_INVITE_CODE", "JLPT_SESSION_SECRET"]) {
+    if (typeof settings[name] !== "string" || !settings[name]) throw new Error(name + " is missing in the deployment secret file");
+    process.env[name] = settings[name];
+  }
+}
 const database = cloud ? process.env.DATABASE_URL : undefined;
 if (cloud && !database) throw new Error("DATABASE_URL is required for cloud deployment");
 const share = cloud || process.env.JLPT_SHARE_CONFIG
